@@ -40,50 +40,6 @@ Changes should be merged into `main` using a **Pull Request** after the work is 
 
 ---
 
-# 2. Team Responsibilities
-
-### Fahad
-
-Main responsibilities:
-
-- Repository integration
-- Question-Video Matching Agent
-- Final dataset generation
-- Overall pipeline integration
-- Pull request review
-
-### Ashik
-
-Main responsibilities:
-
-- Curriculum Mapping Agent
-- Question processing
-- Taxonomy-related work
-- Question master registry
-
-### Shaira
-
-Main responsibilities:
-
-- Video Segmentation Agent
-- Transcript processing
-- Video curriculum tagging
-- Segment generation
-
-### Shared Components
-
-The following components affect the whole system and should be modified carefully:
-
-```text
-shared/
-requirements.txt
-README.md
-schemas/
-taxonomy/
-configs/
-```
-
----
 
 # 3. First-Time Repository Setup
 
