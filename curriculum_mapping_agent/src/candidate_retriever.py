@@ -50,4 +50,4 @@ class CandidateRetriever:
         scored.sort(key=lambda x: x['_retrieval_score'], reverse=True)
         return scored if len(scored) <= top_k else scored[:top_k]
 
-#Testing Github push    
+#Testing Ashik's branch    
