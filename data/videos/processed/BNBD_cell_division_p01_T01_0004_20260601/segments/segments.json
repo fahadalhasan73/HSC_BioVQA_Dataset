@@ -1,0 +1,112 @@
+{
+  "video_id": "BNBD_cell_division_p01_T01_0004_20260601",
+  "taxonomy_version": "HSC_BIO_P1_v1.0",
+  "generated_at": "2026-10-14T21:34:54.428086+00:00",
+  "segments": [
+    {
+      "segment_id": "BNBD_cell_division_p01_T01_0004_20260601_SEG_0001",
+      "video_id": "BNBD_cell_division_p01_T01_0004_20260601",
+      "start_sec": 35.09,
+      "end_sec": 72.77,
+      "start_time": "00:00:35.090",
+      "end_time": "00:01:12.770",
+      "duration_sec": 37.68,
+      "transcript": "মাইটসীস কোষ বিহাজণ, এই মাইটসীস কোষ বিহাজণের ultimate গোর বা ultimate লুখকোটা কে মাইটসীস কোষ বিহাজণের ফলে ultimately যতা ফাই, মাইটসীস কোষ ভিহাজণ হেলিন হোয়ে যায় বা সেই খতোটা কিন্তো আবার আস্তে আস্তে পূরণ হোয়ে যায় সেই হিলিংগ প্রসেস ও আমাদের মাইটোসিস কর্বেয়াজন সে অত্তন্ত হোরূত্ত পূরণ ভ্যানকা পালন করে",
+      "source_chunk_ids": [
+        "MC_0001",
+        "MC_0002"
+      ],
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH02",
+        "topic_id": "HSC_BIO_P1_CH02_T02",
+        "subtopic_id": "HSC_BIO_P1_CH02_T02_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH02_T02_ST01_C002",
+        "secondary_concept_ids": [],
+        "confidence": 0.9
+      },
+      "boundary": {
+        "end_reason": "topic_change",
+        "end_boundary_score": 0.9
+      },
+      "review": {
+        "status": "pending"
+      }
+    },
+    {
+      "segment_id": "BNBD_cell_division_p01_T01_0004_20260601_SEG_0002",
+      "video_id": "BNBD_cell_division_p01_T01_0004_20260601",
+      "start_sec": 72.77,
+      "end_sec": 102.77,
+      "start_time": "00:01:12.770",
+      "end_time": "00:01:42.770",
+      "duration_sec": 30.0,
+      "transcript": "এছারা মাইটোসিস কর্বেয়াজনের মাদ্ধমে একটা উদ্ধির বায় একটা প্রানিত তার যে কর্সগুলোর যে ক্রমোজমের যে সমতা বা এক প",
+      "source_chunk_ids": [
+        "MC_0003"
+      ],
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH02",
+        "topic_id": "HSC_BIO_P1_CH02_T01",
+        "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+        "secondary_concept_ids": [],
+        "confidence": 0.85
+      },
+      "boundary": {
+        "end_reason": "topic_change",
+        "end_boundary_score": 0.9
+      },
+      "review": {
+        "status": "pending"
+      }
+    },
+    {
+      "segment_id": "BNBD_cell_division_p01_T01_0004_20260601_SEG_0003",
+      "video_id": "BNBD_cell_division_p01_T01_0004_20260601",
+      "start_sec": 102.77,
+      "end_sec": 315.85,
+      "start_time": "00:01:42.770",
+      "end_time": "00:05:15.850",
+      "duration_sec": 213.08,
+      "transcript": "ধাহনের এবনারমলিটিব এবং কিছু অসাবায় প্রিস্থিদি তোইরি হয় যেমন যদি মাইটোসিস কর্বেয়াজনের প্রক্রিয়াটা থিক মতো সম� আমাদের ব্রেনের ভিতোরে আসলে সুথুর যে ন্যুরনি থাকে তা না ন্যুরন ছালাও সেখনে ন্যুরন কে সাপোর দাওর জন্যো কোছ রেছে আমাদের পাদের কোছ বিহচন হয় এবং পাদের কোছ বিহচনের অর্শাবাবিগতের পলে ব্রেন টুমার বা ব্রেন কান্সার হতে পানে তুমার এবং কান্সার এরা দুজনি মাইটুসিসের অর্শাবাবিগতের পলাপার কিন্তু তাহলে এদের মন্দে তাহলে পার্থকো তাক কো থায় তুমার এটা দুই ধারণের হোতে পারে একটা হোতে পারে বিনাইন আরেকটা হোতে পারে মালিকনেট অর্থা জেকনো ধারণের তুমার এটা হোয স্থান দকর করে রাখে এবং সে স্থান দকর করার কারনে সেখানে কিছু প্রেশার ইফিক্ট দেখা জায় এছাদা সে অবন্ন আরপণো খোতি সাধামনো তো করে নাথে, কিল্তু ছে হোতে সে মেলিগনেড তোমার এই মেলিগনেড তেমার হোলো সে মেল দেখতে অনিকটাই তাদের মোতন হয়ে কিন্তু মেলিগনেটের কেত্রে দেখা যায় সেখানে এমন কিছু কর্ষ তোরি হয়ে যারা একে বারেই ওষ্যাবেবিক এবং সেখানে সাধারনতো যেই কর্ষগুলো থাকার পথা তাদের সাথে এ আসিনোমা এ বিনাইন মেলিকনেল ট্যুমার দুধারনের ট্যুমারি আসলে অস্যাবেবিক কর্ষ ভিহাজন অর্থাক অস্যাবেবিক মাইটোসিস কর�",
+      "source_chunk_ids": [
+        "MC_0004",
+        "MC_0005",
+        "MC_0006",
+        "MC_0007",
+        "MC_0008",
+        "MC_0009",
+        "MC_0010",
+        "MC_0011",
+        "MC_0012"
+      ],
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH02",
+        "topic_id": "HSC_BIO_P1_CH02_T02",
+        "subtopic_id": "HSC_BIO_P1_CH02_T02_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH02_T02_ST01_C003",
+        "secondary_concept_ids": [
+          "HSC_BIO_P1_CH02_T02_ST01_C002",
+          "HSC_BIO_P1_CH02_T02_ST01_C004"
+        ],
+        "confidence": 0.85
+      },
+      "boundary": {
+        "end_reason": "end_of_video",
+        "end_boundary_score": 1.0
+      },
+      "review": {
+        "status": "pending"
+      }
+    }
+  ]
+}

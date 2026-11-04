@@ -1,0 +1,1697 @@
+{
+  "dataset": {
+    "name": "HSC-VQA Question Registry",
+    "schema_version": "1.0",
+    "revision": 12,
+    "total_questions": 5,
+    "next_question_number": 6,
+    "next_batch_number": 2,
+    "last_updated": "2026-10-13T08:40:01.864639+00:00"
+  },
+  "batches": [
+    {
+      "batch_id": "BATCH_00001",
+      "input_file": "E:\\Hash Personal\\11th Semester\\CSE499A\\NewDataset\\curriculum_mapping_agent_reference\\data\\incoming\\barishal_2025_raw_input_batch_01.json",
+      "input_fingerprint": "99c0fc651f5cd1e56f966fe8cab2f19e812e938382ad3c3023c0e877bd7c8a39",
+      "status": "completed",
+      "submitted_count": 5,
+      "processed_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "added_count": 5,
+      "duplicate_count": 0,
+      "error_count": 0,
+      "duplicates": [],
+      "errors": [],
+      "started_at": "2026-08-23T15:57:28.164521+00:00",
+      "completed_at": "2026-10-13T08:40:01.864559+00:00"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "HSCQ_000001",
+      "batch_id": "BATCH_00001",
+      "question_original_bn": "কোনটিতে মিয়োসিস ঘটে?",
+      "question_normalized_bn": "কোনটিতে মিয়োসিস ঘটে?",
+      "question_type": "MCQ",
+      "options": {
+        "A": "জনন কোষে",
+        "B": "দেহকোষে",
+        "C": "জননাঙ্গে",
+        "D": "জনন মাতৃকোষে"
+      },
+      "source": {
+        "type": "HSC_BOARD",
+        "board": "Barishal",
+        "year": 2025,
+        "paper": "Biology 1st Paper",
+        "subject_code": "178",
+        "set": "ঘ",
+        "source_question_number": "1"
+      },
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH02",
+        "topic_id": "HSC_BIO_P1_CH02_T03",
+        "subtopic_id": "HSC_BIO_P1_CH02_T03_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH02_T03_ST01_C001",
+        "secondary_concept_ids": [],
+        "stage_confidences": {
+          "chapter": 0.98,
+          "topic": 0.99,
+          "subtopic": 0.95,
+          "concept": 0.95
+        },
+        "confidence": 0.95,
+        "confidence_method": "minimum_stage_llm_confidence_v0.1",
+        "candidate_trace": {
+          "chapter": [
+            {
+              "id": "HSC_BIO_P1_CH04",
+              "label_bn": "অণুজীব",
+              "label_en": "Micro-organism / Microbe",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব",
+              "retrieval_score": 0.163553
+            },
+            {
+              "id": "HSC_BIO_P1_CH12",
+              "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "label_en": "Environment, Distribution and Conservation of Organisms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "retrieval_score": 0.161477
+            },
+            {
+              "id": "HSC_BIO_P1_CH09",
+              "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+              "label_en": "Plant Physiology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব",
+              "retrieval_score": 0.147196
+            },
+            {
+              "id": "HSC_BIO_P1_CH03",
+              "label_bn": "কোষ রসায়ন",
+              "label_en": "Cell Chemistry",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ রসায়ন",
+              "retrieval_score": 0.14504
+            },
+            {
+              "id": "HSC_BIO_P1_CH11",
+              "label_bn": "জীবপ্রযুক্তি",
+              "label_en": "Biotechnology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবপ্রযুক্তি",
+              "retrieval_score": 0.144753
+            },
+            {
+              "id": "HSC_BIO_P1_CH10",
+              "label_bn": "উদ্ভিদ প্রজনন",
+              "label_en": "Plant Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ প্রজনন",
+              "retrieval_score": 0.141697
+            },
+            {
+              "id": "HSC_BIO_P1_CH01",
+              "label_bn": "কোষ ও এর গঠন",
+              "label_en": "Cell and Its Structure",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ ও এর গঠন",
+              "retrieval_score": 0.138684
+            },
+            {
+              "id": "HSC_BIO_P1_CH05",
+              "label_bn": "শৈবাল ও ছত্রাক",
+              "label_en": "Algae and Fungi",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > শৈবাল ও ছত্রাক",
+              "retrieval_score": 0.134573
+            },
+            {
+              "id": "HSC_BIO_P1_CH08",
+              "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+              "label_en": "Tissue and Tissue System",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > টিস্যু ও টিস্যুতন্ত্র",
+              "retrieval_score": 0.127474
+            },
+            {
+              "id": "HSC_BIO_P1_CH07",
+              "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "label_en": "Gymnosperms and Angiosperms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "retrieval_score": 0.12604
+            },
+            {
+              "id": "HSC_BIO_P1_CH02",
+              "label_bn": "কোষ বিভাজন",
+              "label_en": "Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন",
+              "retrieval_score": 0.122517
+            },
+            {
+              "id": "HSC_BIO_P1_CH06",
+              "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "label_en": "Bryophyta and Pteridophyta",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "retrieval_score": 0.087672
+            }
+          ],
+          "topic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03",
+              "label_bn": "মায়োসিস",
+              "label_en": "Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস",
+              "retrieval_score": 0.124992
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T02",
+              "label_bn": "মাইটোসিস",
+              "label_en": "Mitosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মাইটোসিস",
+              "retrieval_score": 0.113203
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T01",
+              "label_bn": "কোষ বিভাজনের মৌলিক ধারণা",
+              "label_en": "Foundations of Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > কোষ বিভাজনের মৌলিক ধারণা",
+              "retrieval_score": 0.085945
+            }
+          ],
+          "subtopic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01",
+              "label_bn": "মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "label_en": "Stages and Characteristics of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "retrieval_score": 0.133757
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST03",
+              "label_bn": "মায়োসিস-II এর পর্যায়",
+              "label_en": "Stages of Meiosis II",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-II এর পর্যায়",
+              "retrieval_score": 0.113909
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02",
+              "label_bn": "মায়োসিস-I এর পর্যায়",
+              "label_en": "Stages of Meiosis I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায়",
+              "retrieval_score": 0.071601
+            }
+          ],
+          "concept": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C004",
+              "label_bn": "মায়োসিসের গুরুত্ব",
+              "label_en": "Importance of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিসের গুরুত্ব",
+              "retrieval_score": 0.143189
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C003",
+              "label_bn": "মায়োসিস-২ বা দ্বিতীয় মায়োটিক বিভাজন",
+              "label_en": "Meiosis II / Second Meiotic Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিস-২ বা দ্বিতীয় মায়োটিক বিভাজন",
+              "retrieval_score": 0.132411
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C001",
+              "label_bn": "মায়োসিসের বৈশিষ্ট্য",
+              "label_en": "Characteristics of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিসের বৈশিষ্ট্য",
+              "retrieval_score": 0.107273
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C002",
+              "label_bn": "মায়োসিস-১ বা প্রথম মায়োটিক বিভাজন",
+              "label_en": "Meiosis I / First Meiotic Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিস-১ বা প্রথম মায়োটিক বিভাজন",
+              "retrieval_score": 0.102945
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C006",
+              "label_bn": "মাইটোসিস ও মায়োসিসের পার্থক্য",
+              "label_en": "Mitosis vs Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মাইটোসিস ও মায়োসিসের পার্থক্য",
+              "retrieval_score": 0.094794
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C005",
+              "label_bn": "ক্রসিং ওভার",
+              "label_en": "Crossing Over",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > ক্রসিং ওভার",
+              "retrieval_score": 0.046186
+            }
+          ]
+        },
+        "review_status": "auto_accepted",
+        "agent_version": "0.1.0",
+        "model": "gemini-3.6-flash"
+      },
+      "tracking": {
+        "processing_status": "completed",
+        "added_at": "2026-08-23T15:57:54.317031+00:00",
+        "last_modified": "2026-08-23T15:57:54.317031+00:00"
+      },
+      "fingerprint": "e2edb898ea98a3484bd775621a31475fdf75a58c87a1237e87e734180b68910f"
+    },
+    {
+      "question_id": "HSCQ_000002",
+      "batch_id": "BATCH_00001",
+      "question_original_bn": "কোন উপপর্বে জীবের বৈচিত্র্য সৃষ্টির প্রক্রিয়া সূচনা হয়?",
+      "question_normalized_bn": "কোন উপপর্বে জীবের বৈচিত্র্য সৃষ্টির প্রক্রিয়া সূচনা হয়?",
+      "question_type": "MCQ",
+      "options": {
+        "A": "লেপ্টোটিন",
+        "B": "জাইগোটিন",
+        "C": "প্যাকাইটিন",
+        "D": "ডায়াকাইনেসিস"
+      },
+      "source": {
+        "type": "HSC_BOARD",
+        "board": "Barishal",
+        "year": 2025,
+        "paper": "Biology 1st Paper",
+        "subject_code": "178",
+        "set": "ঘ",
+        "source_question_number": "5"
+      },
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH02",
+        "topic_id": "HSC_BIO_P1_CH02_T03",
+        "subtopic_id": "HSC_BIO_P1_CH02_T03_ST02",
+        "primary_concept_id": "HSC_BIO_P1_CH02_T03_ST02_C006",
+        "secondary_concept_ids": [
+          "HSC_BIO_P1_CH02_T03_ST02_C001"
+        ],
+        "stage_confidences": {
+          "chapter": 0.98,
+          "topic": 0.95,
+          "subtopic": 0.95,
+          "concept": 0.95
+        },
+        "confidence": 0.95,
+        "confidence_method": "minimum_stage_llm_confidence_v0.1",
+        "candidate_trace": {
+          "chapter": [
+            {
+              "id": "HSC_BIO_P1_CH12",
+              "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "label_en": "Environment, Distribution and Conservation of Organisms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "retrieval_score": 0.239894
+            },
+            {
+              "id": "HSC_BIO_P1_CH09",
+              "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+              "label_en": "Plant Physiology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব",
+              "retrieval_score": 0.21622
+            },
+            {
+              "id": "HSC_BIO_P1_CH01",
+              "label_bn": "কোষ ও এর গঠন",
+              "label_en": "Cell and Its Structure",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ ও এর গঠন",
+              "retrieval_score": 0.213146
+            },
+            {
+              "id": "HSC_BIO_P1_CH02",
+              "label_bn": "কোষ বিভাজন",
+              "label_en": "Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন",
+              "retrieval_score": 0.209238
+            },
+            {
+              "id": "HSC_BIO_P1_CH04",
+              "label_bn": "অণুজীব",
+              "label_en": "Micro-organism / Microbe",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব",
+              "retrieval_score": 0.206119
+            },
+            {
+              "id": "HSC_BIO_P1_CH11",
+              "label_bn": "জীবপ্রযুক্তি",
+              "label_en": "Biotechnology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবপ্রযুক্তি",
+              "retrieval_score": 0.202691
+            },
+            {
+              "id": "HSC_BIO_P1_CH03",
+              "label_bn": "কোষ রসায়ন",
+              "label_en": "Cell Chemistry",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ রসায়ন",
+              "retrieval_score": 0.200905
+            },
+            {
+              "id": "HSC_BIO_P1_CH07",
+              "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "label_en": "Gymnosperms and Angiosperms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "retrieval_score": 0.178199
+            },
+            {
+              "id": "HSC_BIO_P1_CH08",
+              "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+              "label_en": "Tissue and Tissue System",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > টিস্যু ও টিস্যুতন্ত্র",
+              "retrieval_score": 0.177706
+            },
+            {
+              "id": "HSC_BIO_P1_CH10",
+              "label_bn": "উদ্ভিদ প্রজনন",
+              "label_en": "Plant Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ প্রজনন",
+              "retrieval_score": 0.170665
+            },
+            {
+              "id": "HSC_BIO_P1_CH05",
+              "label_bn": "শৈবাল ও ছত্রাক",
+              "label_en": "Algae and Fungi",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > শৈবাল ও ছত্রাক",
+              "retrieval_score": 0.156089
+            },
+            {
+              "id": "HSC_BIO_P1_CH06",
+              "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "label_en": "Bryophyta and Pteridophyta",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "retrieval_score": 0.145406
+            }
+          ],
+          "topic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03",
+              "label_bn": "মায়োসিস",
+              "label_en": "Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস",
+              "retrieval_score": 0.213393
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T02",
+              "label_bn": "মাইটোসিস",
+              "label_en": "Mitosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মাইটোসিস",
+              "retrieval_score": 0.195061
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T01",
+              "label_bn": "কোষ বিভাজনের মৌলিক ধারণা",
+              "label_en": "Foundations of Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > কোষ বিভাজনের মৌলিক ধারণা",
+              "retrieval_score": 0.170606
+            }
+          ],
+          "subtopic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02",
+              "label_bn": "মায়োসিস-I এর পর্যায়",
+              "label_en": "Stages of Meiosis I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায়",
+              "retrieval_score": 0.198888
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST03",
+              "label_bn": "মায়োসিস-II এর পর্যায়",
+              "label_en": "Stages of Meiosis II",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-II এর পর্যায়",
+              "retrieval_score": 0.146444
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01",
+              "label_bn": "মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "label_en": "Stages and Characteristics of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "retrieval_score": 0.137143
+            }
+          ],
+          "concept": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C011",
+              "label_bn": "ডায়াকাইনেসিস",
+              "label_en": "Diakinesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > ডায়াকাইনেসিস",
+              "retrieval_score": 0.109947
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C009",
+              "label_bn": "ডিপ্লোটিন",
+              "label_en": "Diplotene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > ডিপ্লোটিন",
+              "retrieval_score": 0.105093
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C006",
+              "label_bn": "প্যাকাইটিন",
+              "label_en": "Pachytene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > প্যাকাইটিন",
+              "retrieval_score": 0.104909
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C015",
+              "label_bn": "ইন্টারকাইনেসিস",
+              "label_en": "Interkinesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > ইন্টারকাইনেসিস",
+              "retrieval_score": 0.097154
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C002",
+              "label_bn": "লেপ্টোটিন",
+              "label_en": "Leptotene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > লেপ্টোটিন",
+              "retrieval_score": 0.087016
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C003",
+              "label_bn": "জাইগোটিন",
+              "label_en": "Zygotene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > জাইগোটিন",
+              "retrieval_score": 0.084374
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C004",
+              "label_bn": "সিন্যাপসিস",
+              "label_en": "Synapsis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > সিন্যাপসিস",
+              "retrieval_score": 0.080703
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C005",
+              "label_bn": "বাইভ্যালেন্ট গঠন",
+              "label_en": "Bivalent Formation",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > বাইভ্যালেন্ট গঠন",
+              "retrieval_score": 0.074755
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C013",
+              "label_bn": "অ্যানাফেজ-I",
+              "label_en": "Anaphase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > অ্যানাফেজ-I",
+              "retrieval_score": 0.068536
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C001",
+              "label_bn": "প্রোফেজ-I",
+              "label_en": "Prophase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > প্রোফেজ-I",
+              "retrieval_score": 0.065874
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C010",
+              "label_bn": "টার্মিনালাইজেশন",
+              "label_en": "Terminalization",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > টার্মিনালাইজেশন",
+              "retrieval_score": 0.06278
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C014",
+              "label_bn": "টেলোফেজ-I",
+              "label_en": "Telophase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > টেলোফেজ-I",
+              "retrieval_score": 0.057002
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C008",
+              "label_bn": "কায়াজমা",
+              "label_en": "Chiasma",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > কায়াজমা",
+              "retrieval_score": 0.051199
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C007",
+              "label_bn": "টেট্রাড গঠন",
+              "label_en": "Tetrad Formation",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > টেট্রাড গঠন",
+              "retrieval_score": 0.050755
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C012",
+              "label_bn": "মেটাফেজ-I",
+              "label_en": "Metaphase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > মেটাফেজ-I",
+              "retrieval_score": 0.044807
+            }
+          ]
+        },
+        "review_status": "auto_accepted",
+        "agent_version": "0.1.0",
+        "model": "gemini-3.6-flash"
+      },
+      "tracking": {
+        "processing_status": "completed",
+        "added_at": "2026-08-23T15:58:51.816074+00:00",
+        "last_modified": "2026-08-23T15:58:51.816074+00:00"
+      },
+      "fingerprint": "cc4ed1179640c8d64be8c1fac44a7ef12600f7281d49cae132c91f171552b8da"
+    },
+    {
+      "question_id": "HSCQ_000003",
+      "batch_id": "BATCH_00001",
+      "question_original_bn": "মাটির উর্বরতা বিনষ্টকারী ব্যাকটেরিয়া কোনটি?",
+      "question_normalized_bn": "মাটির উর্বরতা বিনষ্টকারী ব্যাকটেরিয়া কোনটি?",
+      "question_type": "MCQ",
+      "options": {
+        "A": "Bacillus subtilis",
+        "B": "Bacillus polymyxa",
+        "C": "Bacillus thuringiensis",
+        "D": "Bacillus denitrificans"
+      },
+      "source": {
+        "type": "HSC_BOARD",
+        "board": "Barishal",
+        "year": 2025,
+        "paper": "Biology 1st Paper",
+        "subject_code": "178",
+        "set": "ঘ",
+        "source_question_number": "4"
+      },
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH04",
+        "topic_id": "HSC_BIO_P1_CH04_T02",
+        "subtopic_id": "HSC_BIO_P1_CH04_T02_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH04_T02_ST01_C008",
+        "secondary_concept_ids": [
+          "HSC_BIO_P1_CH04_T02_ST01_C006"
+        ],
+        "stage_confidences": {
+          "chapter": 0.95,
+          "topic": 0.98,
+          "subtopic": 0.85,
+          "concept": 0.95
+        },
+        "confidence": 0.85,
+        "confidence_method": "minimum_stage_llm_confidence_v0.1",
+        "candidate_trace": {
+          "chapter": [
+            {
+              "id": "HSC_BIO_P1_CH12",
+              "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "label_en": "Environment, Distribution and Conservation of Organisms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "retrieval_score": 0.130171
+            },
+            {
+              "id": "HSC_BIO_P1_CH04",
+              "label_bn": "অণুজীব",
+              "label_en": "Micro-organism / Microbe",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব",
+              "retrieval_score": 0.119756
+            },
+            {
+              "id": "HSC_BIO_P1_CH09",
+              "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+              "label_en": "Plant Physiology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব",
+              "retrieval_score": 0.116599
+            },
+            {
+              "id": "HSC_BIO_P1_CH11",
+              "label_bn": "জীবপ্রযুক্তি",
+              "label_en": "Biotechnology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবপ্রযুক্তি",
+              "retrieval_score": 0.101425
+            },
+            {
+              "id": "HSC_BIO_P1_CH03",
+              "label_bn": "কোষ রসায়ন",
+              "label_en": "Cell Chemistry",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ রসায়ন",
+              "retrieval_score": 0.101218
+            },
+            {
+              "id": "HSC_BIO_P1_CH01",
+              "label_bn": "কোষ ও এর গঠন",
+              "label_en": "Cell and Its Structure",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ ও এর গঠন",
+              "retrieval_score": 0.097579
+            },
+            {
+              "id": "HSC_BIO_P1_CH06",
+              "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "label_en": "Bryophyta and Pteridophyta",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "retrieval_score": 0.089252
+            },
+            {
+              "id": "HSC_BIO_P1_CH08",
+              "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+              "label_en": "Tissue and Tissue System",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > টিস্যু ও টিস্যুতন্ত্র",
+              "retrieval_score": 0.08709
+            },
+            {
+              "id": "HSC_BIO_P1_CH07",
+              "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "label_en": "Gymnosperms and Angiosperms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "retrieval_score": 0.08612
+            },
+            {
+              "id": "HSC_BIO_P1_CH10",
+              "label_bn": "উদ্ভিদ প্রজনন",
+              "label_en": "Plant Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ প্রজনন",
+              "retrieval_score": 0.08492
+            },
+            {
+              "id": "HSC_BIO_P1_CH02",
+              "label_bn": "কোষ বিভাজন",
+              "label_en": "Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন",
+              "retrieval_score": 0.082981
+            },
+            {
+              "id": "HSC_BIO_P1_CH05",
+              "label_bn": "শৈবাল ও ছত্রাক",
+              "label_en": "Algae and Fungi",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > শৈবাল ও ছত্রাক",
+              "retrieval_score": 0.075787
+            }
+          ],
+          "topic": [
+            {
+              "id": "HSC_BIO_P1_CH04_T02",
+              "label_bn": "ব্যাকটেরিয়া",
+              "label_en": "Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া",
+              "retrieval_score": 0.100359
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03",
+              "label_bn": "ম্যালেরিয়া ও প্লাসমোডিয়াম",
+              "label_en": "Malaria and Plasmodium",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম",
+              "retrieval_score": 0.095668
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T01",
+              "label_bn": "ভাইরাস",
+              "label_en": "Viruses",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ভাইরাস",
+              "retrieval_score": 0.079417
+            }
+          ],
+          "subtopic": [
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01",
+              "label_bn": "ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন",
+              "label_en": "Bacterial Structure, Characteristics and Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন",
+              "retrieval_score": 0.098822
+            }
+          ],
+          "concept": [
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C004",
+              "label_bn": "একটি আদর্শ ব্যাকটেরিয়ামের গঠন",
+              "label_en": "Structure of an Ideal Bacterium",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > একটি আদর্শ ব্যাকটেরিয়ামের গঠন",
+              "retrieval_score": 0.156783
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C006",
+              "label_bn": "ব্যাকটেরিয়ার অর্থনৈতিক গুরুত্ব",
+              "label_en": "Economic Importance of Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিয়ার অর্থনৈতিক গুরুত্ব",
+              "retrieval_score": 0.133691
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C003",
+              "label_bn": "ব্যাকটেরিয়ার শ্রেণিবিভাগ",
+              "label_en": "Classification of Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিয়ার শ্রেণিবিভাগ",
+              "retrieval_score": 0.12973
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C005",
+              "label_bn": "ব্যাকটেরিয়ার জনন",
+              "label_en": "Reproduction in Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিয়ার জনন",
+              "retrieval_score": 0.127481
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C009",
+              "label_bn": "ভাইরাস ও ব্যাকটেরিয়ার পার্থক্য",
+              "label_en": "Virus vs Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ভাইরাস ও ব্যাকটেরিয়ার পার্থক্য",
+              "retrieval_score": 0.123337
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C002",
+              "label_bn": "ব্যাকটেরিয়ার সাধারণ বৈশিষ্ট্য",
+              "label_en": "General Characteristics of Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিয়ার সাধারণ বৈশিষ্ট্য",
+              "retrieval_score": 0.121761
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C008",
+              "label_bn": "ব্যাকটেরিয়ার অপকারিতা",
+              "label_en": "Harmful Effects of Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিয়ার অপকারিতা",
+              "retrieval_score": 0.113578
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C007",
+              "label_bn": "ব্যাকটেরিয়ার উপকারিতা",
+              "label_en": "Beneficial Roles of Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিয়ার উপকারিতা",
+              "retrieval_score": 0.113376
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C001",
+              "label_bn": "ব্যাকটেরিয়া",
+              "label_en": "Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিয়া",
+              "retrieval_score": 0.106884
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02_ST01_C010",
+              "label_bn": "ব্যাকটেরিওফাজ",
+              "label_en": "Bacteriophage",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া > ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন > ব্যাকটেরিওফাজ",
+              "retrieval_score": 0.103132
+            }
+          ]
+        },
+        "review_status": "human_review_required",
+        "agent_version": "0.1.0",
+        "model": "gemini-3.6-flash"
+      },
+      "tracking": {
+        "processing_status": "completed",
+        "added_at": "2026-08-23T19:01:48.725413+00:00",
+        "last_modified": "2026-08-23T19:01:48.725413+00:00"
+      },
+      "fingerprint": "8801768ebeb7207132767836c664edacfc350156ec1cc5f83a285d5f04c7e744"
+    },
+    {
+      "question_id": "HSCQ_000004",
+      "batch_id": "BATCH_00001",
+      "question_original_bn": "সালোক সংশ্লেষণের আলোক পর্যায় সংঘটিত হয় কোনটিতে?",
+      "question_normalized_bn": "সালোক সংশ্লেষণের আলোক পর্যায় সংঘটিত হয় কোনটিতে?",
+      "question_type": "MCQ",
+      "options": {
+        "A": "থাইলাকয়েড",
+        "B": "অক্সিজোম",
+        "C": "স্ট্রোমাল্যামেলী",
+        "D": "স্ট্রোমা"
+      },
+      "source": {
+        "type": "HSC_BOARD",
+        "board": "Barishal",
+        "year": 2025,
+        "paper": "Biology 1st Paper",
+        "subject_code": "178",
+        "set": "ঘ",
+        "source_question_number": "6"
+      },
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH09",
+        "topic_id": "HSC_BIO_P1_CH09_T03",
+        "subtopic_id": "HSC_BIO_P1_CH09_T03_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH09_T03_ST01_C004",
+        "secondary_concept_ids": [
+          "HSC_BIO_P1_CH09_T03_ST01_C001"
+        ],
+        "stage_confidences": {
+          "chapter": 0.99,
+          "topic": 1.0,
+          "subtopic": 0.95,
+          "concept": 0.85
+        },
+        "confidence": 0.85,
+        "confidence_method": "minimum_stage_llm_confidence_v0.1",
+        "retrieval_method": "unicode_lexical_v0.2",
+        "candidate_trace": {
+          "chapter": [
+            {
+              "id": "HSC_BIO_P1_CH09",
+              "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+              "label_en": "Plant Physiology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব",
+              "retrieval_score": 0.047521,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.020567,
+                "substring_boost": 0.16129,
+                "retrieval_score": 0.047521
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH12",
+              "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "label_en": "Environment, Distribution and Conservation of Organisms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "retrieval_score": 0.041014,
+              "retrieval_components": {
+                "token_overlap": 0.064516,
+                "sequence_similarity": 0.011193,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.041014
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04",
+              "label_bn": "অণুজীব",
+              "label_en": "Micro-organism / Microbe",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব",
+              "retrieval_score": 0.025174,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.012018,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.025174
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH11",
+              "label_bn": "জীবপ্রযুক্তি",
+              "label_en": "Biotechnology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবপ্রযুক্তি",
+              "retrieval_score": 0.02471,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.024517,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.02471
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH02",
+              "label_bn": "কোষ বিভাজন",
+              "label_en": "Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন",
+              "retrieval_score": 0.022252,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.00367,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.022252
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH03",
+              "label_bn": "কোষ রসায়ন",
+              "label_en": "Cell Chemistry",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ রসায়ন",
+              "retrieval_score": 0.022232,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.017437,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.022232
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH01",
+              "label_bn": "কোষ ও এর গঠন",
+              "label_en": "Cell and Its Structure",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ ও এর গঠন",
+              "retrieval_score": 0.021259,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.014658,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.021259
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH05",
+              "label_bn": "শৈবাল ও ছত্রাক",
+              "label_en": "Algae and Fungi",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > শৈবাল ও ছত্রাক",
+              "retrieval_score": 0.012117,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.034621,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.012117
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH10",
+              "label_bn": "উদ্ভিদ প্রজনন",
+              "label_en": "Plant Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ প্রজনন",
+              "retrieval_score": 0.008696,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.024845,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.008696
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH08",
+              "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+              "label_en": "Tissue and Tissue System",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > টিস্যু ও টিস্যুতন্ত্র",
+              "retrieval_score": 0.008312,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.02375,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.008312
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH07",
+              "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "label_en": "Gymnosperms and Angiosperms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "retrieval_score": 0.007887,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.022535,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.007887
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH06",
+              "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "label_en": "Bryophyta and Pteridophyta",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "retrieval_score": 0.005676,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.016216,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.005676
+              }
+            }
+          ],
+          "topic": [
+            {
+              "id": "HSC_BIO_P1_CH09_T03",
+              "label_bn": "সালোকসংশ্লেষণ",
+              "label_en": "Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ",
+              "retrieval_score": 0.049889,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.041159,
+                "substring_boost": 0.129032,
+                "retrieval_score": 0.049889
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T04",
+              "label_bn": "শ্বসন",
+              "label_en": "Respiration",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > শ্বসন",
+              "retrieval_score": 0.018557,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.02537,
+                "substring_boost": 0.064516,
+                "retrieval_score": 0.018557
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T02",
+              "label_bn": "প্রস্বেদন",
+              "label_en": "Transpiration",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > প্রস্বেদন",
+              "retrieval_score": 0.005036,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.014388,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.005036
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T01",
+              "label_bn": "খনিজ লবণ পরিশোষণ",
+              "label_en": "Mineral Salt Absorption",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > খনিজ লবণ পরিশোষণ",
+              "retrieval_score": 0.004534,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.012953,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.004534
+              }
+            }
+          ],
+          "subtopic": [
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01",
+              "label_bn": "সালোকসংশ্লেষণের প্রক্রিয়া ও পথ",
+              "label_en": "Photosynthesis Process and Pathways",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ",
+              "retrieval_score": 0.051306,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.045207,
+                "substring_boost": 0.129032,
+                "retrieval_score": 0.051306
+              }
+            }
+          ],
+          "concept": [
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C016",
+              "label_bn": "ব্যবহারিক: সালোকসংশ্লেষণে O₂-এর অপরিহার্যতার পরীক্ষা",
+              "label_en": "Practical: Demonstration Related to Oxygen in Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > ব্যবহারিক: সালোকসংশ্লেষণে O₂-এর অপরিহার্যতার পরীক্ষা",
+              "retrieval_score": 0.103612,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.282209,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.103612
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C011",
+              "label_bn": "সালোকসংশ্লেষণে নির্গত O₂-এর উৎস",
+              "label_en": "Source of Oxygen Released in Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > সালোকসংশ্লেষণে নির্গত O₂-এর উৎস",
+              "retrieval_score": 0.103584,
+              "retrieval_components": {
+                "token_overlap": 0.032258,
+                "sequence_similarity": 0.222222,
+                "substring_boost": 0.064516,
+                "retrieval_score": 0.103584
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C014",
+              "label_bn": "সালোকসংশ্লেষণের হার",
+              "label_en": "Rate of Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > সালোকসংশ্লেষণের হার",
+              "retrieval_score": 0.094775,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.243137,
+                "substring_boost": 0.064516,
+                "retrieval_score": 0.094775
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C012",
+              "label_bn": "সালোকসংশ্লেষণের প্রভাবকসমূহ",
+              "label_en": "Factors Affecting Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > সালোকসংশ্লেষণের প্রভাবকসমূহ",
+              "retrieval_score": 0.091729,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.234432,
+                "substring_boost": 0.064516,
+                "retrieval_score": 0.091729
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C015",
+              "label_bn": "জীবজগতে সালোকসংশ্লেষণ প্রক্রিয়ার গুরুত্ব",
+              "label_en": "Importance of Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > জীবজগতে সালোকসংশ্লেষণ প্রক্রিয়ার গুরুত্ব",
+              "retrieval_score": 0.086464,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.233216,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.086464
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C004",
+              "label_bn": "সালোকসংশ্লেষণ প্রক্রিয়ার কালকৌশল",
+              "label_en": "Mechanism / Steps of Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > সালোকসংশ্লেষণ প্রক্রিয়ার কালকৌশল",
+              "retrieval_score": 0.084271,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.22695,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.084271
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C001",
+              "label_bn": "ফটোসিনথেসিস বা সালোকসংশ্লেষণ",
+              "label_en": "Photosynthesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > ফটোসিনথেসিস বা সালোকসংশ্লেষণ",
+              "retrieval_score": 0.073198,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.195312,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.073198
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C010",
+              "label_bn": "ক্যালভিন চক্র ও হ্যাচ-স্ল্যাক চক্রের পার্থক্য",
+              "label_en": "Calvin Cycle vs Hatch–Slack Cycle",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > ক্যালভিন চক্র ও হ্যাচ-স্ল্যাক চক্রের পার্থক্য",
+              "retrieval_score": 0.059932,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.171233,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.059932
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C009",
+              "label_bn": "C3 ও C4 উদ্ভিদের পার্থক্য",
+              "label_en": "C3 vs C4 Plants",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > C3 ও C4 উদ্ভিদের পার্থক্য",
+              "retrieval_score": 0.052362,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.149606,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.052362
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C003",
+              "label_bn": "ফটোসিস্টেম-I ও ফটোসিস্টেম-II এর পার্থক্য",
+              "label_en": "Photosystem I vs Photosystem II",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > ফটোসিস্টেম-I ও ফটোসিস্টেম-II এর পার্থক্য",
+              "retrieval_score": 0.051579,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.147368,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.051579
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C008",
+              "label_bn": "হ্যাচ ও স্ল্যাক চক্র",
+              "label_en": "Hatch–Slack Cycle",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > হ্যাচ ও স্ল্যাক চক্র",
+              "retrieval_score": 0.050199,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.143426,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.050199
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C002",
+              "label_bn": "আলোর বর্ণালির কার্যক্ষমতা",
+              "label_en": "Action Spectrum / Effectiveness of Light Spectrum",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > আলোর বর্ণালির কার্যক্ষমতা",
+              "retrieval_score": 0.048611,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.138889,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.048611
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C013",
+              "label_bn": "লিমিটিং ফ্যাক্টর বা সীমাবদ্ধতা ফ্যাক্টর",
+              "label_en": "Limiting Factors",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > লিমিটিং ফ্যাক্টর বা সীমাবদ্ধতা ফ্যাক্টর",
+              "retrieval_score": 0.041636,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.118959,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.041636
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C006",
+              "label_bn": "ক্যালভিন চক্র",
+              "label_en": "Calvin Cycle",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > ক্যালভিন চক্র",
+              "retrieval_score": 0.035146,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.100418,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.035146
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C007",
+              "label_bn": "আলোকশ্বসন বা ফটোরেসপিরেশন",
+              "label_en": "Photorespiration",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > আলোকশ্বসন বা ফটোরেসপিরেশন",
+              "retrieval_score": 0.021309,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.047059,
+                "substring_boost": 0.032258,
+                "retrieval_score": 0.021309
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09_T03_ST01_C005",
+              "label_bn": "অচক্রীয় ও চক্রীয় ফটোফসফোরাইলেশনের পার্থক্য",
+              "label_en": "Non-cyclic vs Cyclic Photophosphorylation",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব > সালোকসংশ্লেষণ > সালোকসংশ্লেষণের প্রক্রিয়া ও পথ > অচক্রীয় ও চক্রীয় ফটোফসফোরাইলেশনের পার্থক্য",
+              "retrieval_score": 0.011706,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.033445,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.011706
+              }
+            }
+          ]
+        },
+        "review_status": "human_review_required",
+        "agent_version": "0.2.0-integrated",
+        "model": "gemini-3.5-flash-lite"
+      },
+      "tracking": {
+        "processing_status": "completed",
+        "added_at": "2026-10-13T08:39:10.203712+00:00",
+        "last_modified": "2026-10-13T08:39:10.203712+00:00"
+      },
+      "fingerprint": "88fb3f4c1d90e3742cea852cb94b0b3e6d8d9e3a13442b4fb7070e57a2279615"
+    },
+    {
+      "question_id": "HSCQ_000005",
+      "batch_id": "BATCH_00001",
+      "question_original_bn": "ম্যালেরিয়া জ্বরে আক্রান্ত মানুষের রক্তস্বল্পতার কারণ কী?",
+      "question_normalized_bn": "ম্যালেরিয়া জ্বরে আক্রান্ত মানুষের রক্তস্বল্পতার কারণ কী?",
+      "question_type": "MCQ",
+      "options": {
+        "A": "প্লাজমাসাইট ধ্বংস হওয়া",
+        "B": "নিউট্রোফিল ভেঙে যাওয়া",
+        "C": "এরিথ্রোসাইট ধ্বংস হওয়া",
+        "D": "মনোসাইট নষ্ট হওয়া"
+      },
+      "source": {
+        "type": "HSC_BOARD",
+        "board": "Barishal",
+        "year": 2025,
+        "paper": "Biology 1st Paper",
+        "subject_code": "178",
+        "set": "ঘ",
+        "source_question_number": "11"
+      },
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH04",
+        "topic_id": "HSC_BIO_P1_CH04_T03",
+        "subtopic_id": "HSC_BIO_P1_CH04_T03_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH04_T03_ST01_C004",
+        "secondary_concept_ids": [
+          "HSC_BIO_P1_CH04_T03_ST01_C003",
+          "HSC_BIO_P1_CH04_T03_ST01_C001"
+        ],
+        "stage_confidences": {
+          "chapter": 0.95,
+          "topic": 0.95,
+          "subtopic": 0.95,
+          "concept": 0.95
+        },
+        "confidence": 0.95,
+        "confidence_method": "minimum_stage_llm_confidence_v0.1",
+        "retrieval_method": "unicode_lexical_v0.2",
+        "candidate_trace": {
+          "chapter": [
+            {
+              "id": "HSC_BIO_P1_CH12",
+              "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "label_en": "Environment, Distribution and Conservation of Organisms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "retrieval_score": 0.053046,
+              "retrieval_components": {
+                "token_overlap": 0.083333,
+                "sequence_similarity": 0.008703,
+                "substring_boost": 0.055556,
+                "retrieval_score": 0.053046
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04",
+              "label_bn": "অণুজীব",
+              "label_en": "Micro-organism / Microbe",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব",
+              "retrieval_score": 0.052576,
+              "retrieval_components": {
+                "token_overlap": 0.055556,
+                "sequence_similarity": 0.035139,
+                "substring_boost": 0.083333,
+                "retrieval_score": 0.052576
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH11",
+              "label_bn": "জীবপ্রযুক্তি",
+              "label_en": "Biotechnology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবপ্রযুক্তি",
+              "retrieval_score": 0.044508,
+              "retrieval_components": {
+                "token_overlap": 0.055556,
+                "sequence_similarity": 0.035895,
+                "substring_boost": 0.027778,
+                "retrieval_score": 0.044508
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH09",
+              "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+              "label_en": "Plant Physiology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব",
+              "retrieval_score": 0.026058,
+              "retrieval_components": {
+                "token_overlap": 0.027778,
+                "sequence_similarity": 0.010959,
+                "substring_boost": 0.055556,
+                "retrieval_score": 0.026058
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH01",
+              "label_bn": "কোষ ও এর গঠন",
+              "label_en": "Cell and Its Structure",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ ও এর গঠন",
+              "retrieval_score": 0.023492,
+              "retrieval_components": {
+                "token_overlap": 0.027778,
+                "sequence_similarity": 0.027438,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.023492
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH03",
+              "label_bn": "কোষ রসায়ন",
+              "label_en": "Cell Chemistry",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ রসায়ন",
+              "retrieval_score": 0.01926,
+              "retrieval_components": {
+                "token_overlap": 0.027778,
+                "sequence_similarity": 0.015345,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.01926
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH06",
+              "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "label_en": "Bryophyta and Pteridophyta",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "retrieval_score": 0.012374,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.035354,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.012374
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH08",
+              "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+              "label_en": "Tissue and Tissue System",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > টিস্যু ও টিস্যুতন্ত্র",
+              "retrieval_score": 0.012288,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.035109,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.012288
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH05",
+              "label_bn": "শৈবাল ও ছত্রাক",
+              "label_en": "Algae and Fungi",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > শৈবাল ও ছত্রাক",
+              "retrieval_score": 0.009459,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.027027,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.009459
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH07",
+              "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "label_en": "Gymnosperms and Angiosperms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "retrieval_score": 0.00728,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.020799,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.00728
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH10",
+              "label_bn": "উদ্ভিদ প্রজনন",
+              "label_en": "Plant Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ প্রজনন",
+              "retrieval_score": 0.006318,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.018051,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.006318
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH02",
+              "label_bn": "কোষ বিভাজন",
+              "label_en": "Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন",
+              "retrieval_score": 0.001568,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.00448,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.001568
+              }
+            }
+          ],
+          "topic": [
+            {
+              "id": "HSC_BIO_P1_CH04_T03",
+              "label_bn": "ম্যালেরিয়া ও প্লাসমোডিয়াম",
+              "label_en": "Malaria and Plasmodium",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম",
+              "retrieval_score": 0.051351,
+              "retrieval_components": {
+                "token_overlap": 0.055556,
+                "sequence_similarity": 0.031638,
+                "substring_boost": 0.083333,
+                "retrieval_score": 0.051351
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T01",
+              "label_bn": "ভাইরাস",
+              "label_en": "Viruses",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ভাইরাস",
+              "retrieval_score": 0.005323,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.015209,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.005323
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T02",
+              "label_bn": "ব্যাকটেরিয়া",
+              "label_en": "Bacteria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ব্যাকটেরিয়া",
+              "retrieval_score": 0.004018,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.011481,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.004018
+              }
+            }
+          ],
+          "subtopic": [
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01",
+              "label_bn": "ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব",
+              "label_en": "Malaria Parasite Life Cycle and Disease Biology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব",
+              "retrieval_score": 0.052868,
+              "retrieval_components": {
+                "token_overlap": 0.055556,
+                "sequence_similarity": 0.035971,
+                "substring_boost": 0.083333,
+                "retrieval_score": 0.052868
+              }
+            }
+          ],
+          "concept": [
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C006",
+              "label_bn": "ম্যালেরিয়া জীবাণুর জীবনচক্রে জনুক্রম",
+              "label_en": "Alternation / Sequence of Generations in Malaria Parasite",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > ম্যালেরিয়া জীবাণুর জীবনচক্রে জনুক্রম",
+              "retrieval_score": 0.097778,
+              "retrieval_components": {
+                "token_overlap": 0.027778,
+                "sequence_similarity": 0.227778,
+                "substring_boost": 0.027778,
+                "retrieval_score": 0.097778
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C009",
+              "label_bn": "ম্যালেরিয়ার প্রতিরোধ ও নিয়ন্ত্রণ",
+              "label_en": "Prevention and Control of Malaria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > ম্যালেরিয়ার প্রতিরোধ ও নিয়ন্ত্রণ",
+              "retrieval_score": 0.090353,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.246246,
+                "substring_boost": 0.027778,
+                "retrieval_score": 0.090353
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C001",
+              "label_bn": "ম্যালেরিয়া পরজীবী",
+              "label_en": "Malaria Parasite / Plasmodium",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > ম্যালেরিয়া পরজীবী",
+              "retrieval_score": 0.080675,
+              "retrieval_components": {
+                "token_overlap": 0.027778,
+                "sequence_similarity": 0.178914,
+                "substring_boost": 0.027778,
+                "retrieval_score": 0.080675
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C007",
+              "label_bn": "ম্যালেরিয়ার সুপ্তাবস্থাকাল বা ইনকিউবেশন",
+              "label_en": "Incubation Period of Malaria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > ম্যালেরিয়ার সুপ্তাবস্থাকাল বা ইনকিউবেশন",
+              "retrieval_score": 0.079616,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.215569,
+                "substring_boost": 0.027778,
+                "retrieval_score": 0.079616
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C008",
+              "label_bn": "ম্যালেরিয়ার সংক্রমণ",
+              "label_en": "Transmission of Malaria",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > ম্যালেরিয়ার সংক্রমণ",
+              "retrieval_score": 0.069862,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.187702,
+                "substring_boost": 0.027778,
+                "retrieval_score": 0.069862
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C004",
+              "label_bn": "এরিথ্রোসাইটিক সাইজোগনি",
+              "label_en": "Erythrocytic Schizogony",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > এরিথ্রোসাইটিক সাইজোগনি",
+              "retrieval_score": 0.055935,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.14791,
+                "substring_boost": 0.027778,
+                "retrieval_score": 0.055935
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C003",
+              "label_bn": "মানবদেহে জীবনচক্র",
+              "label_en": "Life Cycle in Human Body",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > মানবদেহে জীবনচক্র",
+              "retrieval_score": 0.050163,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.143322,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.050163
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C005",
+              "label_bn": "মশার দেহে জীবনচক্র",
+              "label_en": "Life Cycle in Mosquito",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > মশার দেহে জীবনচক্র",
+              "retrieval_score": 0.043464,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.124183,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.043464
+              }
+            },
+            {
+              "id": "HSC_BIO_P1_CH04_T03_ST01_C002",
+              "label_bn": "জীবনচক্র",
+              "label_en": "Life Cycle",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব > ম্যালেরিয়া ও প্লাসমোডিয়াম > ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব > জীবনচক্র",
+              "retrieval_score": 0.027113,
+              "retrieval_components": {
+                "token_overlap": 0.0,
+                "sequence_similarity": 0.077465,
+                "substring_boost": 0.0,
+                "retrieval_score": 0.027113
+              }
+            }
+          ]
+        },
+        "review_status": "auto_accepted",
+        "agent_version": "0.2.0-integrated",
+        "model": "gemini-3.5-flash-lite"
+      },
+      "tracking": {
+        "processing_status": "completed",
+        "added_at": "2026-10-13T08:40:01.814177+00:00",
+        "last_modified": "2026-10-13T08:40:01.814177+00:00"
+      },
+      "fingerprint": "fed77ffb68f355b4c340d412a18caa279521f1108e980935e9941fc7324f30c5"
+    },
+	{
+  "question_id": "HSCQ_000006",
+  "question_text": "কোষ বিভাজন কী?",
+  "question_type": "short_question",
+  "source": {
+    "type": "synthetic_test"
+  },
+  "curriculum_mapping": {
+    "status": "mapped",
+    "taxonomy_version": "HSC_BIO_P1_v1.0",
+    "paper_id": "HSC_BIO_P1",
+    "chapter_id": "HSC_BIO_P1_CH02",
+    "topic_id": "HSC_BIO_P1_CH02_T01",
+    "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+    "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+    "secondary_concept_ids": [],
+    "confidence": 1.0,
+    "review_status": "manually_verified"
+  }
+}
+  ]
+}

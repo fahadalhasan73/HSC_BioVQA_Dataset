@@ -1,0 +1,309 @@
+{
+  "dataset": {
+    "name": "HSC BioVQA Joined Question-Video Dataset",
+    "schema_version": "1.1",
+    "agent_version": "0.3.0-non-llm",
+    "algorithm": "deterministic_taxonomy_tfidf_v1",
+    "llm_used": false,
+    "generated_at": "2026-10-29T06:23:21.681898+00:00",
+    "total_records": 3
+  },
+  "records": [
+    {
+      "pair": {
+        "pair_id": "PAIR_5B74043A2111",
+        "question_id": "HSCQ_000006",
+        "video_id": "BNBD_cell_division_p01_T01_0001_20260601",
+        "segment_id": "BNBD_cell_division_p01_T01_0001_20260601_SEG_0001",
+        "rank": 1,
+        "evidence_span": {
+          "start_sec": 35.57,
+          "end_sec": 108.67
+        },
+        "match_basis": [
+          "concept",
+          "subtopic",
+          "topic"
+        ],
+        "taxonomy_match": {
+          "paper": true,
+          "chapter": true,
+          "topic": true,
+          "subtopic": true,
+          "question_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "segment_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002",
+            "HSC_BIO_P1_CH02_T01_ST01_C003"
+          ],
+          "shared_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "concept_overlap_method": "question_coverage"
+        },
+        "scores": {
+          "topic": 1.0,
+          "subtopic": 1.0,
+          "concept": 1.0,
+          "semantic": 0.335316,
+          "final": 0.867063
+        },
+        "status": "matched"
+      },
+      "question": {
+        "question_id": "HSCQ_000006",
+        "question_text": "কোষ বিভাজন কী?",
+        "question_type": "short_question",
+        "source": {
+          "type": "synthetic_test"
+        },
+        "curriculum_mapping": {
+          "status": "mapped",
+          "taxonomy_version": "HSC_BIO_P1_v1.0",
+          "paper_id": "HSC_BIO_P1",
+          "chapter_id": "HSC_BIO_P1_CH02",
+          "topic_id": "HSC_BIO_P1_CH02_T01",
+          "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+          "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+          "secondary_concept_ids": [],
+          "confidence": 1.0,
+          "review_status": "manually_verified"
+        }
+      },
+      "segment": {
+        "segment_id": "BNBD_cell_division_p01_T01_0001_20260601_SEG_0001",
+        "video_id": "BNBD_cell_division_p01_T01_0001_20260601",
+        "start_sec": 35.57,
+        "end_sec": 108.67,
+        "start_time": "00:00:35.570",
+        "end_time": "00:01:48.670",
+        "duration_sec": 73.1,
+        "transcript": "আজকে আমরা যি টোপিক্টে নিয়ে কোধা বল্লো সেটা হলো কোষ বিভাজম আমরা জানি According to the cellularity, আমাদের সমুষ্ত জিব্জগোত্কে ভাগ করাগেছে কোষ বিভাজন তো প্রথমেই কোষ বিভাজনের সংগাটা কি সেটা আমরে একটু পোছার চেষ্টা করি কোষ বিভাজনের সংগাটা কুর্য্অক্ষণ্র সংখ্যনের সংভাজনের সংখারের করি প্রাশ্প৆রাত্রিকেন কোষ বিভাজনের সংখারের করি কোষ ভিভাজন এবং আমাদের সমস্ত জিবজগতের দোইধিক বিধ্ধি এবং সংখার বিধ্ধি সমস্ততাই করতেছে এই কোষ ভিভাজনের কারণে",
+        "source_chunk_ids": [
+          "MC_0001",
+          "MC_0002",
+          "MC_0003"
+        ],
+        "curriculum_mapping": {
+          "status": "mapped",
+          "taxonomy_version": "HSC_BIO_P1_v1.0",
+          "paper_id": "HSC_BIO_P1",
+          "chapter_id": "HSC_BIO_P1_CH02",
+          "topic_id": "HSC_BIO_P1_CH02_T01",
+          "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+          "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+          "secondary_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C003"
+          ],
+          "confidence": 0.85
+        },
+        "boundary": {
+          "end_reason": "chapter_change",
+          "end_boundary_score": 1.0
+        },
+        "review": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "pair": {
+        "pair_id": "PAIR_ACA67924F4C4",
+        "question_id": "HSCQ_000006",
+        "video_id": "BNBD_cell_division_p01_T01_0001_20260601",
+        "segment_id": "BNBD_cell_division_p01_T01_0001_20260601_SEG_0004",
+        "rank": 2,
+        "evidence_span": {
+          "start_sec": 362.09,
+          "end_sec": 534.73
+        },
+        "match_basis": [
+          "concept",
+          "subtopic",
+          "topic"
+        ],
+        "taxonomy_match": {
+          "paper": true,
+          "chapter": true,
+          "topic": true,
+          "subtopic": true,
+          "question_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "segment_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "shared_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "concept_overlap_method": "question_coverage"
+        },
+        "scores": {
+          "topic": 1.0,
+          "subtopic": 1.0,
+          "concept": 1.0,
+          "semantic": 0.101613,
+          "final": 0.820323
+        },
+        "status": "matched"
+      },
+      "question": {
+        "question_id": "HSCQ_000006",
+        "question_text": "কোষ বিভাজন কী?",
+        "question_type": "short_question",
+        "source": {
+          "type": "synthetic_test"
+        },
+        "curriculum_mapping": {
+          "status": "mapped",
+          "taxonomy_version": "HSC_BIO_P1_v1.0",
+          "paper_id": "HSC_BIO_P1",
+          "chapter_id": "HSC_BIO_P1_CH02",
+          "topic_id": "HSC_BIO_P1_CH02_T01",
+          "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+          "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+          "secondary_concept_ids": [],
+          "confidence": 1.0,
+          "review_status": "manually_verified"
+        }
+      },
+      "segment": {
+        "segment_id": "BNBD_cell_division_p01_T01_0001_20260601_SEG_0004",
+        "video_id": "BNBD_cell_division_p01_T01_0001_20260601",
+        "start_sec": 362.09,
+        "end_sec": 534.73,
+        "start_time": "00:06:02.090",
+        "end_time": "00:08:54.730",
+        "duration_sec": 172.64,
+        "transcript": "এখন আমরা কোষের ভিহাজনের মাইটোসিস করবো সেটাছে মাইটোসিস করবো সেটাছে যে হতু ক্রমোজমের সমোদা রখা হচ্ছে এই জন্ল মাইটোসিস কোজ্ভিযাজন কে আরেকটা নামে ডাকা জাই এই জন্ল মাইটোসিস কোজ্ভিযাজন কে আরেকটা নামে ডাকা জিতে পারে মাইটোসিস কোজ্ভিযাজন এটা কোথাই কোথাই সম্ভোটিতো হয় সদ্যাভাশায় বতেকেলে উদ্ধিদেবং প্রানি তাদের জতো দোইদিক কোশ আছে বা সমার্টিক সেল আছে সমস্ত সমার্টিক সেলেই আমাদের মাইটোসিস কোশ ভ্যাজন সম্ভোটিতো হয় এমন্তি আমরা যেটা সক্ষমায় আমাদের একটা ধারণা থাকে যে জনন মাত্রি কোশ সেখানে মিওসিস কোশ ভ্যাজন সম্ভোটিতো হয় কিন্তু জনন অঙ্গের যে দেবলপ্মেন বা জনন অঙ্গের যে গ্রোত সেই জনন অঙ্গের গ্রোত ও মিওসিস দিয়ে সম্ভোটিতো হয় অর্থার একটা উদ্ভিদ বা প্রাণির দেহের সমস্ত কর্ষ ভিহজনি হলো মিওসিস কর্ষ ভিহজন সুধুমাত্র জনন মাত্রি কর্ষ এর ভিহজনটা � এবং পরোবর্তি ধার্যেটি সেটি আমরা বল্পো সাইটো কাইনেসেস প্রথমে আমরা আসি কেরিয় কাইনেসেস কেরিয় এই সপদটার অর্থকি আ নিউক্লিয়াসের বিভাজন এবং আরেকটি হচ্ছে সাইটোপ্লাজমের বিভাজন এবং সাধারনতো দেখা যায় যে নিউক্লিয়াসের বিভাজনটা আগ�",
+        "source_chunk_ids": [
+          "MC_0013",
+          "MC_0014",
+          "MC_0015",
+          "MC_0016",
+          "MC_0017",
+          "MC_0018"
+        ],
+        "curriculum_mapping": {
+          "status": "mapped",
+          "taxonomy_version": "HSC_BIO_P1_v1.0",
+          "paper_id": "HSC_BIO_P1",
+          "chapter_id": "HSC_BIO_P1_CH02",
+          "topic_id": "HSC_BIO_P1_CH02_T01",
+          "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+          "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+          "secondary_concept_ids": [],
+          "confidence": 0.85
+        },
+        "boundary": {
+          "end_reason": "chapter_change",
+          "end_boundary_score": 1.0
+        },
+        "review": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "pair": {
+        "pair_id": "PAIR_35CDCA97E7CA",
+        "question_id": "HSCQ_000006",
+        "video_id": "BNBD_cell_division_p01_T01_0001_20260601",
+        "segment_id": "BNBD_cell_division_p01_T01_0001_20260601_SEG_0003",
+        "rank": 3,
+        "evidence_span": {
+          "start_sec": 138.67,
+          "end_sec": 362.07
+        },
+        "match_basis": [
+          "concept",
+          "subtopic",
+          "topic"
+        ],
+        "taxonomy_match": {
+          "paper": true,
+          "chapter": true,
+          "topic": true,
+          "subtopic": true,
+          "question_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "segment_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "shared_concept_ids": [
+            "HSC_BIO_P1_CH02_T01_ST01_C002"
+          ],
+          "concept_overlap_method": "question_coverage"
+        },
+        "scores": {
+          "topic": 1.0,
+          "subtopic": 1.0,
+          "concept": 1.0,
+          "semantic": 0.0731,
+          "final": 0.81462
+        },
+        "status": "matched"
+      },
+      "question": {
+        "question_id": "HSCQ_000006",
+        "question_text": "কোষ বিভাজন কী?",
+        "question_type": "short_question",
+        "source": {
+          "type": "synthetic_test"
+        },
+        "curriculum_mapping": {
+          "status": "mapped",
+          "taxonomy_version": "HSC_BIO_P1_v1.0",
+          "paper_id": "HSC_BIO_P1",
+          "chapter_id": "HSC_BIO_P1_CH02",
+          "topic_id": "HSC_BIO_P1_CH02_T01",
+          "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+          "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+          "secondary_concept_ids": [],
+          "confidence": 1.0,
+          "review_status": "manually_verified"
+        }
+      },
+      "segment": {
+        "segment_id": "BNBD_cell_division_p01_T01_0001_20260601_SEG_0003",
+        "video_id": "BNBD_cell_division_p01_T01_0001_20260601",
+        "start_sec": 138.67,
+        "end_sec": 362.07,
+        "start_time": "00:02:18.670",
+        "end_time": "00:06:02.070",
+        "duration_sec": 223.4,
+        "transcript": "আমাদের এজে কোষ বিহাজন হয় কোষ বিহাজনের জেই কোষ্টা থেকে পরবর্তি কোষ্বলি তোইরি হয় এই কোষ্টাকে বলা হয় মাদের সেল নোতন কোষ্বর জন্যমদিলে কাঞি, যোখন সে আবার নোতন কোষ জন্যমদিতে জাবে তকন সে আবার হোয়ে জাবে মাদের সেল বা মাত্রিকোষ এবং তার থেকে যে নতুন কর্ষ গুলো তোইরি হবে তাদেরকে তকন বলা হবে ডাটার সেল বা অপত্ত কর্ষ এই কারণে বাংলা অপত্ত এই সক্তডর অর্থ সংতান বলতে ছেলে এবং মেদ দুটাকেই পুঝায় কিন্তু আমরা ইনিষের কেত্রে আরো পার্পেক্টলি আমরা দেখলাম যে এখানে আসলে অপত্ত বলতে মিন করা হয়েছে ডাটার সেল কে অর্থার যে পরবর্তিতে আবার মাত্রিগোষের পরিনত হতে পারবে তেওং পরবর্তিতে সেখান তেকে সে নতন নতন কোষের আপার জন্য দিত� প্রক্রিয়ার আরেকটা নাম হলো বাইনারিপিশন মাইটোসিস প্রক্রিয়ার আরেকটা নাম হলো এক্঵েশনল ডিবিশন এবং ম্যোসিস প্রক্র� প্রক্রিয়ার আরেকটা নাম হলো বাইনারিপিশন মাইটোসিস প্রক্রিয়ার আরেকটা নাম হলো এক্঵েশনল ডিবিশন এবং ম্যোসিস প্রক্র� প্রাক্কেন্ড্রিক জিপ তাদের দেহে একোর ব্যাজন প্রক্রিয়া দেখতে পাও যায় এমাইটোসিস প্রক্রিয়ার পলে একটা কোষ প্রধমেশের আকারে বড় হয় এবং সে তার মাজখানে একটা খাজের মতো তোড়ি হয় এবং তার নিউ হয় নতন কোষের জন্ম হয় এজন্ন এই প্রক্রিযাকে বাংলাতের প্রক্তক্ষ বিহাজন ভলা হয় থাকে এখন আমরা কোষের ভিহাজনের যেই টাইপটানি আলচনা করবো সেটাছে মাইটোসিস কোষের ভিহাজন",
+        "source_chunk_ids": [
+          "MC_0005",
+          "MC_0006",
+          "MC_0007",
+          "MC_0008",
+          "MC_0009",
+          "MC_0010",
+          "MC_0011",
+          "MC_0012"
+        ],
+        "curriculum_mapping": {
+          "status": "mapped",
+          "taxonomy_version": "HSC_BIO_P1_v1.0",
+          "paper_id": "HSC_BIO_P1",
+          "chapter_id": "HSC_BIO_P1_CH02",
+          "topic_id": "HSC_BIO_P1_CH02_T01",
+          "subtopic_id": "HSC_BIO_P1_CH02_T01_ST01",
+          "primary_concept_id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+          "secondary_concept_ids": [],
+          "confidence": 0.85
+        },
+        "boundary": {
+          "end_reason": "max_duration",
+          "end_boundary_score": 1.0
+        },
+        "review": {
+          "status": "pending"
+        }
+      }
+    }
+  ]
+}

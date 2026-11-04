@@ -1,0 +1,296 @@
+[
+  {
+    "chunk_id": "MC_0001",
+    "start_sec": 35.6,
+    "end_sec": 58.1,
+    "duration_sec": 22.5,
+    "transcript": "আমাদের আরো একটা টারণের সাথে পরিশিত হোতে হোতে হবে। সেটা হোতে সেল সাইকেল বা কোষ্চ যাবে। আমাদের পরিখা দেখে আমাদের পরিখাটা হতো বা দুই হন্টা বা তিন হন্টার একটা পরিখা হয়ে। এইদে সেই পরিখার জন্য আমাদের প্রিপ্রেশন নেই মাসের পরে মাস থোরে। তাইনা। তিক্টেরনি আমাদের কর্ষ যখন বিভাজিত হয়। কর্ষ বিভাজনের আগেও সে একটা প্রিপ্রেশন নায় এবং সেই প্রিপ্রেশন নায়ার পরে সে বিভাজিত হয়।",
+    "source_asr_segment_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0002",
+    "start_sec": 58.1,
+    "end_sec": 88.1,
+    "duration_sec": 30.0,
+    "transcript": "এই কর্ষের বিভাজনের জন্য কর্ষের একটা প্রিপ্রেট্রি টাইম বা কর্ষের একটা প্রস্তুতি মুলক সময় এবং এর পরে কর্ষ বিভাজন",
+    "source_asr_segment_ids": [
+      6
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0003",
+    "start_sec": 88.1,
+    "end_sec": 93.98,
+    "duration_sec": 5.88,
+    "transcript": "প্রস্তুতি মুলক সময় এবং divisional state বা আমাদের কর্ষ বিভাজন এই দুটা মিলেই আমাদের সেল সাইকল তোরি হয়",
+    "source_asr_segment_ids": [
+      7
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0004",
+    "start_sec": 93.98,
+    "end_sec": 123.98,
+    "duration_sec": 30.0,
+    "transcript": "তো সেল সাইকলের এইজে ইন্টের ফেস এই ইন্টের ফেস এই 90 থেকে 95 প্রসন সময় পেয় হয় এবং divisional পেজে দেখা জায় যে 5 তেকে 10 প্রসন ত�",
+    "source_asr_segment_ids": [
+      8
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0005",
+    "start_sec": 123.98,
+    "end_sec": 155.29,
+    "duration_sec": 31.31,
+    "transcript": "মাঝে যেই সমযেটা একটা কর্ষ করবর্তি কর্স ভিয়াজনের প্রস্তুতি নাই সমযেটাই হলো ইন্তের ফেস তো ইন্তের ফেস যেহোত একট",
+    "source_asr_segment_ids": [
+      9
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0006",
+    "start_sec": 155.29,
+    "end_sec": 170.69,
+    "duration_sec": 15.4,
+    "transcript": "G2 বার বাংগানায় যেটিকে বলা যায় বিরাম দুই এই যে আমাদের ইন্টের ফ্রেজের এ যে সময় গুলো এই সময় গুলো সেল সাইকলের জন্য খুবি খুবি ইন্পরেটের প্রথময় আসি আমরা G1 বা GAP1 এই সময়টাতে কি বাপার সংগুটিত হয়",
+    "source_asr_segment_ids": [
+      10,
+      11,
+      12
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0007",
+    "start_sec": 170.69,
+    "end_sec": 200.69,
+    "duration_sec": 30.0,
+    "transcript": "প্রথময় আমরা আসি G1 বা GAP1 এই সময়টা আমাদের সেল সাইকলের রেখা যায় যে মটামটি 30 থেকে 14 প্রসন সময় এই G1 এই পড্যায় ব্যায় পড়া",
+    "source_asr_segment_ids": [
+      13
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0008",
+    "start_sec": 200.69,
+    "end_sec": 205.73,
+    "duration_sec": 5.04,
+    "transcript": "এবং বিশেষ করে এখনে সাইকলের নামের একটা প্রটিন আছে যেই প্রটিনতা তোইরি হয় GAP1 এই পড্যায়",
+    "source_asr_segment_ids": [
+      14
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0009",
+    "start_sec": 205.73,
+    "end_sec": 235.73,
+    "duration_sec": 30.0,
+    "transcript": "তো GAP1 এর পরেয় যে পড্যায়টা চলে আছে সেটাওছে S পড্যায় বা আমাদের সিন্থেসিস পড্যায় বা বামাই যেটাকে বলা হচ্ছে DNA সংক্�",
+    "source_asr_segment_ids": [
+      15
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0010",
+    "start_sec": 235.73,
+    "end_sec": 265.73,
+    "duration_sec": 30.0,
+    "transcript": "DNA তোরি হয় এবং আমরা জানি যে DNA তেকে DNA তোরি হয় প্রক্রিয়াকে বলা হয় DNA রেপলিকেশন বার দিনে উনুলিপন তো দিনে রেপলিকেশন বার �",
+    "source_asr_segment_ids": [
+      16
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0011",
+    "start_sec": 265.73,
+    "end_sec": 295.73,
+    "duration_sec": 30.0,
+    "transcript": "সে উপাদান কোলি তোরি হয় এবং এখানে সময় কিছটার কম লাগেন তো এখানে আমরা গ্যেপ ওন গ্যেপ এবং জি টু এই তিনটা ফেইজ আমরা দে�",
+    "source_asr_segment_ids": [
+      17
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0012",
+    "start_sec": 295.73,
+    "end_sec": 325.73,
+    "duration_sec": 30.0,
+    "transcript": "এবং লাস্টে জি টু ফেইজ এই জি টু ফেইজে সুধুমাত্র কর্ষ্বিহজনের জন্য আনুসাংগিক অন্যান্য দ্রব্ব প্রয়জন সে দ্রব্বল�",
+    "source_asr_segment_ids": [
+      18
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0013",
+    "start_sec": 325.73,
+    "end_sec": 331.25,
+    "duration_sec": 5.52,
+    "transcript": "প্রয়া এই প্রয়া একটা কন্টিন্যস প্রয়া এই প্রয়া এই থেমে থেমে ধাপে ধাপে আশলে হয়ন",
+    "source_asr_segment_ids": [
+      19
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0014",
+    "start_sec": 331.25,
+    "end_sec": 361.25,
+    "duration_sec": 30.0,
+    "transcript": "কিন্তু বধার সুভিধার জন্য এই মাইটোসেস প্রয়া কে আমরা বিভিন্ন ধাপে বা পড্যায় বিভক্ত হোরেছে সুধুমত্র বধার সুভিধার",
+    "source_asr_segment_ids": [
+      20
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0015",
+    "start_sec": 361.25,
+    "end_sec": 391.25,
+    "duration_sec": 30.0,
+    "transcript": "তেলো ফেস তো এই যে পাস্টি ধাপ বা পাস্টি পড্যায় এই পাস্টি ধাপ বা পড্যায় যেদের যে নাম এই নামের কিন্তু অর্থ উর্থ উর",
+    "source_asr_segment_ids": [
+      21
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0016",
+    "start_sec": 391.25,
+    "end_sec": 421.25,
+    "duration_sec": 30.0,
+    "transcript": "ছে ধাপ তাহলে প্রো মেটা ফেস মানে হলো মাছখানের যে ধাপ তার আগের ধাপ তাহলে এই পরবর্তি যে একা মানে মাছখানের যে ধাপ সে�",
+    "source_asr_segment_ids": [
+      22
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0017",
+    "start_sec": 421.25,
+    "end_sec": 451.25,
+    "duration_sec": 30.0,
+    "transcript": "তাহলে এই পাছটা ধাপ রয়েছে এই পাছটা ধাপের হিতরে কি কি প্রক্রিয়া সংখুঠিত হয় সেই জিনিস্টা আমরা এখন পর্জায়ক্রমিক ভা",
+    "source_asr_segment_ids": [
+      23
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0018",
+    "start_sec": 451.25,
+    "end_sec": 481.25,
+    "duration_sec": 30.0,
+    "transcript": "আমরা নিউক্লিয়সের উপরে এখনে মেলি পোকাস করো আমরা জানি নিউক্লিয়সের ভিতোরে শুতার নায় নিউক্লিয়ার রেটিকুলাম বা ক্",
+    "source_asr_segment_ids": [
+      24
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0019",
+    "start_sec": 481.25,
+    "end_sec": 492.61,
+    "duration_sec": 11.36,
+    "transcript": "আদেরকে মাইক্রস্কোপের নিচে আমরা বিশেস রঞ্যক পদ্ধতির মাদ্ধমে তাদেরকে দেখতে পারি আমরা জানি জে একটা কোষের ভিতোরে আমরা কখনুই আসলে সাধারন আবস্থাতে ক্রমোজম কে দেখতে পার্গনা",
+    "source_asr_segment_ids": [
+      25,
+      26
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0020",
+    "start_sec": 492.61,
+    "end_sec": 522.61,
+    "duration_sec": 30.0,
+    "transcript": "ক্রমোজম কে জদি আমরা দেখতে চাই তাহলে সেখেত্রে অভসোই সেই কোষ্টাকে বিভাজন রতো কোষ পোতে হবে এবং কেবল মাত্র বিভাজ�",
+    "source_asr_segment_ids": [
+      27
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0021",
+    "start_sec": 522.61,
+    "end_sec": 552.61,
+    "duration_sec": 30.0,
+    "transcript": "বিভাবতো হে ক্রমা টিট তোয়ি করে । অথার আমরা যদি বাইরে থেকে দেখি এই হলো এক ক্রমজম এই ক্রমজমটি মাছকানে সেটি সেনট্রম�",
+    "source_asr_segment_ids": [
+      28
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0022",
+    "start_sec": 552.61,
+    "end_sec": 582.61,
+    "duration_sec": 30.0,
+    "transcript": "কোক্ত হয়ে একটা ক্রমোজম থেকে দুইটা ক্রমার্টিক তেরি হয় এবং ত্রিতিয় কথা হলো যেটা এই আমাদের প্রফেজ ধাপে নিউক্লিয",
+    "source_asr_segment_ids": [
+      29
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0023",
+    "start_sec": 582.61,
+    "end_sec": 612.61,
+    "duration_sec": 30.0,
+    "transcript": "মেম্রেন এবং নিউক্লিয লাস এই দুইটা জিনিস বিলুক্ত হয় তো প্রফেজ ধাপের পরি যেই ধাপটা শুডু হয় সেটা হলো প্রো মেটাফেজ",
+    "source_asr_segment_ids": [
+      30
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0024",
+    "start_sec": 612.61,
+    "end_sec": 642.61,
+    "duration_sec": 30.0,
+    "transcript": "আমাদের এই যে মাকু জন্ত্র এই মাকু জন্ত্রটা আশ্লে প্রটিন দারনিয়নিতো এবং মাকু জন্ত্রের ভিতুরে কিছু ফাইবার বা কিছু �",
+    "source_asr_segment_ids": [
+      31
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0025",
+    "start_sec": 642.61,
+    "end_sec": 672.61,
+    "duration_sec": 30.0,
+    "transcript": "আমাদের এই স্বিন্ডল ফাইবারের সাথে এসে এরা যুক্ত হয় তো যেই ফাইবার বলি সাথে আমাদের ক্রমোজমের সেন্ত্রমিয়ার বলি এ�",
+    "source_asr_segment_ids": [
+      32
+    ],
+    "curriculum_mapping": null
+  },
+  {
+    "chunk_id": "MC_0026",
+    "start_sec": 672.61,
+    "end_sec": 702.19,
+    "duration_sec": 29.58,
+    "transcript": "প্রোমেটাফেস এখান থেকে আমরা মনে রাকবো সুধমাত্র একটা কথা সেটা হলো যে প্রোমেটাফেসে একটা স্বিন্ডল জন্ত্রের তোর�",
+    "source_asr_segment_ids": [
+      33
+    ],
+    "curriculum_mapping": null
+  }
+]

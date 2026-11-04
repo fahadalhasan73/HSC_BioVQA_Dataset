@@ -1,0 +1,4 @@
+﻿question_id,question_original_bn,board,year,chapter_id,topic_id,subtopic_id,primary_concept_id,confidence,review_status
+HSCQ_000001,কোনটিতে মিয়োসিস ঘটে?,Barishal,2025,HSC_BIO_P1_CH02,HSC_BIO_P1_CH02_T03,HSC_BIO_P1_CH02_T03_ST01,HSC_BIO_P1_CH02_T03_ST01_C001,0.95,auto_accepted
+HSCQ_000002,কোন উপপর্বে জীবের বৈচিত্র্য সৃষ্টির প্রক্রিয়া সূচনা হয়?,Barishal,2025,HSC_BIO_P1_CH02,HSC_BIO_P1_CH02_T03,HSC_BIO_P1_CH02_T03_ST02,HSC_BIO_P1_CH02_T03_ST02_C006,0.95,auto_accepted
+HSCQ_000003,মাটির উর্বরতা বিনষ্টকারী ব্যাকটেরিয়া কোনটি?,Barishal,2025,HSC_BIO_P1_CH04,HSC_BIO_P1_CH04_T02,HSC_BIO_P1_CH04_T02_ST01,HSC_BIO_P1_CH04_T02_ST01_C008,0.85,human_review_required

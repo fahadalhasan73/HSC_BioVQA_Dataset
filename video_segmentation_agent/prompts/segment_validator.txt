@@ -1,0 +1,5 @@
+You are validating a proposed HSC Biology video segment. A valid segment should represent one coherent instructional unit, although multiple closely related concepts are allowed. Return only JSON:
+{{"coherent": true, "confidence": 0.0, "notes": "short explanation"}}
+
+SEGMENT
+{segment_json}

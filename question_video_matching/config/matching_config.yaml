@@ -1,0 +1,52 @@
+project:
+  name: "HSC BioVQA Question-Video Matching"
+  version: "0.3.0-non-llm"
+  algorithm: "deterministic_taxonomy_tfidf_v1"
+
+paths:
+  question_store: "../data/questions/master/question.json"
+  segment_store: "../data/segments/master/segments.json"
+  mapping_store: "../data/mappings/question_video_mapping.json"
+  backup_dir: "../data/mappings/backups"
+  export_dir: "../data/mappings/exports"
+  final_dataset_store: "../data/final_dataset/master/hsc_biovqa.json"
+  log_file: "logs/matching.log"
+
+# Hard eligibility filter. A segment must pass these before it is scored.
+candidates:
+  require_same_paper: true
+  require_same_chapter: true
+  top_k_per_question: 8
+  rejected_mapping_statuses:
+    - "low_information"
+    - "taxonomy_update_required"
+    - "failed"
+    - "error"
+    - "unmapped"
+
+# Exact deterministic score:
+# final = 0.20*topic + 0.25*subtopic + 0.35*concept + 0.20*semantic
+# paper/chapter are not scored because they are mandatory candidate filters.
+scoring:
+  weights:
+    topic: 0.20
+    subtopic: 0.25
+    concept: 0.35
+    semantic: 0.20
+  minimum_candidate_score: 0.55
+  concept_overlap_method: "question_coverage"
+
+# Bangla-friendly lexical-semantic similarity. No embedding model / LLM is used.
+semantic:
+  analyzer: "char_wb"
+  ngram_min: 3
+  ngram_max: 5
+  lowercase: true
+  include_options_in_question_text: false
+
+selection:
+  max_matches_per_question: 3
+
+resume:
+  enabled: true
+  checkpoint_after_each_question: true

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question_video_mapping_schema.json",
+  "title": "HSC BioVQA Question Video Mapping",
+  "type": "object",
+  "required": [
+    "pair_id",
+    "question_id",
+    "video_id",
+    "segment_id",
+    "scores",
+    "status"
+  ],
+  "properties": {
+    "pair_id": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": "string"
+    },
+    "video_id": {
+      "type": "string"
+    },
+    "segment_id": {
+      "type": "string"
+    },
+    "taxonomy_match": {
+      "type": "object"
+    },
+    "scores": {
+      "type": "object"
+    },
+    "evidence_validation": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

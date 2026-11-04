@@ -1,0 +1,565 @@
+{
+  "dataset": {
+    "name": "HSC-VQA Question Registry",
+    "schema_version": "1.0",
+    "revision": 6,
+    "total_questions": 2,
+    "next_question_number": 3,
+    "next_batch_number": 2,
+    "last_updated": "2026-08-23T15:59:05.057028+00:00"
+  },
+  "batches": [
+    {
+      "batch_id": "BATCH_00001",
+      "input_file": "E:\\Hash Personal\\11th Semester\\CSE499A\\NewDataset\\curriculum_mapping_agent_reference\\data\\incoming\\barishal_2025_raw_input_batch_01.json",
+      "input_fingerprint": "99c0fc651f5cd1e56f966fe8cab2f19e812e938382ad3c3023c0e877bd7c8a39",
+      "status": "processing",
+      "submitted_count": 5,
+      "processed_indices": [
+        0,
+        2
+      ],
+      "added_count": 0,
+      "duplicate_count": 0,
+      "error_count": 3,
+      "duplicates": [],
+      "errors": [
+        {
+          "input_index": 1,
+          "error": "Gemini request failed after 3 attempts: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash\\nPlease retry in 43.414970035s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}"
+        },
+        {
+          "input_index": 3,
+          "error": "Gemini request failed after 3 attempts: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash\\nPlease retry in 58.222969796s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}"
+        },
+        {
+          "input_index": 4,
+          "error": "Gemini request failed after 3 attempts: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash\\nPlease retry in 54.496279647s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}"
+        }
+      ],
+      "started_at": "2026-08-23T15:57:28.164521+00:00",
+      "completed_at": null
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "HSCQ_000001",
+      "batch_id": "BATCH_00001",
+      "question_original_bn": "কোনটিতে মিয়োসিস ঘটে?",
+      "question_normalized_bn": "কোনটিতে মিয়োসিস ঘটে?",
+      "question_type": "MCQ",
+      "options": {
+        "A": "জনন কোষে",
+        "B": "দেহকোষে",
+        "C": "জননাঙ্গে",
+        "D": "জনন মাতৃকোষে"
+      },
+      "source": {
+        "type": "HSC_BOARD",
+        "board": "Barishal",
+        "year": 2025,
+        "paper": "Biology 1st Paper",
+        "subject_code": "178",
+        "set": "ঘ",
+        "source_question_number": "1"
+      },
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH02",
+        "topic_id": "HSC_BIO_P1_CH02_T03",
+        "subtopic_id": "HSC_BIO_P1_CH02_T03_ST01",
+        "primary_concept_id": "HSC_BIO_P1_CH02_T03_ST01_C001",
+        "secondary_concept_ids": [],
+        "stage_confidences": {
+          "chapter": 0.98,
+          "topic": 0.99,
+          "subtopic": 0.95,
+          "concept": 0.95
+        },
+        "confidence": 0.95,
+        "confidence_method": "minimum_stage_llm_confidence_v0.1",
+        "candidate_trace": {
+          "chapter": [
+            {
+              "id": "HSC_BIO_P1_CH04",
+              "label_bn": "অণুজীব",
+              "label_en": "Micro-organism / Microbe",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব",
+              "retrieval_score": 0.163553
+            },
+            {
+              "id": "HSC_BIO_P1_CH12",
+              "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "label_en": "Environment, Distribution and Conservation of Organisms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "retrieval_score": 0.161477
+            },
+            {
+              "id": "HSC_BIO_P1_CH09",
+              "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+              "label_en": "Plant Physiology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব",
+              "retrieval_score": 0.147196
+            },
+            {
+              "id": "HSC_BIO_P1_CH03",
+              "label_bn": "কোষ রসায়ন",
+              "label_en": "Cell Chemistry",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ রসায়ন",
+              "retrieval_score": 0.14504
+            },
+            {
+              "id": "HSC_BIO_P1_CH11",
+              "label_bn": "জীবপ্রযুক্তি",
+              "label_en": "Biotechnology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবপ্রযুক্তি",
+              "retrieval_score": 0.144753
+            },
+            {
+              "id": "HSC_BIO_P1_CH10",
+              "label_bn": "উদ্ভিদ প্রজনন",
+              "label_en": "Plant Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ প্রজনন",
+              "retrieval_score": 0.141697
+            },
+            {
+              "id": "HSC_BIO_P1_CH01",
+              "label_bn": "কোষ ও এর গঠন",
+              "label_en": "Cell and Its Structure",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ ও এর গঠন",
+              "retrieval_score": 0.138684
+            },
+            {
+              "id": "HSC_BIO_P1_CH05",
+              "label_bn": "শৈবাল ও ছত্রাক",
+              "label_en": "Algae and Fungi",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > শৈবাল ও ছত্রাক",
+              "retrieval_score": 0.134573
+            },
+            {
+              "id": "HSC_BIO_P1_CH08",
+              "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+              "label_en": "Tissue and Tissue System",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > টিস্যু ও টিস্যুতন্ত্র",
+              "retrieval_score": 0.127474
+            },
+            {
+              "id": "HSC_BIO_P1_CH07",
+              "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "label_en": "Gymnosperms and Angiosperms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "retrieval_score": 0.12604
+            },
+            {
+              "id": "HSC_BIO_P1_CH02",
+              "label_bn": "কোষ বিভাজন",
+              "label_en": "Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন",
+              "retrieval_score": 0.122517
+            },
+            {
+              "id": "HSC_BIO_P1_CH06",
+              "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "label_en": "Bryophyta and Pteridophyta",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "retrieval_score": 0.087672
+            }
+          ],
+          "topic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03",
+              "label_bn": "মায়োসিস",
+              "label_en": "Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস",
+              "retrieval_score": 0.124992
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T02",
+              "label_bn": "মাইটোসিস",
+              "label_en": "Mitosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মাইটোসিস",
+              "retrieval_score": 0.113203
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T01",
+              "label_bn": "কোষ বিভাজনের মৌলিক ধারণা",
+              "label_en": "Foundations of Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > কোষ বিভাজনের মৌলিক ধারণা",
+              "retrieval_score": 0.085945
+            }
+          ],
+          "subtopic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01",
+              "label_bn": "মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "label_en": "Stages and Characteristics of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "retrieval_score": 0.133757
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST03",
+              "label_bn": "মায়োসিস-II এর পর্যায়",
+              "label_en": "Stages of Meiosis II",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-II এর পর্যায়",
+              "retrieval_score": 0.113909
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02",
+              "label_bn": "মায়োসিস-I এর পর্যায়",
+              "label_en": "Stages of Meiosis I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায়",
+              "retrieval_score": 0.071601
+            }
+          ],
+          "concept": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C004",
+              "label_bn": "মায়োসিসের গুরুত্ব",
+              "label_en": "Importance of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিসের গুরুত্ব",
+              "retrieval_score": 0.143189
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C003",
+              "label_bn": "মায়োসিস-২ বা দ্বিতীয় মায়োটিক বিভাজন",
+              "label_en": "Meiosis II / Second Meiotic Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিস-২ বা দ্বিতীয় মায়োটিক বিভাজন",
+              "retrieval_score": 0.132411
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C001",
+              "label_bn": "মায়োসিসের বৈশিষ্ট্য",
+              "label_en": "Characteristics of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিসের বৈশিষ্ট্য",
+              "retrieval_score": 0.107273
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C002",
+              "label_bn": "মায়োসিস-১ বা প্রথম মায়োটিক বিভাজন",
+              "label_en": "Meiosis I / First Meiotic Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মায়োসিস-১ বা প্রথম মায়োটিক বিভাজন",
+              "retrieval_score": 0.102945
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C006",
+              "label_bn": "মাইটোসিস ও মায়োসিসের পার্থক্য",
+              "label_en": "Mitosis vs Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > মাইটোসিস ও মায়োসিসের পার্থক্য",
+              "retrieval_score": 0.094794
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01_C005",
+              "label_bn": "ক্রসিং ওভার",
+              "label_en": "Crossing Over",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য > ক্রসিং ওভার",
+              "retrieval_score": 0.046186
+            }
+          ]
+        },
+        "review_status": "auto_accepted",
+        "agent_version": "0.1.0",
+        "model": "gemini-3.6-flash"
+      },
+      "tracking": {
+        "processing_status": "completed",
+        "added_at": "2026-08-23T15:57:54.317031+00:00",
+        "last_modified": "2026-08-23T15:57:54.317031+00:00"
+      },
+      "fingerprint": "e2edb898ea98a3484bd775621a31475fdf75a58c87a1237e87e734180b68910f"
+    },
+    {
+      "question_id": "HSCQ_000002",
+      "batch_id": "BATCH_00001",
+      "question_original_bn": "কোন উপপর্বে জীবের বৈচিত্র্য সৃষ্টির প্রক্রিয়া সূচনা হয়?",
+      "question_normalized_bn": "কোন উপপর্বে জীবের বৈচিত্র্য সৃষ্টির প্রক্রিয়া সূচনা হয়?",
+      "question_type": "MCQ",
+      "options": {
+        "A": "লেপ্টোটিন",
+        "B": "জাইগোটিন",
+        "C": "প্যাকাইটিন",
+        "D": "ডায়াকাইনেসিস"
+      },
+      "source": {
+        "type": "HSC_BOARD",
+        "board": "Barishal",
+        "year": 2025,
+        "paper": "Biology 1st Paper",
+        "subject_code": "178",
+        "set": "ঘ",
+        "source_question_number": "5"
+      },
+      "curriculum_mapping": {
+        "status": "mapped",
+        "taxonomy_version": "HSC_BIO_P1_v1.0",
+        "paper_id": "HSC_BIO_P1",
+        "chapter_id": "HSC_BIO_P1_CH02",
+        "topic_id": "HSC_BIO_P1_CH02_T03",
+        "subtopic_id": "HSC_BIO_P1_CH02_T03_ST02",
+        "primary_concept_id": "HSC_BIO_P1_CH02_T03_ST02_C006",
+        "secondary_concept_ids": [
+          "HSC_BIO_P1_CH02_T03_ST02_C001"
+        ],
+        "stage_confidences": {
+          "chapter": 0.98,
+          "topic": 0.95,
+          "subtopic": 0.95,
+          "concept": 0.95
+        },
+        "confidence": 0.95,
+        "confidence_method": "minimum_stage_llm_confidence_v0.1",
+        "candidate_trace": {
+          "chapter": [
+            {
+              "id": "HSC_BIO_P1_CH12",
+              "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "label_en": "Environment, Distribution and Conservation of Organisms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+              "retrieval_score": 0.239894
+            },
+            {
+              "id": "HSC_BIO_P1_CH09",
+              "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+              "label_en": "Plant Physiology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ শারীরতত্ত্ব",
+              "retrieval_score": 0.21622
+            },
+            {
+              "id": "HSC_BIO_P1_CH01",
+              "label_bn": "কোষ ও এর গঠন",
+              "label_en": "Cell and Its Structure",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ ও এর গঠন",
+              "retrieval_score": 0.213146
+            },
+            {
+              "id": "HSC_BIO_P1_CH02",
+              "label_bn": "কোষ বিভাজন",
+              "label_en": "Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন",
+              "retrieval_score": 0.209238
+            },
+            {
+              "id": "HSC_BIO_P1_CH04",
+              "label_bn": "অণুজীব",
+              "label_en": "Micro-organism / Microbe",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > অণুজীব",
+              "retrieval_score": 0.206119
+            },
+            {
+              "id": "HSC_BIO_P1_CH11",
+              "label_bn": "জীবপ্রযুক্তি",
+              "label_en": "Biotechnology",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > জীবপ্রযুক্তি",
+              "retrieval_score": 0.202691
+            },
+            {
+              "id": "HSC_BIO_P1_CH03",
+              "label_bn": "কোষ রসায়ন",
+              "label_en": "Cell Chemistry",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ রসায়ন",
+              "retrieval_score": 0.200905
+            },
+            {
+              "id": "HSC_BIO_P1_CH07",
+              "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "label_en": "Gymnosperms and Angiosperms",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+              "retrieval_score": 0.178199
+            },
+            {
+              "id": "HSC_BIO_P1_CH08",
+              "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+              "label_en": "Tissue and Tissue System",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > টিস্যু ও টিস্যুতন্ত্র",
+              "retrieval_score": 0.177706
+            },
+            {
+              "id": "HSC_BIO_P1_CH10",
+              "label_bn": "উদ্ভিদ প্রজনন",
+              "label_en": "Plant Reproduction",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > উদ্ভিদ প্রজনন",
+              "retrieval_score": 0.170665
+            },
+            {
+              "id": "HSC_BIO_P1_CH05",
+              "label_bn": "শৈবাল ও ছত্রাক",
+              "label_en": "Algae and Fungi",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > শৈবাল ও ছত্রাক",
+              "retrieval_score": 0.156089
+            },
+            {
+              "id": "HSC_BIO_P1_CH06",
+              "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "label_en": "Bryophyta and Pteridophyta",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > ব্রায়োফাইটা ও টেরিডোফাইটা",
+              "retrieval_score": 0.145406
+            }
+          ],
+          "topic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03",
+              "label_bn": "মায়োসিস",
+              "label_en": "Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস",
+              "retrieval_score": 0.213393
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T02",
+              "label_bn": "মাইটোসিস",
+              "label_en": "Mitosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মাইটোসিস",
+              "retrieval_score": 0.195061
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T01",
+              "label_bn": "কোষ বিভাজনের মৌলিক ধারণা",
+              "label_en": "Foundations of Cell Division",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > কোষ বিভাজনের মৌলিক ধারণা",
+              "retrieval_score": 0.170606
+            }
+          ],
+          "subtopic": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02",
+              "label_bn": "মায়োসিস-I এর পর্যায়",
+              "label_en": "Stages of Meiosis I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায়",
+              "retrieval_score": 0.198888
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST03",
+              "label_bn": "মায়োসিস-II এর পর্যায়",
+              "label_en": "Stages of Meiosis II",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-II এর পর্যায়",
+              "retrieval_score": 0.146444
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST01",
+              "label_bn": "মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "label_en": "Stages and Characteristics of Meiosis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+              "retrieval_score": 0.137143
+            }
+          ],
+          "concept": [
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C011",
+              "label_bn": "ডায়াকাইনেসিস",
+              "label_en": "Diakinesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > ডায়াকাইনেসিস",
+              "retrieval_score": 0.109947
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C009",
+              "label_bn": "ডিপ্লোটিন",
+              "label_en": "Diplotene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > ডিপ্লোটিন",
+              "retrieval_score": 0.105093
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C006",
+              "label_bn": "প্যাকাইটিন",
+              "label_en": "Pachytene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > প্যাকাইটিন",
+              "retrieval_score": 0.104909
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C015",
+              "label_bn": "ইন্টারকাইনেসিস",
+              "label_en": "Interkinesis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > ইন্টারকাইনেসিস",
+              "retrieval_score": 0.097154
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C002",
+              "label_bn": "লেপ্টোটিন",
+              "label_en": "Leptotene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > লেপ্টোটিন",
+              "retrieval_score": 0.087016
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C003",
+              "label_bn": "জাইগোটিন",
+              "label_en": "Zygotene",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > জাইগোটিন",
+              "retrieval_score": 0.084374
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C004",
+              "label_bn": "সিন্যাপসিস",
+              "label_en": "Synapsis",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > সিন্যাপসিস",
+              "retrieval_score": 0.080703
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C005",
+              "label_bn": "বাইভ্যালেন্ট গঠন",
+              "label_en": "Bivalent Formation",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > বাইভ্যালেন্ট গঠন",
+              "retrieval_score": 0.074755
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C013",
+              "label_bn": "অ্যানাফেজ-I",
+              "label_en": "Anaphase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > অ্যানাফেজ-I",
+              "retrieval_score": 0.068536
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C001",
+              "label_bn": "প্রোফেজ-I",
+              "label_en": "Prophase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > প্রোফেজ-I",
+              "retrieval_score": 0.065874
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C010",
+              "label_bn": "টার্মিনালাইজেশন",
+              "label_en": "Terminalization",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > টার্মিনালাইজেশন",
+              "retrieval_score": 0.06278
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C014",
+              "label_bn": "টেলোফেজ-I",
+              "label_en": "Telophase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > টেলোফেজ-I",
+              "retrieval_score": 0.057002
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C008",
+              "label_bn": "কায়াজমা",
+              "label_en": "Chiasma",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > কায়াজমা",
+              "retrieval_score": 0.051199
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C007",
+              "label_bn": "টেট্রাড গঠন",
+              "label_en": "Tetrad Formation",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > টেট্রাড গঠন",
+              "retrieval_score": 0.050755
+            },
+            {
+              "id": "HSC_BIO_P1_CH02_T03_ST02_C012",
+              "label_bn": "মেটাফেজ-I",
+              "label_en": "Metaphase I",
+              "path": "জীববিজ্ঞান > জীববিজ্ঞান প্রথম পত্র > কোষ বিভাজন > মায়োসিস > মায়োসিস-I এর পর্যায় > মেটাফেজ-I",
+              "retrieval_score": 0.044807
+            }
+          ]
+        },
+        "review_status": "auto_accepted",
+        "agent_version": "0.1.0",
+        "model": "gemini-3.6-flash"
+      },
+      "tracking": {
+        "processing_status": "completed",
+        "added_at": "2026-08-23T15:58:51.816074+00:00",
+        "last_modified": "2026-08-23T15:58:51.816074+00:00"
+      },
+      "fingerprint": "cc4ed1179640c8d64be8c1fac44a7ef12600f7281d49cae132c91f171552b8da"
+    }
+  ]
+}

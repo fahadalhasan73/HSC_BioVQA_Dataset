@@ -1,0 +1,6098 @@
+{
+  "taxonomy_schema_version": "2.0",
+  "taxonomy_content_version": "HSC_BIO_P1_v1.0",
+  "taxonomy_name_bn": "এইচএসসি জীববিজ্ঞান পাঠ্যক্রম ট্যাক্সোনমি",
+  "taxonomy_name_en": "HSC Biology Curriculum Taxonomy",
+  "source": {
+    "title": "Biology First Paper (Hasan Sir)",
+    "uploaded_file": "Bio 1st(Hasan Sir-20.pdf",
+    "pdf_page_count": 458,
+    "curriculum_printed_page_range": [
+      1,
+      403
+    ],
+    "basis": [
+      "book table of contents",
+      "chapter headings",
+      "selected chapter content headings and diagrams"
+    ]
+  },
+  "design": {
+    "hierarchy": [
+      "subject",
+      "paper",
+      "chapter",
+      "topic",
+      "subtopic",
+      "concept"
+    ],
+    "id_pattern": "HSC_BIO_P{paper}_CH{chapter}_T{topic}_ST{subtopic}_C{concept}",
+    "scalable_for_second_paper": true,
+    "second_paper_namespace": "HSC_BIO_P2",
+    "canonical_storage": "flat node list with parent_id",
+    "allows_multiple_concepts_per_question_or_segment": true,
+    "concept_registry_policy": "Seed concepts are source-grounded and expandable through controlled review when question/video annotation reveals a missing concept.",
+    "english_labels": "Normalized English translations for programming/search; Bangla labels remain the source-facing canonical labels."
+  },
+  "completeness": {
+    "paper_1_chapter_coverage": "complete",
+    "paper_1_topic_subtopic_coverage": "complete to the book's indexed headings",
+    "paper_1_concept_registry": "seeded from indexed headings plus selected content-level concepts; intentionally extensible",
+    "paper_2": "namespace reserved only; content not added because no Biology Second Paper source was provided"
+  },
+  "nodes": [
+    {
+      "id": "HSC_BIO",
+      "level": "subject",
+      "parent_id": null,
+      "label_bn": "জীববিজ্ঞান",
+      "label_en": "Biology",
+      "status": "active",
+      "source_basis": "project_root"
+    },
+    {
+      "id": "HSC_BIO_P1",
+      "level": "paper",
+      "parent_id": "HSC_BIO",
+      "label_bn": "জীববিজ্ঞান প্রথম পত্র",
+      "label_en": "Biology First Paper",
+      "status": "active",
+      "source_basis": "book",
+      "source_printed_pages": [
+        1,
+        403
+      ]
+    },
+    {
+      "id": "HSC_BIO_P2",
+      "level": "paper",
+      "parent_id": "HSC_BIO",
+      "label_bn": "জীববিজ্ঞান দ্বিতীয় পত্র",
+      "label_en": "Biology Second Paper",
+      "status": "reserved",
+      "source_basis": "reserved",
+      "notes": "Reserved namespace for a future Biology Second Paper taxonomy."
+    },
+    {
+      "id": "HSC_BIO_P1_CH01",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "কোষ ও এর গঠন",
+      "label_en": "Cell and Its Structure",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        1,
+        66
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "কোষ বিভাজন",
+      "label_en": "Cell Division",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        67,
+        87
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "কোষ রসায়ন",
+      "label_en": "Cell Chemistry",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        88,
+        127
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "অণুজীব",
+      "label_en": "Micro-organism / Microbe",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        128,
+        168
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "শৈবাল ও ছত্রাক",
+      "label_en": "Algae and Fungi",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        169,
+        197
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা",
+      "label_en": "Bryophyta and Pteridophyta",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        198,
+        208
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদ",
+      "label_en": "Gymnosperms and Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        209,
+        234
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "টিস্যু ও টিস্যুতন্ত্র",
+      "label_en": "Tissue and Tissue System",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        235,
+        254
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "উদ্ভিদ শারীরতত্ত্ব",
+      "label_en": "Plant Physiology",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        255,
+        307
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "উদ্ভিদ প্রজনন",
+      "label_en": "Plant Reproduction",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        308,
+        326
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "জীবপ্রযুক্তি",
+      "label_en": "Biotechnology",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        327,
+        358
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12",
+      "level": "chapter",
+      "parent_id": "HSC_BIO_P1",
+      "label_bn": "জীবের পরিবেশ, বিস্তার ও সংরক্ষণ",
+      "label_en": "Environment, Distribution and Conservation of Organisms",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        359,
+        403
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH01",
+      "label_bn": "কোষের মৌলিক ধারণা",
+      "label_en": "Cell Fundamentals",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        1,
+        13
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T01",
+      "label_bn": "কোষের পরিচয়, ইতিহাস ও কোষতত্ত্ব",
+      "label_en": "Cell Identity, History and Cell Theory",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST01",
+      "label_bn": "Cell (সেল) নামকরণ",
+      "label_en": "Naming of the Cell",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        1
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST01",
+      "label_bn": "কোষের বৈশিষ্ট্য",
+      "label_en": "Characteristics of Cells",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        3
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST01",
+      "label_bn": "প্রথম কোষের সৃষ্টি",
+      "label_en": "Origin / First Formation of Cells",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        2
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST01",
+      "label_bn": "কোষতত্ত্ব",
+      "label_en": "Cell Theory",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        4
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST01",
+      "label_bn": "আদি কোষ ও প্রকৃত কোষের পার্থক্য",
+      "label_en": "Prokaryotic vs Eukaryotic Cells",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        5
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST01",
+      "label_bn": "কোষের আকার ও আয়তনের বৈচিত্র্য",
+      "label_en": "Variation in Cell Size and Shape",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        6
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST01",
+      "label_bn": "একটি আদর্শ উদ্ভিদকোষের গঠন",
+      "label_en": "Structure of an Ideal Plant Cell",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        6
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T01",
+      "label_bn": "কোষীয় আবরণ ও প্রোটোপ্লাজম",
+      "label_en": "Cell Boundaries and Protoplasm",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        8,
+        14
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "কোষ প্রাচীর",
+      "label_en": "Cell Wall",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        8
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "প্রোটোপ্লাস্ট",
+      "label_en": "Protoplast",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        9
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "প্লাজমামেমব্রেন বা কোষঝিল্লি",
+      "label_en": "Plasma Membrane / Cell Membrane",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        10
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "ফ্লুইড-মোজাইক মডেল",
+      "label_en": "Fluid Mosaic Model",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        10
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "কোষ প্রাচীর ও কোষঝিল্লির পার্থক্য",
+      "label_en": "Cell Wall vs Cell Membrane",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        12
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "সাইটোপ্লাজম ও অঙ্গাণু",
+      "label_en": "Cytoplasm and Organelles",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        13
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "সাইটোপ্লাজমের রাসায়নিক উপাদান ও প্রকৃতি",
+      "label_en": "Chemical Nature of Cytoplasm",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        13
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "প্রোটোপ্লাজম ও সাইটোপ্লাজমের পার্থক্য",
+      "label_en": "Protoplasm vs Cytoplasm",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        13
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T01_ST02_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T01_ST02",
+      "label_bn": "সাইটোপ্লাজমে বিরাজমান অঙ্গাণুসমূহ",
+      "label_en": "Organelles Present in Cytoplasm",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        14
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH01",
+      "label_bn": "কোষীয় অঙ্গাণু",
+      "label_en": "Cell Organelles",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        14,
+        28
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T02",
+      "label_bn": "রাইবোসোম",
+      "label_en": "Ribosome",
+      "status": "active",
+      "source_basis": "book_toc"
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST01",
+      "label_bn": "রাইবোসোম",
+      "label_en": "Ribosome",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        14
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST02",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T02",
+      "label_bn": "গলজি বডি",
+      "label_en": "Golgi Body",
+      "status": "active",
+      "source_basis": "book_toc"
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST02_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST02",
+      "label_bn": "গলজি বডি",
+      "label_en": "Golgi Body",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        15
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST03",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T02",
+      "label_bn": "লাইসোসোম",
+      "label_en": "Lysosome",
+      "status": "active",
+      "source_basis": "book_toc"
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST03_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST03",
+      "label_bn": "লাইসোসোম",
+      "label_en": "Lysosome",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        16
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST03_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST03",
+      "label_bn": "রাইবোসোম ও লাইসোসোমের পার্থক্য",
+      "label_en": "Ribosome vs Lysosome",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        17
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST04",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T02",
+      "label_bn": "এন্ডোপ্লাজমিক রেটিকুলাম",
+      "label_en": "Endoplasmic Reticulum",
+      "status": "active",
+      "source_basis": "book_toc"
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST04_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST04",
+      "label_bn": "এন্ডোপ্লাজমিক রেটিকুলাম",
+      "label_en": "Endoplasmic Reticulum",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        17
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST04_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST04",
+      "label_bn": "এন্ডোপ্লাজমিক রেটিকুলাম ও গলজি বডির পার্থক্য",
+      "label_en": "Endoplasmic Reticulum vs Golgi Body",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        18
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST05",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T02",
+      "label_bn": "মাইটোকন্ড্রিয়া",
+      "label_en": "Mitochondria",
+      "status": "active",
+      "source_basis": "book_toc"
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST05_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST05",
+      "label_bn": "মাইটোকন্ড্রিয়া",
+      "label_en": "Mitochondria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        19
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST05_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST05",
+      "label_bn": "মাইটোকন্ড্রিয়ার বহিঃগঠন ও অন্তঃগঠনের সাথে কাজের আন্তঃসম্পর্ক",
+      "label_en": "Structure–Function Relationship of Mitochondria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        21
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST06",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T02",
+      "label_bn": "প্লাস্টিড",
+      "label_en": "Plastids",
+      "status": "active",
+      "source_basis": "book_toc"
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST06_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST06",
+      "label_bn": "প্লাস্টিড",
+      "label_en": "Plastids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        21
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST06_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST06",
+      "label_bn": "ক্লোরোপ্লাস্টের বহিঃগঠন ও অন্তঃগঠনের সাথে কাজের আন্তঃসম্পর্ক",
+      "label_en": "Structure–Function Relationship of Chloroplast",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        24
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST06_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST06",
+      "label_bn": "মাইটোকন্ড্রিয়া ও প্লাস্টিডের পার্থক্য",
+      "label_en": "Mitochondria vs Plastids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        24
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST06_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST06",
+      "label_bn": "উদ্ভিদকোষে ক্লোরোপ্লাস্ট ও ক্রোমোপ্লাস্টের তুলনা",
+      "label_en": "Chloroplast vs Chromoplast",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        24
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST07",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T02",
+      "label_bn": "সেন্ট্রিওল",
+      "label_en": "Centriole",
+      "status": "active",
+      "source_basis": "book_toc"
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T02_ST07_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T02_ST07",
+      "label_bn": "সেন্ট্রিওল",
+      "label_en": "Centriole",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        24
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH01",
+      "label_bn": "নিউক্লিয়াস ও ক্রোমোসোম",
+      "label_en": "Nucleus and Chromosomes",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        27,
+        37
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T03",
+      "label_bn": "নিউক্লিয়াস ও নিউক্লিওলাস",
+      "label_en": "Nucleus and Nucleolus",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        27,
+        29
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST01",
+      "label_bn": "নিউক্লিয়াস",
+      "label_en": "Nucleus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        27
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST01",
+      "label_bn": "নিউক্লিওলাস",
+      "label_en": "Nucleolus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        28
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST01",
+      "label_bn": "নিউক্লিয়াস ও নিউক্লিওলাসের পার্থক্য",
+      "label_en": "Nucleus vs Nucleolus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        29
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST02",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T03",
+      "label_bn": "ক্রোমোসোমের গঠন ও প্রকরণ",
+      "label_en": "Chromosome Structure and Types",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        31,
+        36
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST02_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST02",
+      "label_bn": "ক্রোমোসোম",
+      "label_en": "Chromosome",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        31
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST02_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST02",
+      "label_bn": "ক্রোমোসোমের ভৌত গঠন",
+      "label_en": "Physical Structure of Chromosome",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        32
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST02_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST02",
+      "label_bn": "ক্রোমোসোমের প্রকারভেদ",
+      "label_en": "Types of Chromosomes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        35
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST02_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST02",
+      "label_bn": "ক্রোমোসোমের রাসায়নিক গঠন বা উপাদান",
+      "label_en": "Chemical Composition of Chromosome",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        36
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST02_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST02",
+      "label_bn": "কোষ বিভাজনে ক্রোমোসোমের ভূমিকা",
+      "label_en": "Role of Chromosomes in Cell Division",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        37
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST03",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T03",
+      "label_bn": "বংশগতীয় বস্তু",
+      "label_en": "Hereditary Material",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        37,
+        38
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T03_ST03_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T03_ST03",
+      "label_bn": "বংশগতীয় বস্তু",
+      "label_en": "Hereditary Material",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        37
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH01",
+      "label_bn": "নিউক্লিক অ্যাসিড ও আণবিক বংশগতি",
+      "label_en": "Nucleic Acids and Molecular Genetics",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        38,
+        65
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T04",
+      "label_bn": "নিউক্লিক অ্যাসিডের মৌলিক গঠন",
+      "label_en": "Fundamentals of Nucleic Acids",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        38,
+        40
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST01",
+      "label_bn": "নিউক্লিক অ্যাসিড",
+      "label_en": "Nucleic Acid",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        38
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST01",
+      "label_bn": "নিউক্লিক অ্যাসিডের মূল উপাদান",
+      "label_en": "Basic Components of Nucleic Acids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        38
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST01",
+      "label_bn": "ক্ষারকসমূহের নামকরণ",
+      "label_en": "Naming of Nitrogenous Bases",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        39
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST01",
+      "label_bn": "বিভিন্ন প্রকার নিউক্লিওসাইড",
+      "label_en": "Types of Nucleosides",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        40
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST01",
+      "label_bn": "বিভিন্ন প্রকার নিউক্লিওটাইড",
+      "label_en": "Types of Nucleotides",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        40
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T04",
+      "label_bn": "DNA",
+      "label_en": "DNA",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        41,
+        51
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST02",
+      "label_bn": "DNA",
+      "label_en": "DNA",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        41
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST02",
+      "label_bn": "DNA-এর ভৌত গঠন",
+      "label_en": "Physical Structure of DNA",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        41
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST02",
+      "label_bn": "Watson ও Crick-এর DNA মডেল",
+      "label_en": "Watson–Crick DNA Model",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        41
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST02",
+      "label_bn": "DNA-এর রাসায়নিক গঠন",
+      "label_en": "Chemical Structure of DNA",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        44
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST02",
+      "label_bn": "DNA-এর জৈবিক তাৎপর্য বা গুরুত্ব",
+      "label_en": "Biological Significance of DNA",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        45
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST02",
+      "label_bn": "অর্ধ-সংরক্ষণশীল প্রক্রিয়ায় DNA অণুর অনুলিপন",
+      "label_en": "Semiconservative DNA Replication",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        49
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST02_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST02",
+      "label_bn": "DNA প্রুফ রিডিং এবং DNA মেরামত",
+      "label_en": "DNA Proofreading and Repair",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        51
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST03",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T04",
+      "label_bn": "RNA",
+      "label_en": "RNA",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        46,
+        48
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST03_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST03",
+      "label_bn": "RNA",
+      "label_en": "RNA",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        46
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST03_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST03",
+      "label_bn": "RNA-এর প্রকারভেদ",
+      "label_en": "Types of RNA",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        46,
+        48
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T04",
+      "label_bn": "জিন প্রকাশ",
+      "label_en": "Gene Expression",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        52,
+        61
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "ট্রান্সক্রিপশন",
+      "label_en": "Transcription",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        52
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "ট্রান্সক্রিপশন প্রক্রিয়া",
+      "label_en": "Transcription Process",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        52
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "ট্রান্সলেশন",
+      "label_en": "Translation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        55
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "ট্রান্সলেশন প্রক্রিয়া",
+      "label_en": "Translation Process",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        55
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "ট্রান্সক্রিপশন ও ট্রান্সলেশনের পার্থক্য",
+      "label_en": "Transcription vs Translation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        58
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "জিন",
+      "label_en": "Gene",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        58
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "আদি কোষে জিন প্রকাশ",
+      "label_en": "Gene Expression in Prokaryotes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        60
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST04_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST04",
+      "label_bn": "প্রকৃত কোষে জিন প্রকাশ",
+      "label_en": "Gene Expression in Eukaryotes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        61
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST05",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH01_T04",
+      "label_bn": "জেনেটিক কোড ও বংশগতি",
+      "label_en": "Genetic Code and Heredity",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        62,
+        65
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST05_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST05",
+      "label_bn": "জেনেটিক কোড",
+      "label_en": "Genetic Code",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        62
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST05_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST05",
+      "label_bn": "জেনেটিক কোডের বৈশিষ্ট্যাবলি",
+      "label_en": "Characteristics of Genetic Code",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        63
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH01_T04_ST05_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH01_T04_ST05",
+      "label_bn": "বংশগতি নির্ণয়ে DNA-এর ভূমিকা",
+      "label_en": "Role of DNA in Heredity",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        64
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH02",
+      "label_bn": "কোষ বিভাজনের মৌলিক ধারণা",
+      "label_en": "Foundations of Cell Division",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        67,
+        69
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH02_T01",
+      "label_bn": "কোষ বিভাজনের প্রকার ও কোষচক্র",
+      "label_en": "Types of Cell Division and Cell Cycle",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        67,
+        69
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T01_ST01",
+      "label_bn": "অ্যামাইটোসিস বা প্রত্যক্ষ কোষ বিভাজন",
+      "label_en": "Amitosis / Direct Cell Division",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        67
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T01_ST01",
+      "label_bn": "মাইটোসিস বা সমীকরণিক কোষ বিভাজন",
+      "label_en": "Mitosis / Equational Cell Division",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        68
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T01_ST01",
+      "label_bn": "কোষচক্র ও ইন্টারফেজ",
+      "label_en": "Cell Cycle and Interphase",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        69
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH02",
+      "label_bn": "মাইটোসিস",
+      "label_en": "Mitosis",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        68,
+        76
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH02_T02",
+      "label_bn": "মাইটোসিসের প্রক্রিয়া ও তাৎপর্য",
+      "label_en": "Mitosis Process and Significance",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        68,
+        76
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST01",
+      "label_bn": "ক্যারিওকাইনেসিস ও সাইটোকাইনেসিসের পার্থক্য",
+      "label_en": "Karyokinesis vs Cytokinesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        74
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST01",
+      "label_bn": "মাইটোসিসের গুরুত্ব",
+      "label_en": "Importance of Mitosis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        74
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST01",
+      "label_bn": "অনিয়ন্ত্রিত মাইটোসিস",
+      "label_en": "Uncontrolled Mitosis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        75
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST01",
+      "label_bn": "কোষের মৃত্যু",
+      "label_en": "Cell Death",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        75
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST01",
+      "label_bn": "অ্যামাইটোসিস ও মাইটোসিসের পার্থক্য",
+      "label_en": "Amitosis vs Mitosis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        75
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST01",
+      "label_bn": "মাইটোটিক ইনডেক্স",
+      "label_en": "Mitotic Index",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        76
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST01",
+      "label_bn": "জীবনের ধারাবাহিকতা রক্ষায় মাইটোসিসের অবদান",
+      "label_en": "Role of Mitosis in Continuity of Life",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        76
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH02",
+      "label_bn": "মায়োসিস",
+      "label_en": "Meiosis",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        76,
+        84
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH02_T03",
+      "label_bn": "মায়োসিসের পর্যায় ও বৈশিষ্ট্য",
+      "label_en": "Stages and Characteristics of Meiosis",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        76,
+        84
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST01",
+      "label_bn": "মায়োসিসের বৈশিষ্ট্য",
+      "label_en": "Characteristics of Meiosis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        76
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST01",
+      "label_bn": "মায়োসিস-১ বা প্রথম মায়োটিক বিভাজন",
+      "label_en": "Meiosis I / First Meiotic Division",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        77
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST01",
+      "label_bn": "মায়োসিস-২ বা দ্বিতীয় মায়োটিক বিভাজন",
+      "label_en": "Meiosis II / Second Meiotic Division",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        81
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST01",
+      "label_bn": "মায়োসিসের গুরুত্ব",
+      "label_en": "Importance of Meiosis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        82
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST01",
+      "label_bn": "ক্রসিং ওভার",
+      "label_en": "Crossing Over",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        82
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST01",
+      "label_bn": "মাইটোসিস ও মায়োসিসের পার্থক্য",
+      "label_en": "Mitosis vs Meiosis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        84
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH02_T03",
+      "label_bn": "মায়োসিস-I এর পর্যায়",
+      "label_en": "Stages of Meiosis I",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        77,
+        81
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "প্রোফেজ-I",
+      "label_en": "Prophase I",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        77
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "লেপ্টোটিন",
+      "label_en": "Leptotene",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        77
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "জাইগোটিন",
+      "label_en": "Zygotene",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        78
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "সিন্যাপসিস",
+      "label_en": "Synapsis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        78
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "বাইভ্যালেন্ট গঠন",
+      "label_en": "Bivalent Formation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        78
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "প্যাকাইটিন",
+      "label_en": "Pachytene",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        78
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "টেট্রাড গঠন",
+      "label_en": "Tetrad Formation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        78
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "কায়াজমা",
+      "label_en": "Chiasma",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        78
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "ডিপ্লোটিন",
+      "label_en": "Diplotene",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        79
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "টার্মিনালাইজেশন",
+      "label_en": "Terminalization",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        79
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "ডায়াকাইনেসিস",
+      "label_en": "Diakinesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        79
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C012",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "মেটাফেজ-I",
+      "label_en": "Metaphase I",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        80
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C013",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "অ্যানাফেজ-I",
+      "label_en": "Anaphase I",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        80
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C014",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "টেলোফেজ-I",
+      "label_en": "Telophase I",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        80
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST02_C015",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST02",
+      "label_bn": "ইন্টারকাইনেসিস",
+      "label_en": "Interkinesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        80
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST03",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH02_T03",
+      "label_bn": "মায়োসিস-II এর পর্যায়",
+      "label_en": "Stages of Meiosis II",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        81
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST03_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST03",
+      "label_bn": "প্রোফেজ-II",
+      "label_en": "Prophase II",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        81
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST03_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST03",
+      "label_bn": "মেটাফেজ-II",
+      "label_en": "Metaphase II",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        81
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST03_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST03",
+      "label_bn": "অ্যানাফেজ-II",
+      "label_en": "Anaphase II",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        81
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T03_ST03_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T03_ST03",
+      "label_bn": "টেলোফেজ-II",
+      "label_en": "Telophase II",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        81
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH02_T02",
+      "label_bn": "মাইটোসিসের পর্যায়",
+      "label_en": "Stages of Mitosis",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        71,
+        74
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "প্রোফেজ",
+      "label_en": "Prophase",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        71
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "প্রো-মেটাফেজ",
+      "label_en": "Prometaphase",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        72
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "মেটাফেজ",
+      "label_en": "Metaphase",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        72
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "সেন্ট্রোমিয়ার বিভাজন",
+      "label_en": "Centromere Division",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        72
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "অ্যানাফেজ",
+      "label_en": "Anaphase",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        72
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "অপত্য ক্রোমোসোমের মেরুমুখী গমন",
+      "label_en": "Poleward Movement of Daughter Chromosomes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        72
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "টেলোফেজ",
+      "label_en": "Telophase",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        73
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH02_T02_ST02_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH02_T02_ST02",
+      "label_bn": "সাইটোকাইনেসিস",
+      "label_en": "Cytokinesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        73
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH03",
+      "label_bn": "জীবকোষের রাসায়নিক ভিত্তি",
+      "label_en": "Chemical Basis of the Living Cell",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        88,
+        90
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH03_T01",
+      "label_bn": "রাসায়নিক উপাদান, বন্ধন ও কার্যকরী মূলক",
+      "label_en": "Chemical Elements, Bonds and Functional Groups",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        88,
+        90
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T01_ST01",
+      "label_bn": "জীবকোষের রাসায়নিক উপাদান",
+      "label_en": "Chemical Components of Living Cells",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        88
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T01_ST01",
+      "label_bn": "রাসায়নিক বন্ধন",
+      "label_en": "Chemical Bonds",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        89
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T01_ST01",
+      "label_bn": "কার্যকরী মূলক",
+      "label_en": "Functional Groups",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        90
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH03",
+      "label_bn": "কার্বোহাইড্রেট",
+      "label_en": "Carbohydrates",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        91,
+        101
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH03_T02",
+      "label_bn": "কার্বোহাইড্রেটের শ্রেণিবিভাগ ও গঠন",
+      "label_en": "Classification and Structure of Carbohydrates",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        91,
+        101
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "কার্বোহাইড্রেট বা শর্করা",
+      "label_en": "Carbohydrates",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        91
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "কার্বোহাইড্রেটের শ্রেণিবিভাগ",
+      "label_en": "Classification of Carbohydrates",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        92
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "রাইবোজ ও ডিঅক্সিরাইবোজের পার্থক্য",
+      "label_en": "Ribose vs Deoxyribose",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        93
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "গ্লুকোজ ও ফ্রুক্টোজের পার্থক্য",
+      "label_en": "Glucose vs Fructose",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        95
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "শ্বেতসার বা স্টার্চ",
+      "label_en": "Starch",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        98
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "সেলুলোজ",
+      "label_en": "Cellulose",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        99
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "স্টার্চ ও সেলুলোজের পার্থক্য",
+      "label_en": "Starch vs Cellulose",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        100
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "গ্লাইকোজেন",
+      "label_en": "Glycogen",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        100
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "কার্বোহাইড্রেট-ডেরিভেটিভস",
+      "label_en": "Carbohydrate Derivatives",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        101
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T02_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T02_ST01",
+      "label_bn": "জীবদেহে কার্বোহাইড্রেটের ভূমিকা",
+      "label_en": "Role of Carbohydrates in Living Organisms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        101
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH03",
+      "label_bn": "অ্যামিনো অ্যাসিড ও প্রোটিন",
+      "label_en": "Amino Acids and Proteins",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        102,
+        109
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH03_T03",
+      "label_bn": "অ্যামিনো অ্যাসিড",
+      "label_en": "Amino Acids",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        102,
+        103
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T03_ST01",
+      "label_bn": "অ্যামিনো অ্যাসিড",
+      "label_en": "Amino Acids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        102
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T03_ST01",
+      "label_bn": "অ্যামিনো অ্যাসিডের শ্রেণিবিভাগ",
+      "label_en": "Classification of Amino Acids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        103
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST02",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH03_T03",
+      "label_bn": "প্রোটিন",
+      "label_en": "Proteins",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        104,
+        109
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST02_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T03_ST02",
+      "label_bn": "প্রোটিন বা আমিষ",
+      "label_en": "Protein",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        104
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST02_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T03_ST02",
+      "label_bn": "প্রোটিনের শ্রেণিবিভাগ",
+      "label_en": "Classification of Proteins",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        105
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST02_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T03_ST02",
+      "label_bn": "জীবদেহে প্রোটিনের ভূমিকা",
+      "label_en": "Role of Proteins in Living Organisms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        108
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T03_ST02_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T03_ST02",
+      "label_bn": "খাদ্য তালিকায় প্রোটিন",
+      "label_en": "Dietary Protein",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        109
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH03",
+      "label_bn": "লিপিড",
+      "label_en": "Lipids",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        110,
+        116
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH03_T04",
+      "label_bn": "লিপিডের গঠন ও শ্রেণিবিভাগ",
+      "label_en": "Structure and Classification of Lipids",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        110,
+        116
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "লিপিড বা স্নেহজাতীয় পদার্থ",
+      "label_en": "Lipids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        110
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "লিপিডের গঠন",
+      "label_en": "Structure of Lipids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        110
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "লিপিডের শ্রেণিবিভাগ",
+      "label_en": "Classification of Lipids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        111
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "চর্বি ও তেলের পার্থক্য",
+      "label_en": "Fat vs Oil",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        111
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "ট্রাইগ্লিসারাইড",
+      "label_en": "Triglyceride",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        111
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "লিপিড প্রোফাইল",
+      "label_en": "Lipid Profile",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        114
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "লিপিডের রাসায়নিক উপাদান",
+      "label_en": "Chemical Components of Lipids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        115
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T04_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T04_ST01",
+      "label_bn": "জীবদেহে লিপিডের ভূমিকা",
+      "label_en": "Role of Lipids in Living Organisms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        116
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH03",
+      "label_bn": "এনজাইম",
+      "label_en": "Enzymes",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        117,
+        125
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH03_T05",
+      "label_bn": "এনজাইমের গঠন, ক্রিয়া ও শ্রেণিবিন্যাস",
+      "label_en": "Enzyme Structure, Action and Classification",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        117,
+        125
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T05_ST01",
+      "label_bn": "এনজাইম বা উৎসেচক",
+      "label_en": "Enzyme",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        117
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T05_ST01",
+      "label_bn": "প্রোসথেটিক গ্রুপ, কো-ফ্যাক্টর, কো-এনজাইম",
+      "label_en": "Prosthetic Group, Cofactor and Coenzyme",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        118
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T05_ST01",
+      "label_bn": "এনজাইমের কাজের কৌশল",
+      "label_en": "Mechanism of Enzyme Action",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        119
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T05_ST01",
+      "label_bn": "এনজাইমের শ্রেণিবিন্যাস",
+      "label_en": "Classification of Enzymes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        120
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T05_ST01",
+      "label_bn": "এনজাইমের কার্যকারিতায় প্রভাবকসমূহ",
+      "label_en": "Factors Affecting Enzyme Activity",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        122
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T05_ST01",
+      "label_bn": "জৈবিক কাজে এনজাইমের ব্যবহার",
+      "label_en": "Biological Uses of Enzymes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        122
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH03_T05_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH03_T05_ST01",
+      "label_bn": "এনজাইম ও কো-এনজাইমের পার্থক্য",
+      "label_en": "Enzyme vs Coenzyme",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        125
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH04",
+      "label_bn": "ভাইরাস",
+      "label_en": "Viruses",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        128,
+        140
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH04_T01",
+      "label_bn": "ভাইরাসের গঠন, বৈশিষ্ট্য ও জীবনচক্র",
+      "label_en": "Virus Structure, Characteristics and Life Cycle",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        128,
+        140
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাস",
+      "label_en": "Virus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        128
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাসের বৈশিষ্ট্য",
+      "label_en": "Characteristics of Viruses",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        130
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাসের প্রকারভেদ",
+      "label_en": "Classification / Types of Viruses",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        131
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "RNA ভাইরাস ও DNA ভাইরাসের পার্থক্য",
+      "label_en": "RNA Virus vs DNA Virus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        132
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাসের পরজীবিতা",
+      "label_en": "Viral Parasitism",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        133
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাসের গঠন",
+      "label_en": "Structure of Virus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        133
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাসের বংশবৃদ্ধি",
+      "label_en": "Viral Replication",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        134
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "লাইটিক ও লাইসোজেনিক চক্রের পার্থক্য",
+      "label_en": "Lytic vs Lysogenic Cycle",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        137
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাসের অর্থনৈতিক গুরুত্ব",
+      "label_en": "Economic Importance of Viruses",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        137
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T01_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T01_ST01",
+      "label_bn": "ভাইরাসঘটিত রোগসমূহ",
+      "label_en": "Viral Diseases",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        140
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH04",
+      "label_bn": "ব্যাকটেরিয়া",
+      "label_en": "Bacteria",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        144,
+        154
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH04_T02",
+      "label_bn": "ব্যাকটেরিয়ার গঠন, বৈশিষ্ট্য ও প্রজনন",
+      "label_en": "Bacterial Structure, Characteristics and Reproduction",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        144,
+        154
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিয়া",
+      "label_en": "Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        144
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিয়ার সাধারণ বৈশিষ্ট্য",
+      "label_en": "General Characteristics of Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        145
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিয়ার শ্রেণিবিভাগ",
+      "label_en": "Classification of Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        146
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "একটি আদর্শ ব্যাকটেরিয়ামের গঠন",
+      "label_en": "Structure of an Ideal Bacterium",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        148
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিয়ার জনন",
+      "label_en": "Reproduction in Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        150
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিয়ার অর্থনৈতিক গুরুত্ব",
+      "label_en": "Economic Importance of Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        152
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিয়ার উপকারিতা",
+      "label_en": "Beneficial Roles of Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        152
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিয়ার অপকারিতা",
+      "label_en": "Harmful Effects of Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        153
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ভাইরাস ও ব্যাকটেরিয়ার পার্থক্য",
+      "label_en": "Virus vs Bacteria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        154
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T02_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T02_ST01",
+      "label_bn": "ব্যাকটেরিওফাজ",
+      "label_en": "Bacteriophage",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        155
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH04",
+      "label_bn": "ম্যালেরিয়া ও প্লাসমোডিয়াম",
+      "label_en": "Malaria and Plasmodium",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        157,
+        168
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH04_T03",
+      "label_bn": "ম্যালেরিয়া পরজীবীর জীবনচক্র ও রোগতত্ত্ব",
+      "label_en": "Malaria Parasite Life Cycle and Disease Biology",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        157,
+        168
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "ম্যালেরিয়া পরজীবী",
+      "label_en": "Malaria Parasite / Plasmodium",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        157
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "জীবনচক্র",
+      "label_en": "Life Cycle",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        158
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "মানবদেহে জীবনচক্র",
+      "label_en": "Life Cycle in Human Body",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        159
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "এরিথ্রোসাইটিক সাইজোগনি",
+      "label_en": "Erythrocytic Schizogony",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        160
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "মশার দেহে জীবনচক্র",
+      "label_en": "Life Cycle in Mosquito",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        162
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "ম্যালেরিয়া জীবাণুর জীবনচক্রে জনুক্রম",
+      "label_en": "Alternation / Sequence of Generations in Malaria Parasite",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        164
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "ম্যালেরিয়ার সুপ্তাবস্থাকাল বা ইনকিউবেশন",
+      "label_en": "Incubation Period of Malaria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        165
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "ম্যালেরিয়ার সংক্রমণ",
+      "label_en": "Transmission of Malaria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        165
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH04_T03_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH04_T03_ST01",
+      "label_bn": "ম্যালেরিয়ার প্রতিরোধ ও নিয়ন্ত্রণ",
+      "label_en": "Prevention and Control of Malaria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        166
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH05",
+      "label_bn": "শৈবাল",
+      "label_en": "Algae",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        169,
+        176
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH05_T01",
+      "label_bn": "শৈবালের গঠন, জনন ও গুরুত্ব",
+      "label_en": "Algal Structure, Reproduction and Importance",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        169,
+        176
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T01_ST01",
+      "label_bn": "শৈবাল",
+      "label_en": "Algae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        169
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T01_ST01",
+      "label_bn": "শৈবালের দৈহিক গঠন",
+      "label_en": "Thallus / Body Structure of Algae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        170
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T01_ST01",
+      "label_bn": "শৈবালের কোষীয় গঠন",
+      "label_en": "Cellular Structure of Algae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        171
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T01_ST01",
+      "label_bn": "শৈবালের জনন",
+      "label_en": "Reproduction in Algae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        172
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T01_ST01",
+      "label_bn": "Genus: Ulothrix",
+      "label_en": "Genus: Ulothrix",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        173
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T01_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T01_ST01",
+      "label_bn": "শৈবালের অর্থনৈতিক গুরুত্ব",
+      "label_en": "Economic Importance of Algae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        176
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH05",
+      "label_bn": "ছত্রাক",
+      "label_en": "Fungi",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        177,
+        186
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH05_T02",
+      "label_bn": "ছত্রাকের গঠন, জনন ও গুরুত্ব",
+      "label_en": "Fungal Structure, Reproduction and Importance",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        177,
+        186
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "ছত্রাক",
+      "label_en": "Fungi",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        177
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "ছত্রাকের বৈশিষ্ট্য",
+      "label_en": "Characteristics of Fungi",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        177
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "ছত্রাকের দৈহিক গঠন",
+      "label_en": "Body Structure of Fungi",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        178
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "ছত্রাকের কোষীয় গঠন",
+      "label_en": "Cellular Structure of Fungi",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        178
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "ছত্রাকের জনন",
+      "label_en": "Reproduction in Fungi",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        180
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "ছত্রাকের গুরুত্ব",
+      "label_en": "Importance of Fungi",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        182
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "Genus: Agaricus",
+      "label_en": "Genus: Agaricus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        184
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "Agaricus-এর দৈহিক গঠন",
+      "label_en": "Body Structure of Agaricus",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        184
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "গিলের অন্তর্গঠন",
+      "label_en": "Internal Structure of Gill",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        185
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "ব্যাসিডিওকার্প",
+      "label_en": "Basidiocarp",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        185
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T02_ST01_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T02_ST01",
+      "label_bn": "শৈবাল ও ছত্রাকের পার্থক্য",
+      "label_en": "Algae vs Fungi",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        186
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH05",
+      "label_bn": "ছত্রাকঘটিত রোগ ও লাইকেন",
+      "label_en": "Fungal Diseases and Lichen",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        187,
+        196
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH05_T03",
+      "label_bn": "রোগ ও লাইকেন",
+      "label_en": "Diseases and Lichen",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        187,
+        196
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "ছত্রাকঘটিত রোগ",
+      "label_en": "Fungal Diseases",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        187
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "গোল আলুর বিলম্বিত ধসা রোগ",
+      "label_en": "Late Blight of Potato",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        187
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "দাদরোগ",
+      "label_en": "Ringworm",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        189
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "লাইকেন",
+      "label_en": "Lichen",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        190
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "লাইকেনের গঠন এবং ছত্রাক ও শৈবালের পারস্পরিক নির্ভরশীলতা",
+      "label_en": "Lichen Structure and Fungal–Algal Mutual Dependence",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        191
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "লাইকেনের শ্রেণিবিভাগ",
+      "label_en": "Classification of Lichen",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        191
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "লাইকেনের গুরুত্ব",
+      "label_en": "Importance of Lichen",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        193
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH05_T03_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH05_T03_ST01",
+      "label_bn": "লাইকেনের পরিবেশীয় গুরুত্ব",
+      "label_en": "Ecological Importance of Lichen",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        195
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH06",
+      "label_bn": "ব্রায়োফাইটা",
+      "label_en": "Bryophyta",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        198,
+        200
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH06_T01",
+      "label_bn": "ব্রায়োফাইটা ও Riccia",
+      "label_en": "Bryophyta and Riccia",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        198,
+        200
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH06_T01_ST01",
+      "label_bn": "ব্রায়োফাইটা বা মসজাতীয় উদ্ভিদ",
+      "label_en": "Bryophyta",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        198
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH06_T01_ST01",
+      "label_bn": "Riccia",
+      "label_en": "Riccia",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        199
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH06",
+      "label_bn": "টেরিডোফাইটা",
+      "label_en": "Pteridophyta",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        201,
+        205
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH06_T02",
+      "label_bn": "টেরিডোফাইটা ও Pteris",
+      "label_en": "Pteridophyta and Pteris",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        201,
+        205
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH06_T02_ST01",
+      "label_bn": "টেরিডোফাইটা বা ফার্নজাতীয় উদ্ভিদ",
+      "label_en": "Pteridophyta",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        201
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH06_T02_ST01",
+      "label_bn": "Pteris",
+      "label_en": "Pteris",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        202
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH06_T02_ST01",
+      "label_bn": "Pteris উদ্ভিদের জনুক্রম বা জীবনচক্র",
+      "label_en": "Life Cycle of Pteris",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        205
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH06",
+      "label_bn": "তুলনামূলক অধ্যয়ন",
+      "label_en": "Comparative Study",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        207
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH06_T03",
+      "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটার পার্থক্য",
+      "label_en": "Bryophyta vs Pteridophyta",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        207
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH06_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH06_T03_ST01",
+      "label_bn": "ব্রায়োফাইটা ও টেরিডোফাইটা-এর পার্থক্য",
+      "label_en": "Bryophyta vs Pteridophyta",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        207
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH07",
+      "label_bn": "নগ্নবীজী উদ্ভিদ",
+      "label_en": "Gymnosperms",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        209,
+        212
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH07_T01",
+      "label_bn": "নগ্নবীজী ও Cycas",
+      "label_en": "Gymnosperms and Cycas",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        209,
+        212
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T01_ST01",
+      "label_bn": "নগ্নবীজী উদ্ভিদ",
+      "label_en": "Gymnosperms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        209
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T01_ST01",
+      "label_bn": "নগ্নবীজী উদ্ভিদের বৈশিষ্ট্য",
+      "label_en": "Characteristics of Gymnosperms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        210
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T01_ST01",
+      "label_bn": "Cycas",
+      "label_en": "Cycas",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        210
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH07",
+      "label_bn": "আবৃতবীজী উদ্ভিদের অঙ্গসংস্থান",
+      "label_en": "Morphology of Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        213,
+        224
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH07_T02",
+      "label_bn": "আবৃতবীজী উদ্ভিদের সাধারণ অঙ্গসংস্থান",
+      "label_en": "General Morphology of Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        213,
+        224
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "আবৃতবীজী উদ্ভিদ",
+      "label_en": "Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        213
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "নগ্নবীজী ও আবৃতবীজী উদ্ভিদের পার্থক্য",
+      "label_en": "Gymnosperms vs Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        214
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "আবৃতবীজী উদ্ভিদের অর্থনৈতিক গুরুত্ব",
+      "label_en": "Economic Importance of Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        215
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "আবৃতবীজী উদ্ভিদের গোত্র পরিচিতি",
+      "label_en": "Introduction to Angiosperm Families",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        215
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "স্বভাব বা স্বরূপ",
+      "label_en": "Habit",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        215
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "মূল",
+      "label_en": "Root",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        215
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "কাণ্ড",
+      "label_en": "Stem",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        215
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "পাতা",
+      "label_en": "Leaf",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        216
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "পুষ্পবিন্যাস",
+      "label_en": "Inflorescence",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        217
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "পুষ্প সংক্রান্ত প্রয়োজনীয় পরিভাষা",
+      "label_en": "Essential Floral Terminology",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        218
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "এপিক্যালি বা পুষ্পপত্রবিন্যাস",
+      "label_en": "Aestivation / Floral Arrangement",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        218
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C012",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "প্লাসেন্টেশন বা অমরাবিন্যাস",
+      "label_en": "Placentation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        221
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C013",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "ফল",
+      "label_en": "Fruit",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        221
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C014",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "পুষ্প সংকেত",
+      "label_en": "Floral Formula",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        222
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C015",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "পুষ্প সংকেতে ব্যবহৃত চিহ্নসমূহ",
+      "label_en": "Symbols Used in Floral Formula",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        223
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T02_ST01_C016",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T02_ST01",
+      "label_bn": "পুষ্প প্রতীক",
+      "label_en": "Floral Diagram / Floral Symbol",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        223
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH07",
+      "label_bn": "একবীজপত্রী ও দ্বিবীজপত্রী গোত্র",
+      "label_en": "Monocot and Dicot Families",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        224,
+        231
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH07_T03",
+      "label_bn": "Poaceae ও Malvaceae",
+      "label_en": "Poaceae and Malvaceae",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        224,
+        231
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "একবীজপত্রী উদ্ভিদের গোত্র পরিচিতি",
+      "label_en": "Monocot Family Identification",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        224
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "Poaceae (Gramineae) বা ঘাস গোত্র",
+      "label_en": "Family Poaceae / Grass Family",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        225
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "Poaceae গোত্রের অর্থনৈতিক গুরুত্ব",
+      "label_en": "Economic Importance of Poaceae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        227
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "দ্বিবীজপত্রী উদ্ভিদের গোত্র পরিচিতি",
+      "label_en": "Dicot Family Identification",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        227
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "Malvaceae গোত্র",
+      "label_en": "Family Malvaceae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        228
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "Malvaceae গোত্রের অর্থনৈতিক গুরুত্ব",
+      "label_en": "Economic Importance of Malvaceae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        229
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "Poaceae ও Malvaceae গোত্রের পার্থক্য",
+      "label_en": "Poaceae vs Malvaceae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        230
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH07_T03_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH07_T03_ST01",
+      "label_bn": "ব্যবহারিক: Malvaceae গোত্র শনাক্তকরণ",
+      "label_en": "Practical Identification of Malvaceae",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        231
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH08",
+      "label_bn": "টিস্যুর শ্রেণিবিন্যাস",
+      "label_en": "Classification of Tissues",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        235,
+        239
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH08_T01",
+      "label_bn": "ভাজক ও স্থায়ী টিস্যু",
+      "label_en": "Meristematic and Permanent Tissues",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        235,
+        239
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T01_ST01",
+      "label_bn": "টিস্যুর প্রকারভেদ",
+      "label_en": "Types of Tissues",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        235
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T01_ST01",
+      "label_bn": "ভাজক টিস্যুর বৈশিষ্ট্য",
+      "label_en": "Characteristics of Meristematic Tissue",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        235
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T01_ST01",
+      "label_bn": "ভাজক টিস্যুর শ্রেণিবিভাগ",
+      "label_en": "Classification of Meristematic Tissue",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        236
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T01_ST01",
+      "label_bn": "ভাজক টিস্যু ও স্থায়ী টিস্যুর পার্থক্য",
+      "label_en": "Meristematic vs Permanent Tissue",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        239
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T01_ST01",
+      "label_bn": "সরল টিস্যু ও জটিল টিস্যুর পার্থক্য",
+      "label_en": "Simple vs Complex Tissue",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        239
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH08",
+      "label_bn": "টিস্যুতন্ত্র ও পরিবহন টিস্যু",
+      "label_en": "Tissue Systems and Vascular Tissues",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        239,
+        247
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH08_T02",
+      "label_bn": "টিস্যুতন্ত্র, জাইলেম ও ফ্লোয়েম",
+      "label_en": "Tissue System, Xylem and Phloem",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        239,
+        247
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T02_ST01",
+      "label_bn": "টিস্যুতন্ত্র",
+      "label_en": "Tissue System",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        239
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T02_ST01",
+      "label_bn": "পত্ররন্ধ্র ও পানি-পত্ররন্ধ্রের পার্থক্য",
+      "label_en": "Stoma vs Hydathode",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        242
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T02_ST01",
+      "label_bn": "পুষ্পক উদ্ভিদের টিস্যুতন্ত্র, টিস্যু এবং গঠনকারী কোষ",
+      "label_en": "Tissues and Cell Types in Flowering Plants",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        245
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T02_ST01",
+      "label_bn": "ভাস্কুলার বান্ডল-এর প্রকারভেদ",
+      "label_en": "Types of Vascular Bundles",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        245
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T02_ST01",
+      "label_bn": "জাইলেম ও ফ্লোয়েমের পার্থক্য",
+      "label_en": "Xylem vs Phloem",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        247
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH08",
+      "label_bn": "উদ্ভিদের অন্তর্গঠন",
+      "label_en": "Internal Anatomy of Plants",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        247,
+        252
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH08_T03",
+      "label_bn": "মূল ও কাণ্ডের অন্তর্গঠন",
+      "label_en": "Internal Anatomy of Root and Stem",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        247,
+        252
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T03_ST01",
+      "label_bn": "একবীজপত্রী উদ্ভিদের মূলের অন্তর্গঠন",
+      "label_en": "Internal Anatomy of Monocot Root",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        247
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T03_ST01",
+      "label_bn": "একবীজপত্রী উদ্ভিদের কাণ্ডের অন্তর্গঠন",
+      "label_en": "Internal Anatomy of Monocot Stem",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        248
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T03_ST01",
+      "label_bn": "মূল ও কাণ্ডের অন্তর্গঠনগত পার্থক্য",
+      "label_en": "Internal Anatomy: Root vs Stem",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        251
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T03_ST01",
+      "label_bn": "দ্বিবীজপত্রী উদ্ভিদ কাণ্ড ও একবীজপত্রী উদ্ভিদ কাণ্ডের অন্তর্গঠনের পার্থক্য",
+      "label_en": "Dicot Stem vs Monocot Stem Anatomy",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        252
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH08_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH08_T03_ST01",
+      "label_bn": "একবীজপত্রী উদ্ভিদের কাণ্ড ও একবীজপত্রী উদ্ভিদের মূলের অন্তর্গঠনগত পার্থক্য",
+      "label_en": "Monocot Stem vs Monocot Root Anatomy",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        252
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH09",
+      "label_bn": "খনিজ লবণ পরিশোষণ",
+      "label_en": "Mineral Salt Absorption",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        255,
+        261
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH09_T01",
+      "label_bn": "খনিজ পুষ্টি ও পরিশোষণ",
+      "label_en": "Mineral Nutrition and Absorption",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        255,
+        261
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T01_ST01",
+      "label_bn": "খনিজ লবণ পরিশোষণ",
+      "label_en": "Mineral Salt Absorption",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        255
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T01_ST01",
+      "label_bn": "উদ্ভিদের জন্য অত্যাবশ্যকীয় পুষ্টি উপাদান",
+      "label_en": "Essential Nutrients for Plants",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        256
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T01_ST01",
+      "label_bn": "মাটিতে খনিজ লবণের প্রাপ্যতা",
+      "label_en": "Availability of Mineral Salts in Soil",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        257
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T01_ST01",
+      "label_bn": "উদ্ভিদের খনিজ লবণ পরিশোষণ প্রক্রিয়া",
+      "label_en": "Mechanism of Mineral Salt Absorption",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        257
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T01_ST01",
+      "label_bn": "সক্রিয় ও নিষ্ক্রিয় পরিশোষণের পার্থক্য",
+      "label_en": "Active vs Passive Absorption",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        260
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T01_ST01",
+      "label_bn": "খনিজ লবণ পরিশোষণের প্রভাবকসমূহ",
+      "label_en": "Factors Affecting Mineral Salt Absorption",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        260
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T01_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T01_ST01",
+      "label_bn": "পানি ও খনিজ লবণ পরিশোষণের পার্থক্য",
+      "label_en": "Water vs Mineral Salt Absorption",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        261
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH09",
+      "label_bn": "প্রস্বেদন",
+      "label_en": "Transpiration",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        261,
+        268
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH09_T02",
+      "label_bn": "প্রস্বেদন ও পত্ররন্ধ্র",
+      "label_en": "Transpiration and Stomata",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        261,
+        268
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T02_ST01",
+      "label_bn": "প্রস্বেদন",
+      "label_en": "Transpiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        261
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T02_ST01",
+      "label_bn": "পত্ররন্ধ্র",
+      "label_en": "Stomata",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        262
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T02_ST01",
+      "label_bn": "পত্ররন্ধ্রীয় প্রস্বেদন ও ত্বকীয় প্রস্বেদনের পার্থক্য",
+      "label_en": "Stomatal vs Cuticular Transpiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        262
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T02_ST01",
+      "label_bn": "পত্ররন্ধ্র খোলা ও বন্ধ হওয়ার কৌশল",
+      "label_en": "Mechanism of Stomatal Opening and Closing",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        263
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T02_ST01",
+      "label_bn": "প্রস্বেদনের প্রভাবকসমূহ",
+      "label_en": "Factors Affecting Transpiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        265
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T02_ST01",
+      "label_bn": "প্রস্বেদনের উপকারিতা বা উদ্ভিদের জীবনে প্রয়োজনীয়তা",
+      "label_en": "Importance of Transpiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        266
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T02_ST01",
+      "label_bn": "প্রস্বেদন ও বাষ্পীভবনের পার্থক্য",
+      "label_en": "Transpiration vs Evaporation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        268
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH09",
+      "label_bn": "সালোকসংশ্লেষণ",
+      "label_en": "Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        269,
+        289
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH09_T03",
+      "label_bn": "সালোকসংশ্লেষণের প্রক্রিয়া ও পথ",
+      "label_en": "Photosynthesis Process and Pathways",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        269,
+        289
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "ফটোসিনথেসিস বা সালোকসংশ্লেষণ",
+      "label_en": "Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        269
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "আলোর বর্ণালির কার্যক্ষমতা",
+      "label_en": "Action Spectrum / Effectiveness of Light Spectrum",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        271
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "ফটোসিস্টেম-I ও ফটোসিস্টেম-II এর পার্থক্য",
+      "label_en": "Photosystem I vs Photosystem II",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        272
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "সালোকসংশ্লেষণ প্রক্রিয়ার কালকৌশল",
+      "label_en": "Mechanism / Steps of Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        274
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "অচক্রীয় ও চক্রীয় ফটোফসফোরাইলেশনের পার্থক্য",
+      "label_en": "Non-cyclic vs Cyclic Photophosphorylation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        276
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "ক্যালভিন চক্র",
+      "label_en": "Calvin Cycle",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        276
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "আলোকশ্বসন বা ফটোরেসপিরেশন",
+      "label_en": "Photorespiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        279
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "হ্যাচ ও স্ল্যাক চক্র",
+      "label_en": "Hatch–Slack Cycle",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        279
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "C3 ও C4 উদ্ভিদের পার্থক্য",
+      "label_en": "C3 vs C4 Plants",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        282
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "ক্যালভিন চক্র ও হ্যাচ-স্ল্যাক চক্রের পার্থক্য",
+      "label_en": "Calvin Cycle vs Hatch–Slack Cycle",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        282
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "সালোকসংশ্লেষণে নির্গত O₂-এর উৎস",
+      "label_en": "Source of Oxygen Released in Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        283
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C012",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "সালোকসংশ্লেষণের প্রভাবকসমূহ",
+      "label_en": "Factors Affecting Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        284
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C013",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "লিমিটিং ফ্যাক্টর বা সীমাবদ্ধতা ফ্যাক্টর",
+      "label_en": "Limiting Factors",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        285
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C014",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "সালোকসংশ্লেষণের হার",
+      "label_en": "Rate of Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        287
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C015",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "জীবজগতে সালোকসংশ্লেষণ প্রক্রিয়ার গুরুত্ব",
+      "label_en": "Importance of Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        288
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T03_ST01_C016",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T03_ST01",
+      "label_bn": "ব্যবহারিক: সালোকসংশ্লেষণে O₂-এর অপরিহার্যতার পরীক্ষা",
+      "label_en": "Practical: Demonstration Related to Oxygen in Photosynthesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        289
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH09",
+      "label_bn": "শ্বসন",
+      "label_en": "Respiration",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        290,
+        305
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH09_T04",
+      "label_bn": "সবাত ও অবাত শ্বসন",
+      "label_en": "Aerobic and Anaerobic Respiration",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        290,
+        305
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "শ্বসন",
+      "label_en": "Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        290
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "সবাত শ্বসন",
+      "label_en": "Aerobic Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        290
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "সবাত শ্বসন প্রক্রিয়ার ধাপ বা পর্যায়সমূহ",
+      "label_en": "Stages of Aerobic Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        291
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "গ্লাইকোলাইসিস",
+      "label_en": "Glycolysis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        291
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "গ্লাইকোলাইসিস ও ফটোলাইসিসের পার্থক্য",
+      "label_en": "Glycolysis vs Photolysis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        293
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "ক্রেবস চক্র",
+      "label_en": "Krebs Cycle",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        294
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "উদ্ভিদ ও প্রাণীর ক্রেবস চক্রের পার্থক্য",
+      "label_en": "Krebs Cycle in Plants vs Animals",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        295
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "গ্লাইকোলাইসিস ও ক্রেবস চক্রের পার্থক্য",
+      "label_en": "Glycolysis vs Krebs Cycle",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        296
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "ইলেকট্রন স্থানান্তর ও ATP তৈরি",
+      "label_en": "Electron Transport and ATP Formation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        296
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "উদ্ভিদ মাইটোকন্ড্রিয়ার স্বকীয়তা",
+      "label_en": "Distinctive Features of Plant Mitochondria",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        298
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "অক্সিজেনের প্রয়োজনীয়তা",
+      "label_en": "Requirement of Oxygen",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        298
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C012",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "ফটোফসফোরাইলেশন ও অক্সিডেটিভ ফসফোরাইলেশনের পার্থক্য",
+      "label_en": "Photophosphorylation vs Oxidative Phosphorylation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        299
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C013",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "শক্তি উৎপাদনের পরিসংখ্যান",
+      "label_en": "Energy Yield Accounting",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        299
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C014",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "অবাত শ্বসন",
+      "label_en": "Anaerobic Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        299
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C015",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "অবাত শ্বসন ও ফার্মেন্টেশনের পার্থক্য",
+      "label_en": "Anaerobic Respiration vs Fermentation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        302
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C016",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "শ্বসনের প্রভাবকসমূহ",
+      "label_en": "Factors Affecting Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        302
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C017",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "শ্বসনের গুরুত্ব",
+      "label_en": "Importance of Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        303
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C018",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "সবাত ও অবাত শ্বসনের পার্থক্য",
+      "label_en": "Aerobic vs Anaerobic Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        304
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C019",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "সালোকসংশ্লেষণ ও শ্বসনের পার্থক্য",
+      "label_en": "Photosynthesis vs Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        304
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH09_T04_ST01_C020",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH09_T04_ST01",
+      "label_bn": "ব্যবহারিক: অবাত শ্বসনে CO₂ গ্যাসের নির্গমন পরীক্ষা",
+      "label_en": "Practical: CO₂ Release in Anaerobic Respiration",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        305
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH10",
+      "label_bn": "আবৃতবীজী উদ্ভিদের যৌন প্রজনন",
+      "label_en": "Sexual Reproduction in Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        308,
+        316
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH10_T01",
+      "label_bn": "গ্যামেট সৃষ্টি ও নিষেক",
+      "label_en": "Gametogenesis and Fertilization",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        308,
+        316
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "আবৃতবীজী উদ্ভিদের যৌন প্রজনন",
+      "label_en": "Sexual Reproduction in Angiosperms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        308
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "পরাগধানুর গঠন",
+      "label_en": "Structure of Anther",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        309
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "পুংগ্যামেটোফাইটের বিকাশ বা পরিস্ফুটন ও গঠন",
+      "label_en": "Development and Structure of Male Gametophyte",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        309
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "স্ত্রীগ্যামেটোফাইটের বিকাশ বা পরিস্ফুটন ও গঠন",
+      "label_en": "Development and Structure of Female Gametophyte",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        312
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "নিষেকক্রিয়া",
+      "label_en": "Fertilization",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        313
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "নিষেক ও দ্বি-নিষেকের পার্থক্য",
+      "label_en": "Fertilization vs Double Fertilization",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        314
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "নিষেকের পরিণতি",
+      "label_en": "Consequences of Fertilization",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        314
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "নিষেকের পর গর্ভাশয় ও ডিম্বকের বিভিন্ন পরিবর্তন",
+      "label_en": "Post-fertilization Changes in Ovary and Ovule",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        316
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T01_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T01_ST01",
+      "label_bn": "নিষেকক্রিয়ার গুরুত্ব বা তাৎপর্য",
+      "label_en": "Significance of Fertilization",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        316
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH10",
+      "label_bn": "অযৌন ও বিশেষ প্রজনন",
+      "label_en": "Asexual and Special Reproductive Processes",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        317,
+        321
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH10_T02",
+      "label_bn": "অযৌন প্রজনন, পার্থেনোজেনেসিস ও অ্যাপোমিক্সিস",
+      "label_en": "Asexual Reproduction, Parthenogenesis and Apomixis",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        317,
+        321
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T02_ST01",
+      "label_bn": "অযৌন প্রজনন",
+      "label_en": "Asexual Reproduction",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        317
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T02_ST01",
+      "label_bn": "পার্থেনোজেনেসিস",
+      "label_en": "Parthenogenesis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        319
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T02_ST01",
+      "label_bn": "অ্যাপোমিক্সিস",
+      "label_en": "Apomixis",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        320
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T02_ST01",
+      "label_bn": "অ্যাপোগ্যামি",
+      "label_en": "Apogamy",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        321
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T02_ST01",
+      "label_bn": "পার্থেনোজেনেসিস ও যৌন জননের পার্থক্য",
+      "label_en": "Parthenogenesis vs Sexual Reproduction",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        321
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH10",
+      "label_bn": "কৃত্রিম প্রজনন",
+      "label_en": "Artificial Propagation",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        321,
+        325
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH10_T03",
+      "label_bn": "উদ্ভিদের কৃত্রিম প্রজনন",
+      "label_en": "Artificial Propagation of Plants",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        321,
+        325
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T03_ST01",
+      "label_bn": "উদ্ভিদের কৃত্রিম প্রজনন",
+      "label_en": "Artificial Propagation of Plants",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        321
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T03_ST01",
+      "label_bn": "বিবর্তনে কৃত্রিম প্রজননের ভূমিকা",
+      "label_en": "Role of Artificial Propagation in Improvement / Evolution",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        323
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH10_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH10_T03_ST01",
+      "label_bn": "কৃত্রিম প্রজননের অর্থনৈতিক গুরুত্ব",
+      "label_en": "Economic Importance of Artificial Propagation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        323
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH11",
+      "label_bn": "জীবপ্রযুক্তির ভিত্তি ও টিস্যু কালচার",
+      "label_en": "Foundations of Biotechnology and Tissue Culture",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        327,
+        334
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH11_T01",
+      "label_bn": "জীবপ্রযুক্তি ও টিস্যু কালচার",
+      "label_en": "Biotechnology and Tissue Culture",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        327,
+        334
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T01_ST01",
+      "label_bn": "জীবপ্রযুক্তির পরিধি",
+      "label_en": "Scope of Biotechnology",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        327
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T01_ST01",
+      "label_bn": "জীবপ্রযুক্তির অবদান",
+      "label_en": "Contributions of Biotechnology",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        328
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T01_ST01",
+      "label_bn": "উদ্ভিদ টিস্যু কালচার",
+      "label_en": "Plant Tissue Culture",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        328
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T01_ST01",
+      "label_bn": "টিস্যু কালচার পদ্ধতির ধাপসমূহ",
+      "label_en": "Steps of Tissue Culture",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        330
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T01_ST01",
+      "label_bn": "উদ্ভিদ প্রজনন ও উন্নতজাত উদ্ভাবনে টিস্যু কালচার প্রযুক্তির ব্যবহার",
+      "label_en": "Use of Tissue Culture in Plant Propagation and Crop Improvement",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        332
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T01_ST01",
+      "label_bn": "বাংলাদেশে টিস্যু কালচার পদ্ধতির প্রয়োগ",
+      "label_en": "Applications of Tissue Culture in Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        334
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T01_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T01_ST01",
+      "label_bn": "টিস্যু কালচার পদ্ধতির সুবিধা ও অসুবিধাসমূহ",
+      "label_en": "Advantages and Disadvantages of Tissue Culture",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        334
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH11",
+      "label_bn": "জেনেটিক ইঞ্জিনিয়ারিং ও রিকম্বিনেন্ট DNA",
+      "label_en": "Genetic Engineering and Recombinant DNA",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        335,
+        346
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH11_T02",
+      "label_bn": "রিকম্বিনেন্ট DNA প্রযুক্তি",
+      "label_en": "Recombinant DNA Technology",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        335,
+        346
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "জেনেটিক ইঞ্জিনিয়ারিং ও রিকম্বিনেন্ট DNA প্রযুক্তি",
+      "label_en": "Genetic Engineering and Recombinant DNA Technology",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        335
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "রিকম্বিনেন্ট DNA প্রযুক্তির সংক্ষিপ্ত বর্ণনা",
+      "label_en": "Outline of Recombinant DNA Technology",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        335
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "প্লাসমিড",
+      "label_en": "Plasmid",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        336
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "জিন ক্লোনিং",
+      "label_en": "Gene Cloning",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        340
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "rDNA টেকনোলজি ও PCR-এর পার্থক্য",
+      "label_en": "Recombinant DNA Technology vs PCR",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        341
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "রিকম্বিনেন্ট DNA প্রযুক্তির প্রয়োগ",
+      "label_en": "Applications of Recombinant DNA Technology",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        341
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "ট্রান্সজেনিক প্রাণী ও ক্লোন প্রাণীর পার্থক্য",
+      "label_en": "Transgenic Animals vs Cloned Animals",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        344
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "বাংলাদেশের প্রথম GM খাদ্য ফসল",
+      "label_en": "First GM Food Crop in Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        345
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "ইনসুলিন",
+      "label_en": "Insulin",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        346
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T02_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T02_ST01",
+      "label_bn": "জিন প্রকৌশলের মাধ্যমে মানুষের ইনসুলিন উৎপাদন",
+      "label_en": "Production of Human Insulin by Genetic Engineering",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        346
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH11",
+      "label_bn": "জীবপ্রযুক্তিজাত পণ্য ও জিনোম প্রযুক্তি",
+      "label_en": "Biotechnology Products and Genomics",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        348,
+        355
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH11_T03",
+      "label_bn": "জৈবপ্রযুক্তি পণ্য, জিনোম ও জীব-নিরাপত্তা",
+      "label_en": "Biotechnology Products, Genomics and Biosafety",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        348,
+        355
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T03_ST01",
+      "label_bn": "ইন্টারফেরন",
+      "label_en": "Interferon",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        348
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T03_ST01",
+      "label_bn": "টিস্যু প্লাসমিনোজেন অ্যাক্টিভেটর",
+      "label_en": "Tissue Plasminogen Activator",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        349
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T03_ST01",
+      "label_bn": "পরিবেশ ব্যবস্থাপনা",
+      "label_en": "Environmental Management",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        350
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T03_ST01",
+      "label_bn": "জিনোম সিকোয়েন্সিং",
+      "label_en": "Genome Sequencing",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        352
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T03_ST01",
+      "label_bn": "জিনোম সিকোয়েন্সিং-এর প্রয়োগ",
+      "label_en": "Applications of Genome Sequencing",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        354
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH11_T03_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH11_T03_ST01",
+      "label_bn": "জীবপ্রযুক্তির প্রয়োগে জীব-নিরাপত্তা বিধানসমূহ",
+      "label_en": "Biosafety Measures in Biotechnology",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        355
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH12",
+      "label_bn": "প্রজাতি, জনসংখ্যা, সম্প্রদায় ও বাস্তুতন্ত্র",
+      "label_en": "Species, Population, Community and Ecosystem",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        359,
+        367
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH12_T01",
+      "label_bn": "বাস্তুবিদ্যার মৌলিক একক",
+      "label_en": "Fundamental Ecological Units",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        359,
+        367
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "প্রজাতি",
+      "label_en": "Species",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        359
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "পৃথিবীতে উদ্ভিদ প্রজাতির সংখ্যা",
+      "label_en": "Number of Plant Species on Earth",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        360
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "বাংলাদেশে উদ্ভিদ প্রজাতির সংখ্যা",
+      "label_en": "Number of Plant Species in Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        361
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "জীবগোষ্ঠী বা পপুলেশন",
+      "label_en": "Population",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        361
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "পপুলেশনের বৈশিষ্ট্য",
+      "label_en": "Characteristics of Population",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        361
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "জীব সম্প্রদায়",
+      "label_en": "Community",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        362
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "বাস্তুতন্ত্র বা ইকোসিস্টেম",
+      "label_en": "Ecosystem",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        363
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "ইকোলজিক্যাল পিরামিড",
+      "label_en": "Ecological Pyramid",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        364
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "শক্তি প্রবাহ",
+      "label_en": "Energy Flow",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        365
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "বিভিন্ন ধরনের পিরামিডের মধ্যে তুলনা",
+      "label_en": "Comparison of Ecological Pyramids",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        366
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T01_ST01_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T01_ST01",
+      "label_bn": "শক্তি প্রবাহের বৈশিষ্ট্য",
+      "label_en": "Characteristics of Energy Flow",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        366
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH12",
+      "label_bn": "অভিযোজন",
+      "label_en": "Adaptation",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        367,
+        373
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH12_T02",
+      "label_bn": "জলজ, মরুজ, লবণাক্ত ও মধ্যম পরিবেশে অভিযোজন",
+      "label_en": "Adaptation to Aquatic, Xeric, Saline and Mesic Environments",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        367,
+        373
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "জীবের অভিযোজন",
+      "label_en": "Adaptation of Organisms",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        367
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "জলজ উদ্ভিদ",
+      "label_en": "Aquatic Plants / Hydrophytes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        367
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "জলজ উদ্ভিদের অভিযোজন",
+      "label_en": "Adaptations of Aquatic Plants",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        369
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "জলজ প্রাণীর অভিযোজন",
+      "label_en": "Adaptations of Aquatic Animals",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        369
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "মরুজ উদ্ভিদ",
+      "label_en": "Xerophytes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        370
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "মরুজ উদ্ভিদের অভিযোজন",
+      "label_en": "Adaptations of Xerophytes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        370
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "মরুজ প্রাণীর অভিযোজন",
+      "label_en": "Adaptations of Desert Animals",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        371
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "লোনামাটির উদ্ভিদ",
+      "label_en": "Halophytes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        371
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "লবণাক্ত পরিবেশে উদ্ভিদের অভিযোজন",
+      "label_en": "Plant Adaptations to Saline Environments",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        372
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "লবণাক্ত পরিবেশে প্রাণীর অভিযোজন",
+      "label_en": "Animal Adaptations to Saline Environments",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        372
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "মেসোফাইট",
+      "label_en": "Mesophytes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        372
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T02_ST01_C012",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T02_ST01",
+      "label_bn": "জলজ, মরুজ ও লোনামাটির উদ্ভিদের তুলনা",
+      "label_en": "Comparison of Hydrophytes, Xerophytes and Halophytes",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        373
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH12",
+      "label_bn": "জীবভৌগোলিক বিস্তার ও বাংলাদেশের বনাঞ্চল",
+      "label_en": "Biogeography and Forests of Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        373,
+        390
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH12_T03",
+      "label_bn": "জীব-ভূগোল ও বনাঞ্চল",
+      "label_en": "Biogeography and Forest Regions",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        373,
+        390
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "জীব-ভূগোল",
+      "label_en": "Biogeography",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        373
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "প্রাণিভৌগোলিক অঞ্চল",
+      "label_en": "Zoogeographical Regions",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        376
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "ওরিয়েন্টাল অঞ্চল",
+      "label_en": "Oriental Region",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        378
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "বাংলাদেশের বনাঞ্চল",
+      "label_en": "Forests of Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        380
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "চিরসবুজ ও অর্ধ-চিরসবুজ বনাঞ্চল",
+      "label_en": "Evergreen and Semi-evergreen Forests",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        381
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "পত্রঝরা বা পতনশীল বনাঞ্চল",
+      "label_en": "Deciduous Forests",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        382
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "ম্যানগ্রোভ বা উপকূলীয় বনাঞ্চল",
+      "label_en": "Mangrove / Coastal Forests",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        383
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "উপকূলীয় বনাঞ্চল ও সুন্দরবন",
+      "label_en": "Coastal Forests and the Sundarbans",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        384
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "বাংলাদেশের বিপন্নপ্রায় জীবের পরিচিতি",
+      "label_en": "Threatened Organisms of Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        385
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "তালিপাম",
+      "label_en": "Talipalm",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        386
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C011",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "মাল্টিং বাঘি / উৎস-নির্দিষ্ট বিপন্ন প্রজাতি",
+      "label_en": "Source-listed Threatened Species Example",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        387
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C012",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "হুলুদ বানর",
+      "label_en": "Hoolock Gibbon",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        387
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C013",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "কাকরল",
+      "label_en": "Kakrol / Source-listed Species",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        387
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C014",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "রেটেলা",
+      "label_en": "Retela / Source-listed Species",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        388
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C015",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "রাজকচ্ছপ",
+      "label_en": "Royal Turtle / Source-listed Species",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        388
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C016",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "ঘড়িয়াল",
+      "label_en": "Gharial",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        389
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C017",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "মিঠাপানির কুমির",
+      "label_en": "Freshwater Crocodile",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        389
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C018",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "নীলগাই",
+      "label_en": "Nilgai",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        389
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T03_ST01_C019",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T03_ST01",
+      "label_bn": "শঙ্খক",
+      "label_en": "Source-listed Species 'Shonkhok'",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        390
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04",
+      "level": "topic",
+      "parent_id": "HSC_BIO_P1_CH12",
+      "label_bn": "জীববৈচিত্র্য ও সংরক্ষণ",
+      "label_en": "Biodiversity and Conservation",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        391,
+        404
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01",
+      "level": "subtopic",
+      "parent_id": "HSC_BIO_P1_CH12_T04",
+      "label_bn": "বিলুপ্তি, সংরক্ষণ ও সংরক্ষিত এলাকা",
+      "label_en": "Extinction, Conservation and Protected Areas",
+      "status": "active",
+      "source_basis": "book_toc",
+      "source_printed_pages": [
+        391,
+        404
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C001",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "জীব বিলুপ্তির কারণ",
+      "label_en": "Causes of Extinction",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        391
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C002",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "বিলুপ্তপ্রায় জীব প্রজাতি সংরক্ষণের প্রয়োজনীয়তা",
+      "label_en": "Need to Conserve Threatened Species",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        391
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C003",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "জীববৈচিত্র্য সংরক্ষণ",
+      "label_en": "Biodiversity Conservation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        392
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C004",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "জীববৈচিত্র্য সংরক্ষণের পদ্ধতিসমূহ",
+      "label_en": "Methods of Biodiversity Conservation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        392
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C005",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "বাংলাদেশে কয়েকটি উল্লেখযোগ্য ন্যাশনাল পার্ক",
+      "label_en": "Notable National Parks of Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        393
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C006",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "বাংলাদেশের উল্লেখযোগ্য কয়েকটি ইকোপার্ক",
+      "label_en": "Notable Eco-parks of Bangladesh",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        394
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C007",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "ইন-সিটু ও এক্স-সিটু কনজারভেশনের পার্থক্য",
+      "label_en": "In-situ vs Ex-situ Conservation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        398
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C008",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "জীববৈচিত্র্য সংরক্ষণের গুরুত্ব বা প্রয়োজনীয়তা",
+      "label_en": "Importance of Biodiversity Conservation",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        398
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C009",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "IUCN Red List Categories",
+      "label_en": "IUCN Red List Categories",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        400
+      ]
+    },
+    {
+      "id": "HSC_BIO_P1_CH12_T04_ST01_C010",
+      "level": "concept",
+      "parent_id": "HSC_BIO_P1_CH12_T04_ST01",
+      "label_bn": "আলোচিত গ্রন্থাবলি ও সাম্প্রতিক রিপোর্টসমূহ",
+      "label_en": "Referenced Books and Recent Reports",
+      "status": "active",
+      "source_basis": "book_toc_or_content",
+      "source_printed_pages": [
+        404
+      ]
+    }
+  ]
+}

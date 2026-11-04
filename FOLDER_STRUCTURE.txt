@@ -1,0 +1,268 @@
+HSC_BioVQA_Dataset/
+├── archive/
+│   ├── curriculum_mapping_agent_reference_original.zip
+│   └── README.md
+├── curriculum_mapping_agent/
+│   ├── __pycache__/
+│   │   └── __init__.cpython-313.pyc
+│   ├── config/
+│   │   └── agent_config.yaml
+│   ├── logs/
+│   │   └── agent_migrated.log
+│   ├── prompts/
+│   │   ├── chapter_classifier.txt
+│   │   ├── concept_classifier.txt
+│   │   ├── subtopic_classifier.txt
+│   │   └── topic_classifier.txt
+│   ├── src/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-313.pyc
+│   │   │   ├── candidate_retriever.cpython-313.pyc
+│   │   │   ├── curriculum_mapper.cpython-313.pyc
+│   │   │   ├── duplicate_detector.cpython-313.pyc
+│   │   │   ├── llm_client.cpython-313.pyc
+│   │   │   ├── main.cpython-313.pyc
+│   │   │   ├── normalizer.cpython-313.pyc
+│   │   │   ├── question_loader.cpython-313.pyc
+│   │   │   ├── question_store.cpython-313.pyc
+│   │   │   ├── taxonomy_loader.cpython-313.pyc
+│   │   │   └── taxonomy_validator.cpython-313.pyc
+│   │   ├── __init__.py
+│   │   ├── candidate_retriever.py
+│   │   ├── curriculum_mapper.py
+│   │   ├── duplicate_detector.py
+│   │   ├── llm_client.py
+│   │   ├── main.py
+│   │   ├── normalizer.py
+│   │   ├── question_loader.py
+│   │   ├── question_store.py
+│   │   ├── taxonomy_loader.py
+│   │   └── taxonomy_validator.py
+│   ├── tests/
+│   │   ├── __pycache__/
+│   │   │   ├── test_duplicate_detector.cpython-313-pytest-9.0.2.pyc
+│   │   │   ├── test_duplicate_detector.cpython-313.pyc
+│   │   │   ├── test_normalizer.cpython-313-pytest-9.0.2.pyc
+│   │   │   ├── test_normalizer.cpython-313.pyc
+│   │   │   ├── test_question_store.cpython-313-pytest-9.0.2.pyc
+│   │   │   ├── test_question_store.cpython-313.pyc
+│   │   │   ├── test_taxonomy_loader.cpython-313-pytest-9.0.2.pyc
+│   │   │   └── test_taxonomy_loader.cpython-313.pyc
+│   │   ├── test_duplicate_detector.py
+│   │   ├── test_normalizer.py
+│   │   ├── test_question_store.py
+│   │   └── test_taxonomy_loader.py
+│   ├── __init__.py
+│   └── README.md
+├── data/
+│   ├── exports/
+│   │   └── samples/
+│   │       ├── mapping_sample.csv
+│   │       ├── question_sample.csv
+│   │       └── segment_sample.csv
+│   ├── final_dataset/
+│   │   ├── exports/
+│   │   │   └── .gitkeep
+│   │   ├── master/
+│   │   │   └── hsc_biovqa.json
+│   │   └── README.md
+│   ├── mappings/
+│   │   ├── backups/
+│   │   │   └── .gitkeep
+│   │   ├── exports/
+│   │   │   └── .gitkeep
+│   │   ├── question_video_mapping.json
+│   │   └── README.md
+│   ├── questions/
+│   │   ├── backups/
+│   │   │   ├── question_rev_00000_20260823_215728.json
+│   │   │   └── question_rev_00006_20260824_010131.json
+│   │   ├── incoming/
+│   │   │   ├── barishal_2025_raw_input_batch_01.json
+│   │   │   ├── barishal_2025_raw_input_batch_02.json
+│   │   │   └── barishal_2025_raw_input_batch_03.json
+│   │   ├── master/
+│   │   │   └── question.json
+│   │   ├── rejected/
+│   │   │   └── .gitkeep
+│   │   └── README.md
+│   ├── segments/
+│   │   ├── backups/
+│   │   │   └── .gitkeep
+│   │   ├── exports/
+│   │   │   └── .gitkeep
+│   │   ├── master/
+│   │   │   └── segments.json
+│   │   └── README.md
+│   └── videos/
+│       ├── incoming/
+│       │   └── README.md
+│       ├── manifests/
+│       │   ├── .gitkeep
+│       │   └── video_manifest.sample.json
+│       └── processed/
+│           ├── _example_video_workspace/
+│           │   ├── audio/
+│           │   │   └── .gitkeep
+│           │   ├── boundaries/
+│           │   │   └── boundaries.json
+│           │   ├── curriculum_tags/
+│           │   │   └── chunk_tags.json
+│           │   ├── embeddings/
+│           │   │   └── .gitkeep
+│           │   ├── frames/
+│           │   │   └── .gitkeep
+│           │   ├── keyframes/
+│           │   │   └── .gitkeep
+│           │   ├── metadata/
+│           │   │   └── metadata.json
+│           │   ├── microchunks/
+│           │   │   └── microchunks.json
+│           │   ├── scenes/
+│           │   │   └── .gitkeep
+│           │   ├── segments/
+│           │   │   └── segments.json
+│           │   └── transcript/
+│           │       └── transcript.json
+│           └── README.md
+├── question_video_matching/
+│   ├── __pycache__/
+│   │   └── __init__.cpython-313.pyc
+│   ├── config/
+│   │   └── matching_config.yaml
+│   ├── logs/
+│   │   └── .gitkeep
+│   ├── prompts/
+│   │   └── evidence_validator.txt
+│   ├── src/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-313.pyc
+│   │   │   ├── candidate_generator.cpython-313.pyc
+│   │   │   ├── dataset_exporter.cpython-313.pyc
+│   │   │   ├── evidence_validator.cpython-313.pyc
+│   │   │   ├── mapping_store.cpython-313.pyc
+│   │   │   ├── matcher.cpython-313.pyc
+│   │   │   └── semantic_matcher.cpython-313.pyc
+│   │   ├── __init__.py
+│   │   ├── candidate_generator.py
+│   │   ├── dataset_exporter.py
+│   │   ├── evidence_validator.py
+│   │   ├── mapping_store.py
+│   │   ├── matcher.py
+│   │   └── semantic_matcher.py
+│   ├── tests/
+│   │   ├── __pycache__/
+│   │   │   ├── test_candidate_generator.cpython-313-pytest-9.0.2.pyc
+│   │   │   ├── test_candidate_generator.cpython-313.pyc
+│   │   │   ├── test_semantic_matcher.cpython-313-pytest-9.0.2.pyc
+│   │   │   └── test_semantic_matcher.cpython-313.pyc
+│   │   ├── test_candidate_generator.py
+│   │   └── test_semantic_matcher.py
+│   ├── __init__.py
+│   └── README.md
+├── reports/
+│   ├── final_dataset/
+│   │   └── README.md
+│   ├── question_mapping/
+│   │   └── README.md
+│   └── video_segmentation/
+│       └── README.md
+├── scripts/
+│   ├── __pycache__/
+│   │   ├── export_csv.cpython-313.pyc
+│   │   └── validate_environment.cpython-313.pyc
+│   ├── export_csv.py
+│   └── validate_environment.py
+├── shared/
+│   ├── config/
+│   │   └── taxonomy_usage_config.json
+│   ├── schemas/
+│   │   ├── question_schema.json
+│   │   ├── question_video_mapping_schema.json
+│   │   └── segment_schema.json
+│   ├── taxonomy/
+│   │   └── hsc_biology_master_taxonomy_v1.0.json
+│   └── README.md
+├── video_segmentation_agent/
+│   ├── __pycache__/
+│   │   └── __init__.cpython-313.pyc
+│   ├── config/
+│   │   ├── model_config.yaml
+│   │   └── segmentation_config.yaml
+│   ├── logs/
+│   │   └── .gitkeep
+│   ├── prompts/
+│   │   ├── boundary_classifier.txt
+│   │   ├── chunk_curriculum_tagger.txt
+│   │   └── segment_validator.txt
+│   ├── src/
+│   │   ├── __pycache__/
+│   │   │   ├── __init__.cpython-313.pyc
+│   │   │   ├── asr_transcriber.cpython-313.pyc
+│   │   │   ├── audio_extractor.cpython-313.pyc
+│   │   │   ├── boundary_detector.cpython-313.pyc
+│   │   │   ├── config_loader.cpython-313.pyc
+│   │   │   ├── curriculum_tagger.cpython-313.pyc
+│   │   │   ├── frame_sampler.cpython-313.pyc
+│   │   │   ├── keyframe_extractor.cpython-313.pyc
+│   │   │   ├── llm_client.cpython-313.pyc
+│   │   │   ├── main.cpython-313.pyc
+│   │   │   ├── metadata_extractor.cpython-313.pyc
+│   │   │   ├── microchunk_builder.cpython-313.pyc
+│   │   │   ├── scene_detector.cpython-313.pyc
+│   │   │   ├── segment_merger.cpython-313.pyc
+│   │   │   ├── segment_store.cpython-313.pyc
+│   │   │   ├── segment_validator.cpython-313.pyc
+│   │   │   ├── semantic_encoder.cpython-313.pyc
+│   │   │   ├── taxonomy_loader.cpython-313.pyc
+│   │   │   ├── taxonomy_validator.cpython-313.pyc
+│   │   │   ├── transcript_normalizer.cpython-313.pyc
+│   │   │   ├── utils.cpython-313.pyc
+│   │   │   └── video_loader.cpython-313.pyc
+│   │   ├── __init__.py
+│   │   ├── asr_transcriber.py
+│   │   ├── audio_extractor.py
+│   │   ├── boundary_detector.py
+│   │   ├── config_loader.py
+│   │   ├── curriculum_tagger.py
+│   │   ├── frame_sampler.py
+│   │   ├── keyframe_extractor.py
+│   │   ├── llm_client.py
+│   │   ├── main.py
+│   │   ├── metadata_extractor.py
+│   │   ├── microchunk_builder.py
+│   │   ├── scene_detector.py
+│   │   ├── segment_merger.py
+│   │   ├── segment_store.py
+│   │   ├── segment_validator.py
+│   │   ├── semantic_encoder.py
+│   │   ├── taxonomy_loader.py
+│   │   ├── taxonomy_validator.py
+│   │   ├── transcript_normalizer.py
+│   │   ├── utils.py
+│   │   └── video_loader.py
+│   ├── tests/
+│   │   ├── __pycache__/
+│   │   │   ├── test_boundary_detector.cpython-313-pytest-9.0.2.pyc
+│   │   │   ├── test_boundary_detector.cpython-313.pyc
+│   │   │   ├── test_microchunk_builder.cpython-313-pytest-9.0.2.pyc
+│   │   │   ├── test_microchunk_builder.cpython-313.pyc
+│   │   │   ├── test_segment_merger.cpython-313-pytest-9.0.2.pyc
+│   │   │   ├── test_segment_merger.cpython-313.pyc
+│   │   │   ├── test_transcript_normalizer.cpython-313-pytest-9.0.2.pyc
+│   │   │   └── test_transcript_normalizer.cpython-313.pyc
+│   │   ├── test_boundary_detector.py
+│   │   ├── test_microchunk_builder.py
+│   │   ├── test_segment_merger.py
+│   │   └── test_transcript_normalizer.py
+│   ├── __init__.py
+│   └── README.md
+├── .env
+├── .env.example
+├── .gitignore
+├── FOLDER_STRUCTURE.txt
+├── MIGRATION_NOTES.md
+├── pytest.ini
+├── README.md
+├── requirements.txt
+└── SETUP_WINDOWS.md

@@ -1,0 +1,80 @@
+[
+  {
+    "question_original_bn": "কোন প্রক্রিয়ার সাথে 'এক্সপ্লান্ট' সম্পর্কযুক্ত?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "টিস্যু কালচার",
+      "B": "জেনেটিক ইঞ্জিনিয়ারিং",
+      "C": "জিন ক্লোনিং",
+      "D": "জিনোম সিকোয়েন্সিং"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "19"
+    }
+  },
+  {
+    "question_original_bn": "কোন এনজাইম দ্বারা প্লাজমিডের নির্দিষ্ট অংশ কাটা হয়?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "লাইপেজ",
+      "B": "লাইগেজ",
+      "C": "রেস্ট্রিকশন",
+      "D": "প্রাইমেজ"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "20"
+    }
+  },
+  {
+    "stimulus_original_bn": "মি. রহমান প্রচণ্ড জ্বরে আক্রান্ত। তাঁর মাথাব্যথা, মেরুদণ্ড ও হাড়ের জোড়ায় জোড়ায় ব্যথা। শরীরে লালচে র‍্যাশ উঠেছে।",
+    "question_original_bn": "মি. রহমানের জ্বরের বাহক হলো—",
+    "question_type": "MCQ",
+    "options": {
+      "A": "ব্যাকটেরিয়া",
+      "B": "এডিস মশকী",
+      "C": "এনোফিলিস মশকী",
+      "D": "প্লাজমিড"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "24"
+    }
+  },
+  {
+    "stimulus_original_bn": "মি. রহমান প্রচণ্ড জ্বরে আক্রান্ত। তাঁর মাথাব্যথা, মেরুদণ্ড ও হাড়ের জোড়ায় জোড়ায় ব্যথা। শরীরে লালচে র‍্যাশ উঠেছে।",
+    "question_original_bn": "উদ্দীপকে বর্ণিত রোগটির প্রতিকারে করণীয় হলো— i. অ্যাসপিরিন জাতীয় ঔষধ খাওয়া ii. দিনের বেলায় মশারি টাঙিয়ে ঘুমানো iii. বাড়ির আশেপাশে পানি জমতে না দেওয়া। নিচের কোনটি সঠিক?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "i ও ii",
+      "B": "i ও iii",
+      "C": "ii ও iii",
+      "D": "i, ii ও iii"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "25"
+    }
+  }
+]

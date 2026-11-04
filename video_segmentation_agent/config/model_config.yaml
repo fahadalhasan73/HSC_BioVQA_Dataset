@@ -1,0 +1,12 @@
+asr_models:
+  default: "small"
+  notes: "faster-whisper model name; use medium/large-v3 when hardware permits."
+
+curriculum_model:
+  provider: "Gemini"
+  env_model_variable: "GEMINI_MODEL"
+  recommended_development_model: "gemini-3.6-flash"
+
+future_semantic_models:
+  status: "not enabled in v0.1"
+  recommended_direction: "multilingual sentence embeddings after baseline validation"

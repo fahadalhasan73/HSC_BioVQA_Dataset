@@ -1,0 +1,2 @@
+﻿pair_id,question_id,video_id,segment_id,final_score,status
+PAIR_EXAMPLE,HSCQ_000001,EXAMPLE_VIDEO,EXAMPLE_VIDEO_SEG_0001,0.91,example_only

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question_schema.json",
+  "title": "HSC BioVQA Question Record",
+  "type": "object",
+  "required": [
+    "question_id",
+    "batch_id",
+    "question_original_bn",
+    "question_type",
+    "source",
+    "curriculum_mapping",
+    "tracking",
+    "fingerprint"
+  ],
+  "properties": {
+    "question_id": {
+      "type": "string",
+      "pattern": "^HSCQ_[0-9]{6}$"
+    },
+    "batch_id": {
+      "type": "string"
+    },
+    "question_original_bn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_normalized_bn": {
+      "type": "string"
+    },
+    "stimulus_original_bn": {
+      "type": "string"
+    },
+    "stimulus_normalized_bn": {
+      "type": "string"
+    },
+    "question_type": {
+      "type": "string"
+    },
+    "options": {
+      "type": "object"
+    },
+    "source": {
+      "type": "object"
+    },
+    "curriculum_mapping": {
+      "type": "object",
+      "required": [
+        "status",
+        "taxonomy_version",
+        "paper_id",
+        "chapter_id",
+        "topic_id",
+        "subtopic_id",
+        "confidence",
+        "review_status"
+      ]
+    },
+    "tracking": {
+      "type": "object"
+    },
+    "fingerprint": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

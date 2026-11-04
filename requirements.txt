@@ -1,0 +1,12 @@
+PyYAML>=6.0
+pytest>=8.0
+google-genai>=1.0
+python-dotenv>=1.0
+regex>=2024.11.6
+jsonschema>=4.23
+numpy>=2.0
+scikit-learn>=1.5
+opencv-python-headless>=4.10
+faster-whisper>=1.1
+static-ffmpeg>=3.0
+av==18.1.0

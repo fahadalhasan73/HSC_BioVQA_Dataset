@@ -1,0 +1,2 @@
+﻿segment_id,video_id,start_sec,end_sec,chapter_id,topic_id,subtopic_id,primary_concept_id,transcript
+EXAMPLE_VIDEO_SEG_0001,EXAMPLE_VIDEO,0,75,HSC_BIO_P1_CH02,HSC_BIO_P1_CH02_T03,HSC_BIO_P1_CH02_T03_ST01,HSC_BIO_P1_CH02_T03_ST01_C001,Example only

@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.local
+
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+*.wav
+*.mp3
+*.npy
+*.npz
+*.log
+.vscode/
+.idea/
+data/videos/incoming/*
+!data/videos/incoming/README.md
+
+# Virtual environments
+.venv/
+venv/
+
+desktop.ini
+.DS_Store
+Thumbs.db

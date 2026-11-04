@@ -1,0 +1,6 @@
+{
+  "video_id": "EXAMPLE_VIDEO",
+  "duration_seconds": 90.0,
+  "audio_present": true,
+  "note": "schema/example only"
+}

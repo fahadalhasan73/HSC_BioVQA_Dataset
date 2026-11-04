@@ -1,0 +1,97 @@
+[
+  {
+    "question_original_bn": "কোন উদ্ভিদে দুই ধরনের ক্লোরোপ্লাস্ট পাওয়া যায়?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "আম",
+      "B": "পাট",
+      "C": "কলা",
+      "D": "ইক্ষু"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "12"
+    }
+  },
+  {
+    "question_original_bn": "ম্যালেরিয়া জীবাণুর কোন 'দশা' মানবদেহে সংক্রমণ ঘটায়?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "মেরোজয়েট",
+      "B": "ক্রিপ্টোজয়েট",
+      "C": "স্পোরোজয়েট",
+      "D": "সাইজোন্ট"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "13"
+    }
+  },
+  {
+    "question_original_bn": "Stop কোডন কোনটি?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "AUG",
+      "B": "AGU",
+      "C": "UGC",
+      "D": "UAA"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "16"
+    }
+  },
+  {
+    "question_original_bn": "ভাজক টিস্যুর বৈশিষ্ট্যসমূহ— i. কোষের বৃদ্ধি ও বিভাজনের ক্ষমতা রয়েছে ii. আন্তঃকোষীয় ফাঁক উপস্থিত iii. কোষীয় বিপাকের হার বেশি। নিচের কোনটি সঠিক?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "i ও ii",
+      "B": "ii ও iii",
+      "C": "i ও iii",
+      "D": "i, ii ও iii"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "17"
+    }
+  },
+  {
+    "question_original_bn": "সবাত ও অবাত শ্বসনের অভিন্ন ধাপ কোনটি?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "গ্লাইকোলাইসিস",
+      "B": "এসিটাইল কো-এ",
+      "C": "ক্রেবস চক্র",
+      "D": "ETS"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "18"
+    }
+  }
+]

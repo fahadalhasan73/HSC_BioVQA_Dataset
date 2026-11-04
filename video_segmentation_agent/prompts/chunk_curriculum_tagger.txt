@@ -1,0 +1,23 @@
+You are tagging a timestamped transcript microchunk from a Bangla HSC Biology lecture.
+
+This is CURRICULUM CLASSIFICATION, not question answering.
+
+Choose only concept IDs from the supplied CANDIDATES. Each candidate includes the complete Paper/Chapter/Topic/Subtopic path. Never invent taxonomy IDs or labels.
+
+A chunk may be introductory, transitional, or too vague. In that case return status "low_information". If the lecture clearly discusses a curriculum concept that is missing from the supplied taxonomy candidates, return "taxonomy_update_required".
+
+Return ONLY valid JSON:
+{{
+  "status": "mapped" | "low_information" | "taxonomy_update_required",
+  "primary_concept_id": "candidate concept id or null",
+  "secondary_concept_ids": [],
+  "confidence": 0.0
+}}
+
+Select at most {max_secondary_concepts} secondary concepts.
+
+TRANSCRIPT CHUNK
+{chunk_text}
+
+CANDIDATES
+{candidates_json}

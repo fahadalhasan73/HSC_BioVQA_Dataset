@@ -1,0 +1,46 @@
+project:
+  name: "HSC Biology Curriculum Mapping Agent"
+  agent_version: "0.2.0-integrated"
+
+paths:
+  taxonomy_file: "../shared/taxonomy/hsc_biology_master_taxonomy_v1.0.json"
+  question_store: "../data/questions/master/question.json"
+  backup_dir: "../data/questions/backups"
+  log_file: "logs/agent.log"
+  prompts_dir: "prompts"
+
+# Biology First Paper is active. P2 is reserved in the taxonomy but not populated yet.
+taxonomy:
+  expected_content_version: "HSC_BIO_P1_v1.0"
+  active_paper_ids:
+    - "HSC_BIO_P1"
+
+retrieval:
+  method: "unicode_lexical_v0.2"
+  top_k:
+    chapter: 12
+    topic: 10
+    subtopic: 12
+    concept: 20
+
+mapping:
+  max_secondary_concepts: 3
+  auto_accept_threshold: 0.90
+  confidence_method: "minimum_stage_llm_confidence_v0.1"
+
+llm:
+  api_key_env: "GEMINI_API_KEY"
+  model_env: "GEMINI_MODEL"
+  max_retries: 3
+  temperature: 0.0
+  min_request_interval_seconds: 13
+  rate_limit_retry_seconds: 65
+
+storage:
+  backup_before_first_write_of_run: true
+  atomic_write: true
+  save_after_each_question: true
+
+duplicate_detection:
+  include_options_in_fingerprint: true
+  include_stimulus_in_fingerprint: true

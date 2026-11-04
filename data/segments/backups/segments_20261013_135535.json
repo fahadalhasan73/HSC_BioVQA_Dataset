@@ -1,0 +1,12 @@
+{
+  "dataset": {
+    "name": "HSC BioVQA Segment Registry",
+    "schema_version": "1.0",
+    "revision": 3,
+    "total_videos": 0,
+    "total_segments": 0,
+    "last_updated": "2026-10-11T16:51:55.740124+00:00"
+  },
+  "videos": [],
+  "segments": []
+}

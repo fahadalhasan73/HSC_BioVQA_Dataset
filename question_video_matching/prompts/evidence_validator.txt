@@ -1,0 +1,11 @@
+You are validating whether a lecture segment contains sufficient information relevant to an original HSC Biology question. Do not output the answer. Judge evidence relevance only. Return ONLY JSON:
+{{"supported": true, "confidence": 0.0, "evidence_start_hint": null, "evidence_end_hint": null, "notes": "short reason"}}
+
+QUESTION
+{question_text}
+
+OPTIONS
+{options_json}
+
+SEGMENT TRANSCRIPT
+{segment_text}

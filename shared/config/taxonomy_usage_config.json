@@ -1,0 +1,14 @@
+{
+  "config_version": "1.1",
+  "taxonomy_file": "shared/taxonomy/hsc_biology_master_taxonomy_v1.0.json",
+  "rules": {
+    "agents_must_return_taxonomy_ids": true,
+    "use_canonical_taxonomy_labels_on_export": true,
+    "multiple_concepts_per_question_or_segment_allowed": true,
+    "primary_concept_recommended": true,
+    "diagram_dependent_questions_currently_excluded": true,
+    "question_filtering_by_video_dependency_currently_disabled": true,
+    "agent_may_create_new_taxonomy_node": false,
+    "missing_concept_action": "TAXONOMY_UPDATE_REQUIRED"
+  }
+}

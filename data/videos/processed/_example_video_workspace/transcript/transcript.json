@@ -1,0 +1,12 @@
+{
+  "language": "bn",
+  "segments": [
+    {
+      "asr_segment_id": 0,
+      "start_sec": 0,
+      "end_sec": 12,
+      "text": "আজ আমরা মায়োসিস নিয়ে আলোচনা করব।",
+      "text_normalized": "আজ আমরা মায়োসিস নিয়ে আলোচনা করব।"
+    }
+  ]
+}

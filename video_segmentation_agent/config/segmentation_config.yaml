@@ -1,0 +1,110 @@
+project:
+  name: "HSC BioVQA Video Segmentation Agent"
+  version: "0.1.0"
+
+paths:
+  taxonomy_file: "../shared/taxonomy/hsc_biology_master_taxonomy_v1.0.json"
+  processed_video_dir: "../data/videos/processed"
+  segment_store: "../data/segments/master/segments.json"
+  segment_backup_dir: "../data/segments/backups"
+  segment_export_dir: "../data/segments/exports"
+  prompts_dir: "prompts"
+  log_file: "logs/video_segmentation.log"
+
+video:
+  accepted_extensions:
+    - ".mp4"
+    - ".mkv"
+    - ".mov"
+    - ".avi"
+    - ".webm"
+
+  audio_sample_rate: 16000
+  audio_channels: 1
+
+asr:
+  engine: "faster_whisper"
+  model: "large-v3"
+
+  language: "bn"
+  task: "transcribe"
+
+  device: "cpu"
+  compute_type: "int8"
+
+  beam_size: 5
+  vad_filter: true
+
+  word_timestamps: false
+  condition_on_previous_text: true
+
+  transcription_policy: "verbatim_code_switched_bn_en"
+
+microchunks:
+  target_duration_seconds: 25
+  max_duration_seconds: 35
+  min_text_characters: 5
+
+curriculum_tagger:
+  enabled: true
+
+  paper_id: "HSC_BIO_P1"
+
+  retrieval_method: "unicode_lexical_concept_path_v0.1"
+
+  top_k_concepts: 30
+  max_secondary_concepts: 3
+
+  api_key_env: "GEMINI_API_KEY"
+  model_env: "GEMINI_MODEL"
+
+  max_retries: 8
+
+  temperature: 0.0
+
+  min_request_interval_seconds: 13
+  rate_limit_retry_seconds: 65
+  service_unavailable_retry_seconds: 60
+  service_unavailable_max_wait_seconds: 180
+
+  other_retry_max_wait_seconds: 8
+
+visual:
+  scene_detection_enabled: false
+  scene_sample_interval_seconds: 1.0
+  scene_threshold: 0.45
+
+  frame_sampling_enabled: false
+  frame_interval_seconds: 30
+
+  keyframe_extraction_enabled: false
+
+semantic:
+  enabled: false
+  method: "tfidf_char"
+
+boundary_detection:
+  threshold: 0.55
+
+  hard_split_on_chapter_change: true
+  hard_split_on_topic_change: true
+
+  weights:
+    curriculum: 1.00
+    semantic_change: 0.00
+    scene_change: 0.00
+    pause: 0.00
+
+merging:
+  min_final_segment_seconds: 20
+  max_final_segment_seconds: 240
+
+validation:
+  require_nonempty_transcript: true
+  require_valid_taxonomy_ids: true
+  require_positive_duration: true
+
+storage:
+  save_intermediate_artifacts: true
+  create_backup_before_write: true
+  atomic_write: true

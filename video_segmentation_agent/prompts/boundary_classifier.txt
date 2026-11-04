@@ -1,0 +1,8 @@
+You are reviewing two adjacent HSC Biology transcript chunks. Decide whether there is a biological instructional boundary between them. Use the supplied taxonomy tags and transcript text. Return only JSON:
+{{"split": true, "confidence": 0.0, "reason": "short reason"}}
+
+LEFT
+{left_json}
+
+RIGHT
+{right_json}

@@ -1,0 +1,156 @@
+[
+  {
+    "left_chunk_id": "MC_0001",
+    "right_chunk_id": "MC_0002",
+    "time_sec": 65.09,
+    "split": false,
+    "score": 0.0,
+    "reason": "curriculum_compatible",
+    "components": {
+      "curriculum_change": 0.0,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0002",
+    "right_chunk_id": "MC_0003",
+    "time_sec": 72.77,
+    "split": true,
+    "score": 0.9,
+    "reason": "topic_change",
+    "components": {
+      "curriculum_change": 0.9,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0003",
+    "right_chunk_id": "MC_0004",
+    "time_sec": 102.77,
+    "split": true,
+    "score": 0.9,
+    "reason": "topic_change",
+    "components": {
+      "curriculum_change": 0.9,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0004",
+    "right_chunk_id": "MC_0005",
+    "time_sec": 132.77,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0005",
+    "right_chunk_id": "MC_0006",
+    "time_sec": 162.77,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0006",
+    "right_chunk_id": "MC_0007",
+    "time_sec": 177.27,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0007",
+    "right_chunk_id": "MC_0008",
+    "time_sec": 207.25,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0008",
+    "right_chunk_id": "MC_0009",
+    "time_sec": 237.25,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0009",
+    "right_chunk_id": "MC_0010",
+    "time_sec": 242.43,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0010",
+    "right_chunk_id": "MC_0011",
+    "time_sec": 272.43,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0011",
+    "right_chunk_id": "MC_0012",
+    "time_sec": 306.81,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  }
+]

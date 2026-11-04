@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "segment_schema.json",
+  "title": "HSC BioVQA Video Segment Record",
+  "type": "object",
+  "required": [
+    "segment_id",
+    "video_id",
+    "start_sec",
+    "end_sec",
+    "duration_sec",
+    "transcript",
+    "curriculum_mapping"
+  ],
+  "properties": {
+    "segment_id": {
+      "type": "string"
+    },
+    "video_id": {
+      "type": "string"
+    },
+    "start_sec": {
+      "type": "number",
+      "minimum": 0
+    },
+    "end_sec": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "duration_sec": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "transcript": {
+      "type": "string"
+    },
+    "source_chunk_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "curriculum_mapping": {
+      "type": "object"
+    },
+    "confidence": {
+      "type": "object"
+    },
+    "boundary": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

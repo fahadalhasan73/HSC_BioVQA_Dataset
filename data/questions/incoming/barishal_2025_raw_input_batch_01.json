@@ -1,0 +1,97 @@
+[
+  {
+    "question_original_bn": "কোনটিতে মিয়োসিস ঘটে?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "জনন কোষে",
+      "B": "দেহকোষে",
+      "C": "জননাঙ্গে",
+      "D": "জনন মাতৃকোষে"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "1"
+    }
+  },
+  {
+    "question_original_bn": "মাটির উর্বরতা বিনষ্টকারী ব্যাকটেরিয়া কোনটি?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "Bacillus subtilis",
+      "B": "Bacillus polymyxa",
+      "C": "Bacillus thuringiensis",
+      "D": "Bacillus denitrificans"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "4"
+    }
+  },
+  {
+    "question_original_bn": "কোন উপপর্বে জীবের বৈচিত্র্য সৃষ্টির প্রক্রিয়া সূচনা হয়?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "লেপ্টোটিন",
+      "B": "জাইগোটিন",
+      "C": "প্যাকাইটিন",
+      "D": "ডায়াকাইনেসিস"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "5"
+    }
+  },
+  {
+    "question_original_bn": "সালোক সংশ্লেষণের আলোক পর্যায় সংঘটিত হয় কোনটিতে?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "থাইলাকয়েড",
+      "B": "অক্সিজোম",
+      "C": "স্ট্রোমাল্যামেলী",
+      "D": "স্ট্রোমা"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "6"
+    }
+  },
+  {
+    "question_original_bn": "ম্যালেরিয়া জ্বরে আক্রান্ত মানুষের রক্তস্বল্পতার কারণ কী?",
+    "question_type": "MCQ",
+    "options": {
+      "A": "প্লাজমাসাইট ধ্বংস হওয়া",
+      "B": "নিউট্রোফিল ভেঙে যাওয়া",
+      "C": "এরিথ্রোসাইট ধ্বংস হওয়া",
+      "D": "মনোসাইট নষ্ট হওয়া"
+    },
+    "source": {
+      "type": "HSC_BOARD",
+      "board": "Barishal",
+      "year": 2025,
+      "paper": "Biology 1st Paper",
+      "subject_code": "178",
+      "set": "ঘ",
+      "source_question_number": "11"
+    }
+  }
+]

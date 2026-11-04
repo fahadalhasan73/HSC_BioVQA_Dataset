@@ -1,0 +1,296 @@
+[
+  {
+    "left_chunk_id": "MC_0001",
+    "right_chunk_id": "MC_0002",
+    "time_sec": 65.57,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0002",
+    "right_chunk_id": "MC_0003",
+    "time_sec": 97.43,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0003",
+    "right_chunk_id": "MC_0004",
+    "time_sec": 108.67,
+    "split": true,
+    "score": 1.0,
+    "reason": "chapter_change",
+    "components": {
+      "curriculum_change": 1.0,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0004",
+    "right_chunk_id": "MC_0005",
+    "time_sec": 138.67,
+    "split": true,
+    "score": 1.0,
+    "reason": "chapter_change",
+    "components": {
+      "curriculum_change": 1.0,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0005",
+    "right_chunk_id": "MC_0006",
+    "time_sec": 175.77,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0006",
+    "right_chunk_id": "MC_0007",
+    "time_sec": 201.37,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0007",
+    "right_chunk_id": "MC_0008",
+    "time_sec": 231.37,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0008",
+    "right_chunk_id": "MC_0009",
+    "time_sec": 261.37,
+    "split": false,
+    "score": 0.0,
+    "reason": "curriculum_compatible",
+    "components": {
+      "curriculum_change": 0.0,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0009",
+    "right_chunk_id": "MC_0010",
+    "time_sec": 291.37,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0010",
+    "right_chunk_id": "MC_0011",
+    "time_sec": 325.79,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0011",
+    "right_chunk_id": "MC_0012",
+    "time_sec": 332.09,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0012",
+    "right_chunk_id": "MC_0013",
+    "time_sec": 362.09,
+    "split": false,
+    "score": 0.0,
+    "reason": "curriculum_compatible",
+    "components": {
+      "curriculum_change": 0.0,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0067
+    }
+  },
+  {
+    "left_chunk_id": "MC_0013",
+    "right_chunk_id": "MC_0014",
+    "time_sec": 392.09,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0067
+    }
+  },
+  {
+    "left_chunk_id": "MC_0014",
+    "right_chunk_id": "MC_0015",
+    "time_sec": 419.43,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0015",
+    "right_chunk_id": "MC_0016",
+    "time_sec": 444.73,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0016",
+    "right_chunk_id": "MC_0017",
+    "time_sec": 474.73,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0017",
+    "right_chunk_id": "MC_0018",
+    "time_sec": 504.73,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0018",
+    "right_chunk_id": "MC_0019",
+    "time_sec": 534.73,
+    "split": true,
+    "score": 1.0,
+    "reason": "chapter_change",
+    "components": {
+      "curriculum_change": 1.0,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0019",
+    "right_chunk_id": "MC_0020",
+    "time_sec": 564.73,
+    "split": false,
+    "score": 0.0,
+    "reason": "curriculum_compatible",
+    "components": {
+      "curriculum_change": 0.0,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0020",
+    "right_chunk_id": "MC_0021",
+    "time_sec": 594.73,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  },
+  {
+    "left_chunk_id": "MC_0021",
+    "right_chunk_id": "MC_0022",
+    "time_sec": 624.73,
+    "split": false,
+    "score": 0.5,
+    "reason": "uncertain_mapping",
+    "components": {
+      "curriculum_change": 0.5,
+      "semantic_change": 0.0,
+      "scene_change": 0.0,
+      "pause": 0.0
+    }
+  }
+]
