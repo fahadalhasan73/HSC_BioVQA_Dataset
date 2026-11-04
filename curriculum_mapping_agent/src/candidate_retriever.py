@@ -49,3 +49,5 @@ class CandidateRetriever:
             scored.append({**node, '_retrieval_score': parts['retrieval_score'], '_retrieval_components': parts})
         scored.sort(key=lambda x: x['_retrieval_score'], reverse=True)
         return scored if len(scored) <= top_k else scored[:top_k]
+
+#Testing Github push    
